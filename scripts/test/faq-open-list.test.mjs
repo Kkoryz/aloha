@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
-import { faqOpenList, faqPageFolds, isFaqPage } from '../lib/faq-layout.mjs';
+import { FAQ_OPEN_LIST_ITEMS, faqOpenList, faqPageFolds, faqPlannedOpen, isFaqPage } from '../lib/faq-layout.mjs';
 import { blockWords, modelVariant } from '../lib/media-slots.mjs';
 
 const source = (path) => readFile(new URL(`../../${path}`, import.meta.url), 'utf8');
@@ -69,10 +69,14 @@ test('an open list renders each question as an h3 with its answer shown; the acc
   assert.match(await source('src/components/blocks/registry.ts'), /faq: \{ component: FaqBlock, props: \(\{ block, variant, page \}: BlockContext\) => \(\{ block, variant, page \}\) \}/);
 });
 
-test('the layout plan measures an FAQ as it shows: a long one folded, an open variant with every answer', () => {
+test('a long FAQ shows folded but the photo plan keeps measuring it open (faqPlannedOpen: no photo wall moves; owner 2026-11-18)', () => {
   const block = { id: 'faq', type: 'faq', heading: 'Questions', items: items(8) };
   const page = { id: 'site:bikini', route: '/bikini-manufacturer/', pageType: 'product_manufacturer', blocks: [block] };
-  assert.equal(modelVariant(block, page, page.blocks, { faq: 'accordion', faqFirst: 'closed' }, {}), 'accordion');
+  assert.equal(faqOpenList(block, 'accordion', page), false);
+  assert.equal(faqPlannedOpen(block, 'accordion', page), true);
+  assert.equal(modelVariant(block, page, page.blocks, { faq: 'accordion', faqFirst: 'closed' }, {}), 'open-list');
+  const short = { ...block, items: items(FAQ_OPEN_LIST_ITEMS - 1) };
+  assert.equal(modelVariant(short, { ...page, blocks: [short] }, [short], { faq: 'accordion', faqFirst: 'closed' }, {}), 'accordion');
   const closed = blockWords(block, 'accordion', { faqFirst: 'closed' });
   assert.equal(blockWords(block, 'open-list', { faqFirst: 'closed' }), closed + 8 * 5);
   // Cards stay cards.

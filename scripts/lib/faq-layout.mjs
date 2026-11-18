@@ -11,9 +11,23 @@ export const isFaqPage = (page) => Boolean(page) && (page.pageType === 'faq' || 
 // Variants that show every answer already (their questions are headings, never a summary).
 const OPEN_VARIANTS = new Set(['open-list', 'cards']);
 
+// Whether the block renders as an open list (FaqBlock.astro): the open variants only.
 /** @param {{ items?: unknown[] }} _block @param {string | undefined} variant @param {any} [_page] */
 export function faqOpenList(_block, variant, _page = null) {
   return OPEN_VARIANTS.has(String(variant));
+}
+
+// Questions from which the photo plan measured an FAQ block as an open list (the 2026-11-17 rule). The site's photos
+// were placed with that measure; the hand fix of 2026-11-18 folds the FAQs but keeps the measure (faqPlannedOpen), so
+// no photo wall or photo moves (owner 2026-11-18: no fewer photos; Strandmill lost photo walls to the shorter measure).
+export const FAQ_OPEN_LIST_ITEMS = 6;
+
+// Whether the photo plan measures the block as an open list (lib/media-slots.mjs modelVariant): the measure the site's
+// photos were placed with, kept. (Hand port, as site12-rm's.)
+/** @param {{ items?: unknown[] }} block @param {string | undefined} variant @param {any} [page] */
+export function faqPlannedOpen(block, variant, page = null) {
+  if (OPEN_VARIANTS.has(String(variant))) return true;
+  return isFaqPage(page) || (block.items?.length ?? 0) >= FAQ_OPEN_LIST_ITEMS;
 }
 
 // Blocks that never fold on the FAQ page: the FAQ (it folds by itself), the calls, forms and links, the photo walls.

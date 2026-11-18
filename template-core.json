@@ -27,6 +27,15 @@
       "src/styles/template.css"
     ]
   },
+  "handFix": {
+    "at": "2026-11-18",
+    "what": "faqPlannedOpen (as site12-rm): the FAQs fold, the photo plan keeps measuring long FAQs open, so no photo wall moves",
+    "files": [
+      "scripts/lib/faq-layout.mjs",
+      "scripts/lib/media-slots.mjs",
+      "scripts/test/faq-open-list.test.mjs"
+    ]
+  },
   "files": {
     "package.json": "d5066ecce757c68c42a49f65a0a137aa45d9fd075d02a9d3b89f9ab230cae196",
     "pnpm-lock.yaml": "519c98e514ddd8509551369e1a060718cf88e5f944a80327e79553ef5c19c8f2",
@@ -121,7 +130,7 @@
     "scripts/lib/data-practices.mjs": "5c8e76cdf137ffa08828268f5785807bc94f535b78c679fd7df80c184d09b7d9",
     "scripts/lib/density.mjs": "eb856e0d82cfc610f8f174c87ab6fd23c74082f5fbff34708a1bbdd037e40482",
     "scripts/lib/facts.mjs": "c432f335fa4bb512fe974e61184ec29a60af6eb9ffc9a1bb6c68a2027d711060",
-    "scripts/lib/faq-layout.mjs": "2084363f50d25cdae2b0e9c3a8da165b8108d8e1244dde0e703197a104876dd8",
+    "scripts/lib/faq-layout.mjs": "cc1178bf3bf2969c572adf356c39a7e4ef4d4362ff397a2be8f162c8bde8dd48",
     "scripts/lib/figure-charts.mjs": "40ba0a99f7c97553991d0078557ef7637122b5dc62edaee8517eaffe17b149e8",
     "scripts/lib/figure-reads.mjs": "018acdef028271510636e5dc9d05aa217e301bb438f1af3bf6f9f9c24e992878",
     "scripts/lib/font-checks.mjs": "499a9ab9f84fe3ab07f3f3444b1fb5f018fafeef7d9375e44a64ad177ad2c7c6",
@@ -153,7 +162,7 @@
     "scripts/lib/markdown-table.mjs": "0031d3074eea95f32cee8a19f83ce2339722307bbaeac13fc1897c8c9d4971a0",
     "scripts/lib/media-allocation.mjs": "6eaf4018082a9473c08a559bc3e33ab21119abf4b75f328d1e4d0925aa03ed19",
     "scripts/lib/media-ratio.mjs": "00b9da4019cd3569a36fb221ca5b1d15ba3ff36d71feb1400b3dd4952a44ce8c",
-    "scripts/lib/media-slots.mjs": "15b16e907d27b5187f99a6b1220f5c9b0fdd0574687fec3c83b26b9479c5ca5f",
+    "scripts/lib/media-slots.mjs": "4201668dc3b27bd4e6fd160ca0241877f518a8a43f4c1132c00b7168a3b23209",
     "scripts/lib/model-calls.mjs": "2b6ea3fdfa8ab6b84a09981ae257b2f500c308367921bd4099a5e34c909e13db",
     "scripts/lib/module-graph.mjs": "bd5b028ec3e2cf8f65d1e8e21ac6dd9198d9f253bebda4f8043ac44aa1ad7a7f",
     "scripts/lib/navigation-problems.mjs": "63d854fc666e9b9c6057fd8e63e08bd07de1377684cfbdb801dbd7d984c1d357",
@@ -319,7 +328,7 @@
     "scripts/test/density.test.mjs": "0599f24a7df622b7a69ab131713a6fc7e393412f56875cffeb07e562f9a6b5c4",
     "scripts/test/design-review.test.mjs": "59134cabc8d4abd6486b298de012e08e6a7f0e467fede0768eb287552e612e94",
     "scripts/test/discover-navigation-shell.test.mjs": "88152628fabeffa049868cef88070903e45d3aa1bcb5fe74de77cfe67b32ff48",
-    "scripts/test/faq-open-list.test.mjs": "59bf1609d03d0cbc062fa076a1707b7d1d7da58283a9555aeeb3db9856f15dad",
+    "scripts/test/faq-open-list.test.mjs": "d2d011f43ec1e820262c3677d6ec7c09baf3c914858851bd41e57968f57b26e8",
     "scripts/test/field-check.test.mjs": "61cb70b21111cd022dbd467fb65ddb6ca8d204c703400c2f10bfe696f1f72f4e",
     "scripts/test/figure-charts.test.mjs": "01d4c6911e6655cea73455c67fbcac3c93ba60f70fb4e30d3b992a47035dbfa7",
     "scripts/test/figure-reads.test.mjs": "4814eb2b317023d35621b1a8aca200ba09ebddbd06ddf05ce9d345273a3f08d8",
