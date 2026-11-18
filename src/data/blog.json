@@ -1,0 +1,41 @@
+{
+  "title": "Tapa Works Blog: Aloha Shirt Manufacturing Guides",
+  "description": "The Tapa Works blog: guides for clothing brands on aloha shirt fabrics, printing, sampling, production and shipping.",
+  "heading": "Tapa Works Blog",
+  "intro": "Guides for clothing brands on developing, sampling, making and shipping aloha shirts.",
+  "blocks": [
+    {
+      "id": "overview",
+      "type": "intro",
+      "sourceSectionIds": [
+        "overview"
+      ],
+      "heading": "About Tapa Works",
+      "paragraphs": [
+        "These guides are written by the team that makes your aloha shirts. They follow a shirt the way an order runs: how it is [developed](/product-development/), [sampled](/sampling/), made in [bulk production](/bulk-production/), [checked](/quality-control/) and [shipped](/shipping/), and what each step asks of you as the buyer."
+      ],
+      "wordCount": 76,
+      "visuals": []
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "sourceSectionIds": [
+        "cta"
+      ],
+      "heading": "Send Your Enquiry to Our Factory",
+      "paragraphs": [
+        "Send your enquiry to our factory with your design, picture or idea. We reply within one business day and quote before making your sample once you agree the price."
+      ],
+      "cta": {
+        "label": "Contact us",
+        "href": "/contact-us/"
+      },
+      "links": []
+    }
+  ],
+  "source": {
+    "package": "sf/authoring/v1",
+    "pageId": "site:blog"
+  }
+}

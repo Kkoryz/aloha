@@ -1,0 +1,743 @@
+/* Reference treatment: baliswim.com (site:run step "treatment"). The competitor's component design through the
+   template's tokens and hooks (docs/research/CSS_HOOKS.md). Evidence: docs/research/analysis/design-lock.json,
+   font-roles.json, components.md and docs/research/components/*.spec.md; the record of what is set and why is
+   docs/research/analysis/treatment.md.
+
+   Colours are the design lock's only (var() of its tokens, or rgba() of its near-black rgb(19, 19, 19) for overlays).
+   Site tokens are set on body, not :root: global.css declares its own :root defaults after this file is imported, and
+   body's own values win over what it inherits from :root. */
+
+/* ---------------------------------------------------------------- tokens */
+body {
+  /* One family, two weights; body 16px / 1.625 with the competitor's 0.16px tracking (font-roles body). */
+  letter-spacing: 0.01rem;
+  /* Content 1600px wide, 24px side padding on phones, 40px from 768px (responsiveMeasures.gutter). */
+  --gutter: 24px;
+  /* Section rhythm: the competitor's compact section padding, 48px a side on phones, 64px on tablets, 80px from
+     1024px (responsiveMeasures.sectionSpace.compact; each block owns half of --section-space on each side). */
+  --section-space: 6rem;
+  --grid-gap: 1.5rem;
+  --header-height: 72px;
+  /* Figures retain the reference scale; heading sizes come from the template. */
+  --size-stat: clamp(2.4rem, 4vw, 3.6rem);
+  /* The one label style: eyebrows, nav, buttons, chips (11px, 700, uppercase, 0.825px = 0.075em). */
+  --size-eyebrow: 0.6875rem;
+  --tracking-eyebrow: 0.075em;
+  --nav-transform: uppercase;
+  /* Wordmark 16px high on phones, 20px from 768px. */
+  --logo-height: 16px;
+  /* Dropdowns: 1px border, white, no shadow (no box-shadow anywhere in the captures). */
+  --dropdown-bg: var(--surface-primary);
+  --shadow-dropdown: none;
+  /* Outline pill: 1px border in the hairline colour. */
+  --button-secondary-border: var(--border-color);
+  --radius-input: 4px;
+  /* Testimonials: no card fill, a top rule only, the slider 85% / 42% / 31% wide (home section#testimonials). */
+  --surface-testimonial: transparent;
+  --testimonial-padding: 1.5rem 0 0;
+  --carousel-item-width: 85%;
+  --carousel-gap: 2rem;
+  --carousel-controls-align: flex-start;
+  /* Photo panels with copy at the foot: the competitor's bottom-up near-black gradient (observedTreatments
+     photoPanelOverlay 0.9 / 0.45 / 0.2, its foot eased to 0.85). */
+  --tile-shade: linear-gradient(to top, rgba(19, 19, 19, 0.85) 0%, rgba(19, 19, 19, 0.45) 50%, rgba(19, 19, 19, 0.2) 100%);
+}
+@media (min-width: 768px) {
+  body {
+    --gutter: 40px;
+    --section-space: 8rem;
+    --header-height: 70px;
+    --logo-height: 20px;
+    --carousel-item-width: 42%;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    --section-space: 10rem;
+    --grid-gap: 2rem;
+    --carousel-item-width: 31%;
+  }
+}
+
+/* Home and about use the reference display leading; all heading sizes belong to the template. */
+main:is([data-page-type="home"], [data-page-type="about"]) {
+  --display-leading: 1.1;
+}
+
+/* ---------------------------------------------------------------- type */
+.block h2 { letter-spacing: -0.02em; line-height: var(--display-leading, 1.25); }
+.block h3 { line-height: 1.25; }
+
+/* Eyebrow: 11px / 700 / uppercase, muted on light surfaces (the template switches --text-muted to the inverse tone
+   on dark and photo surfaces); 16px above the heading under it. */
+.eyebrow {
+  margin: 0 0 1rem !important;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* Running copy is the muted tone (text-muted-foreground: leads, body, card text, FAQ answers), held to a measure of
+   about 70ch (max-w-2xl / max-w-3xl). */
+:is(.text-flow, .split__copy, .feature-card, .faq__item, .point-list__item, .icon-list__item, .figure-block) p,
+.block__lead,
+.cta__text,
+.page-lead { color: var(--text-muted); }
+:is(.text-flow, .split__copy, .faq__item, .icon-list__item) p, .cta__text { max-width: 70ch; }
+.text-flow__lead { font-size: 1.125rem; line-height: 1.625; color: var(--text-muted); }
+
+/* Surfaces the template paints dark without switching the muted tone: the muted text there takes the inverse tone. */
+.block--process:is([data-variant="band"], [data-variant="photo-cards"]),
+.block--stats[data-variant="trust-bar"],
+.block--stats[data-variant="kv"] .stats { --text-muted: var(--text-inverse-muted); }
+.block--stats:is([data-variant="trust-bar"], [data-variant="kv"]) .stats__value { color: var(--text-inverse); }
+
+.breadcrumbs {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+/* The current page's crumb: the template sets it at 0.75 opacity, which takes the muted grey to 3.3:1 on white; the grey
+   darkened toward the lock's near-black by the least that passes (about rgb(71, 71, 69), 4.6:1 at that opacity). */
+/* Keep the compact label style while giving breadcrumb links a 24px target. */
+.breadcrumbs a { display: inline-flex; align-items: center; min-width: 24px; min-height: 24px; }
+.breadcrumbs [aria-current="page"] { color: color-mix(in srgb, var(--text-muted) 60%, var(--text-primary)); }
+
+/* ---------------------------------------------------------------- buttons */
+/* Pills: 11px / 700 / uppercase labels, padding 14px 28px, fully round (--radius-button), 48px tall. */
+.button {
+  padding: 0.875rem 1.75rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+/* Hover: the dark pill takes the warm taupe with a dark label (hover:bg-accent); the outline pill darkens its border. */
+.button--primary:hover { background: var(--accent-warm); color: var(--surface-dark); }
+.button--secondary:hover { border-color: currentColor; }
+
+/* On near-black and photo surfaces the primary pill is white with a dark label, the outline pill a light outline. */
+:is(.page-hero[data-variant="media-overlay"], main[data-page-type="solution"] .page-hero[data-variant="media-split"], .block--cta[data-variant="image-band"], .block--band) .button--primary {
+  background: var(--text-inverse);
+  color: var(--surface-dark);
+}
+:is(.page-hero[data-variant="media-overlay"], main[data-page-type="solution"] .page-hero[data-variant="media-split"], .block--cta[data-variant="image-band"], .block--band) .button--primary:hover {
+  background: var(--accent-warm);
+  color: var(--surface-dark);
+}
+:is(.page-hero[data-variant="media-overlay"], main[data-page-type="solution"] .page-hero[data-variant="media-split"], .block--cta[data-variant="image-band"], .block--band) .button--secondary {
+  --button-secondary-border: var(--text-inverse-muted);
+  color: var(--text-inverse);
+}
+
+/* ---------------------------------------------------------------- header */
+/* White at 90% with a 12px blur and a 1px hairline (inner pages' header). */
+.site-header {
+  background: var(--header-surface);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+}
+.site-nav__link {
+  padding: 0.75rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  transition: opacity 0.2s ease;
+}
+.site-nav__item:hover > .site-nav__link,
+.site-nav__item:focus-within > .site-nav__link { color: var(--text-primary); opacity: 0.6; }
+/* Wordmark left, the menu in the middle, the Contact pill right. */
+@media (min-width: 1024px) {
+  .site-header[data-layout="inline"] .site-header__bar { justify-content: space-between; }
+  .site-header[data-layout="inline"] .site-nav { margin-inline: auto; }
+}
+/* Header pill: padding 10px 20px, the label style. */
+.site-header__cta {
+  padding: 0.625rem 1.25rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.site-header__cta:hover { background: var(--accent-warm); color: var(--surface-dark); }
+/* Dropdown: 256px, 1px border, 8px inset; links 14px / 20px regular, 12px 16px, cream on hover. */
+.site-nav__dropdown { min-width: 16rem; padding: 0.5rem; border: 1px solid var(--border-color); }
+.site-nav__dropdown .site-nav__sublink {
+  padding: 0.75rem 1rem 0.75rem calc(1rem + var(--nav-depth, 0) * 0.875rem);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--text-primary);
+}
+.site-nav__dropdown .site-nav__sublink:hover { background: var(--surface-secondary); color: var(--text-primary); }
+/* Phone menu: rows in the label style, 44px high, hairline under each; the links inside a group 14px regular. */
+@media (max-width: 1023px) {
+  .site-menu__panel > ul > li > a,
+  .site-menu__panel > ul > li > details > summary {
+    min-height: 44px;
+    padding-block: 1rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    line-height: 1.6;
+    text-transform: uppercase;
+  }
+  .site-menu__panel details ul a {
+    padding: 0.75rem 0 0.75rem calc(1rem + var(--nav-depth, 0) * 0.875rem);
+    font-size: 0.875rem;
+  }
+}
+
+/* ---------------------------------------------------------------- hero */
+/* Every page's title set tight, as the competitor's display line (leading 0.95, tracking -0.025em); the photo heroes
+   below keep the leading of their own modules. */
+.page-hero { --hero-leading: 0.95; --hero-tracking: -0.025em; }
+.page-hero h1 { line-height: var(--hero-leading, 1.1); letter-spacing: var(--hero-tracking, normal); }
+/* The blog hub's title: heavy and tight as the competitor's, never lighter than its section headings (size: the fit's). */
+.blog-hub-hero h1 { font-weight: var(--weight-heading); letter-spacing: -0.025em; }
+@media (min-width: 768px) { .blog-hub-hero .blog-hub-hero__lead { margin-top: 1.75rem; } }
+@media (max-width: 767px) { .blog-hub-hero .blog-hub-hero__lead { margin-top: 1.5rem; } }
+/* A text hero (plain) keeps its own space under its button, and the section after it opens at the section rhythm
+   (half a section space to its heading), not a whole one on top of it. */
+.page-hero[data-variant="plain"]:has(+ .block) .page-hero__inner { padding-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+.page-hero[data-variant="plain"] + .block { padding-top: calc(var(--section-space) / 2); }
+.page-hero .eyebrow { margin-bottom: 0 !important; }
+.page-hero__lead { line-height: 1.625; }
+.page-hero__actions { margin-top: 1rem; }
+.page-hero:is([data-variant="media-split"], [data-variant="plain"], [data-variant="media-banner"]) .page-hero__lead { color: var(--text-muted); }
+
+/* Photo hero (manufacturer section 1, the default for photo heroes): copy at the foot on the left, min-height 42rem /
+   48rem, pt-32 pb-10 md:pb-14, under the competitor's bottom-up near-black gradient. Its foot is eased from 1.0 to
+   0.8 and it is 0.35 by 70% of the height (about 15% past the top of the copy), 0.25 at the top. */
+.page-hero[data-variant="media-overlay"] {
+  --hero-min-height: 42rem;
+  --hero-leading: 1.25;
+}
+.page-hero[data-variant="media-overlay"] .page-hero__inner { align-items: end; padding-block: 8rem 2.5rem; }
+/* The competitor's 70-80% white eyebrow and lead are full white over a photo (contrast; notes.md). */
+.page-hero[data-variant="media-overlay"] :is(.eyebrow, .page-hero__lead) { color: var(--text-inverse); }
+@media (min-width: 768px) {
+  .page-hero[data-variant="media-overlay"] { --hero-min-height: 48rem; }
+  .page-hero[data-variant="media-overlay"] .page-hero__inner { padding-bottom: 3.5rem; }
+}
+@media (min-width: 768px) { main[data-page-type="product_manufacturer"] .page-hero { --size-lead: 1.25rem; } }
+
+/* Home hero: full screen, copy centred (max-w 768px, pt-28), leading 1.1. Copy across the photo: an even overlay at
+   the competitor's own alpha behind its copy (its gradient runs 0.45 at the top to 0.3 at the middle, about 0.4
+   where the title sits). */
+main[data-page-type="home"] .page-hero[data-variant="media-overlay"] {
+  --hero-align: center;
+  --hero-copy-max: 48rem;
+  --hero-min-height: 100svh;
+  --hero-leading: 1.1;
+}
+main[data-page-type="home"] .page-hero[data-variant="media-overlay"] .page-hero__inner { align-items: center; padding-block: 7rem 2.5rem; }
+
+/* Text-first opening (about, general): white, copy in 7 of 12 columns and the photo in 5, 64px apart; the display
+   line leading 0.95, tracking -0.025em (-2.16px at 86.4px), set for every title above. */
+.page-hero[data-variant="media-split"] { background: var(--surface-primary); }
+@media (min-width: 900px) {
+  .page-hero[data-variant="media-split"] .page-hero__inner { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: 4rem; }
+}
+
+/* Dark opening split (launch services section#start): near-black, white title 36 / 48 / 60px, the eyebrow in the
+   warm taupe, the photo first at half width with its 4px corner (the one rounded image). */
+main[data-page-type="solution"] .page-hero[data-variant="media-split"] {
+  --heading-color: var(--text-inverse);
+  --text-primary: var(--text-inverse);
+  --text-muted: var(--text-inverse-muted);
+  --link: var(--text-inverse);
+  --focus-ring: var(--text-inverse);
+  --radius-media: 4px;
+  --hero-leading: 1.25;
+  background: var(--surface-dark);
+  color: var(--text-inverse);
+}
+main[data-page-type="solution"] .page-hero[data-variant="media-split"] .eyebrow { color: var(--accent-warm); }
+@media (min-width: 900px) {
+  main[data-page-type="solution"] .page-hero[data-variant="media-split"] .page-hero__inner { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  main[data-page-type="solution"] .page-hero[data-variant="media-split"] .page-hero__media { order: -1; }
+}
+
+/* ---------------------------------------------------------------- headings on the left edge */
+body[data-heading-align="start"] .gallery__heading { text-align: start; }
+
+/* ---------------------------------------------------------------- cards */
+/* Product cards: no border, fill or inset (featureGrid plain); H3 24px (18px phones) 700, leading 1.25; text 14px
+   muted (12px phones); the photo zooms 1.05 over 700ms inside its frame on hover. */
+.feature-card__title { font-weight: 700; line-height: 1.25; }
+/* Card text 14px at every width: the 12px phone size is the competitor's one-line captions, not its running text. */
+.feature-card .text-flow p { font-size: 0.875rem; line-height: 1.625; }
+.feature-card__number {
+  font-family: var(--font-ui);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  color: var(--text-muted);
+}
+:is(.feature-card__media, .gallery__item .media-box) img { transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+.feature-card:hover .feature-card__media img,
+.gallery__item:hover .media-box img { transform: scale(1.05); }
+
+/* Photo tiles with their name on the photo: the name in the heading style, not capitals. */
+.related-tile__label { font-size: clamp(1.5rem, 3vw, 3rem); text-transform: none; letter-spacing: -0.01em; line-height: 1.1; }
+
+/* ---------------------------------------------------------------- figures */
+/* Figures left-aligned, large and regular (400), an eyebrow label and a 14px muted line under each; 32px across,
+   36px down (gap-x-8 gap-y-9). */
+.stats { text-align: start; column-gap: 2rem; row-gap: 2.25rem; }
+.stats > .stats__item { row-gap: 0.75rem; }
+.stats__value { font-weight: 400; line-height: 1; }
+.stats__label {
+  font-family: var(--font-ui);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.stats__note { font-size: 0.875rem; line-height: 1.375; color: var(--text-muted); opacity: 1; }
+/* The trust bar's figures as the competitor's glance row: each a small label over a regular-weight figure, left-aligned
+   under a hairline of its own (no dividers between them); the strip's surface stays the template's. */
+.trust-bar__items { column-gap: 2rem; padding-block: 1.5rem; text-align: start; }
+.trust-bar__item { gap: 0.375rem; padding: 1rem 0 0; border-top: 1px solid var(--border-color); }
+.trust-bar__item + .trust-bar__item { border-left: 0; }
+.trust-bar__label { order: -1; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.075em; line-height: 1.6; }
+.trust-bar__value { font-weight: 400; font-size: clamp(1.125rem, 2.5vw, 2rem); line-height: 1.2; }
+@media (max-width: 767px) { .trust-bar__item:nth-child(even) { border-left: 0; } }
+
+/* ---------------------------------------------------------------- lists (process, bullets, icon list) */
+/* The timeline (launch services section#flow): heading above, two columns of rows ruled by hairlines, each an
+   eyebrow title, the step's number at the row's end, a 14px muted line. */
+/* The rows start one heading gap under the heading (24-40px, the competitor's timeline), not a whole column gap. */
+.block--process[data-variant="list"] .point-list { row-gap: 1.5rem; }
+.point-list .point-list__items {
+  display: grid;
+  gap: 0;
+  padding-left: 0;
+  list-style: none;
+  border-top: 1px solid var(--border-color);
+  counter-reset: point;
+}
+@media (min-width: 768px) {
+  .point-list .point-list__items { column-gap: 2.5rem; }
+}
+.point-list .point-list__items > .point-list__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1rem;
+  align-content: start;
+  margin-bottom: 0;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  counter-increment: point;
+}
+.point-list__item > * { grid-column: 1; }
+/* A numbered row reads from its number: "01" before the label, as the competitor's numbered steps ("01 ARTWORK IN"). */
+.point-list__items[data-numbered] > .point-list__item { grid-template-columns: 2.5ch minmax(0, 1fr); }
+.point-list__items[data-numbered] > .point-list__item > * { grid-column: 2; }
+.point-list__items[data-numbered] > .point-list__item::after {
+  content: counter(point, decimal-leading-zero);
+  grid-column: 1;
+  grid-row: 1;
+  font-family: var(--font-ui);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+.point-list__title,
+.icon-list__item h3 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.point-list__item p,
+.icon-list__item p { font-size: 0.875rem; }
+.icon-list__items { gap: 0 2.5rem; border-top: 1px solid var(--border-color); }
+.icon-list__item { padding-block: 1.25rem; border-bottom: 1px solid var(--border-color); }
+.icon-list__icon { color: var(--text-primary); }
+/* Process steps: the step title bold (the level under the H2), its text the muted running tone. */
+.process-step__title { font-weight: 700; }
+.process-step p { color: var(--text-muted); }
+
+/* ---------------------------------------------------------------- split rows */
+.split__copy { gap: 1rem; }
+/* The two-way split (manufacturer section#ready-or-custom): photo and cream panel meet with no gap; the panel
+   px-14 py-28. */
+@media (min-width: 900px) {
+  .block--split[data-variant="panel"] .split { gap: 0; }
+  .block--split[data-variant="panel"] .split__copy { padding: clamp(2.5rem, 6vw, 7rem) clamp(1.5rem, 4vw, 3.5rem); }
+  /* A split row's charts stand at their own height beside the copy, level with its middle, not stretched to the copy's
+     height as a photo is (an empty panel under the bars). */
+}
+/* Phones: the row opens on its photo, as the competitor's text-and-photo rows do; the copy of a panel row starts on the
+   photo's edge, on the section's own surface (the competitor's copy shares the photo's gutter there). */
+@media (max-width: 899px) {
+  .split > .split__media-set:not(.split__charts) { order: -1; }
+  .block--split[data-variant="panel"] .split__copy { padding: 0; background: transparent; }
+}
+
+/* ---------------------------------------------------------------- photo band */
+/* Dark photo band, copy on the left (home section#sustainability): darkest under the copy, 0.3 by 62% of the width
+   (about 15% past the copy's 40rem column), clear toward the far edge; an even overlay where the copy runs across. */
+.block--band { --band-overlay: linear-gradient(to right, rgba(19, 19, 19, 0.7) 0%, rgba(19, 19, 19, 0.55) 45%, rgba(19, 19, 19, 0.3) 62%, rgba(19, 19, 19, 0.15) 100%); }
+.block--band[data-variant="center"] { --band-overlay: rgba(19, 19, 19, 0.55); }
+@media (max-width: 767px) { .block--band { --band-overlay: rgba(19, 19, 19, 0.55); } }
+
+/* ---------------------------------------------------------------- gallery */
+.block--gallery:is([data-variant="grid"], [data-variant="mosaic"]) .gallery__item figcaption {
+  text-align: start;
+  font-family: var(--font-ui);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------- testimonials */
+/* No card: a 1px near-black rule on top, the quote, the name, the role as an eyebrow. */
+.testimonial { border-top: 1px solid var(--text-primary); }
+.testimonial blockquote p { font-size: 1rem; line-height: 1.625; }
+.testimonial figcaption { padding-top: 0; border-top: 0; }
+/* The reviewer in the label style under the quote ("SHAN A."), as the role under it. */
+.testimonial__author,
+.testimonial__meta {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* A single quote starts under its heading on the content's left edge, not centred. */
+body[data-heading-align="start"] .testimonials[data-columns="1"] { margin-inline: 0; }
+
+/* ---------------------------------------------------------------- logos, cases, contact channels */
+/* Brands as a light row of wordmarks: no frame or fill, the names in the muted tone. */
+.logos__item,
+.logos__item[data-wordmark] { border: 0; background: transparent; }
+.logos__name { color: var(--text-muted); }
+/* Order cases start under their heading, on the content's left edge. */
+body[data-heading-align="start"] .order-cases { margin-inline: 0; }
+/* The channels under their heading at the gap every section heading keeps above its content. */
+.block--contact-channels .contact-channels__heading { margin-bottom: 1.5rem !important; }
+
+/* ---------------------------------------------------------------- FAQ */
+/* Heading above, the questions in two CSS columns (40px apart) from 768px under one hairline, each row ruled below;
+   question 18 / 20px regular, "+" as a muted label, answer 16px muted, max-w-3xl, pb-8. */
+.block--faq .faq { row-gap: 1.5rem; }
+.faq__items { gap: 0; border-top: 1px solid var(--border-color); }
+.faq__item { border: 0; border-bottom: 1px solid var(--border-color); border-radius: 0; background: transparent; }
+/* The question runs up to its "+", a clearly sized mark in the text colour. */
+.faq__item summary { align-items: baseline; gap: 1rem; padding: 1.5rem 0; }
+.faq__item summary::after {
+  font-family: var(--font-ui);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--text-primary);
+}
+.faq__question { font-family: var(--font-body); font-weight: 400; line-height: 1.25; text-wrap: pretty; }
+.faq__item p { max-width: 48rem; padding: 0 0 2rem; }
+/* A long FAQ shown as an open list (each question an h3): the question on its answer's left edge, as the rows are. */
+.faq__item > .faq__question { padding: 1.5rem 0 0.75rem; }
+@media (min-width: 768px) {
+  .block--faq .faq { row-gap: 2.5rem; }
+  .block--faq[data-variant="accordion"] .faq__items { display: block; columns: 2; column-gap: 2.5rem; }
+  .block--faq[data-variant="accordion"] .faq__item { break-inside: avoid; }
+}
+
+/* ---------------------------------------------------------------- closing band */
+/* Inner pages' closing band: no panel, left-aligned on the section's surface (cream where the alternation tints it,
+   as the competitor's section#contact); eyebrow, H2 36 / 48 / 60px at most 672px wide, 18px muted line, pills in a
+   row 40px under it, full width and stacked on phones. */
+/* The heading takes the page's own section size from 768px (48px on inner pages, the home's larger display size there),
+   never above it: at the competitor's 60px it stood over the 54px titles of the manufacturer pages (heading_scale_inverted). */
+.block--cta:is([data-variant="inline"], [data-variant="band"]) .cta { padding: 0; border-radius: 0; background: transparent; }
+.block--cta .cta__content { flex: 1 1 100%; gap: 0.75rem; }
+.block--cta .cta__content > :is(.eyebrow, .cta__heading, .cta__text) { flex: 1 0 100%; }
+.block--cta .cta__heading { max-width: 42rem; }
+.block--cta .cta__text { font-size: 1.125rem; line-height: 1.625; }
+/* The pills start a row of their own under the text: the text's 70ch measure left room beside it, and the button rode
+   there, 874px right of the copy it ends (action_detached). 12 + 12 + 16 = 40px under the text. */
+.block--cta .cta__content:has(> .button)::after { content: ""; flex: 0 0 100%; order: 1; }
+.block--cta .cta__content > .button { order: 2; margin-top: 1rem; }
+@media (max-width: 639px) {
+  .block--cta:is([data-variant="inline"], [data-variant="band"]) .cta__content > .button { flex: 1 0 100%; }
+}
+
+/* Home closing photo band (section#contact "Ready when you are."): full bleed, copy at the foot on the left under a
+   bottom-up near-black gradient, 0.35 by 65% of the height, 0.2 at the top. */
+.block--cta[data-variant="image-band"] {
+  --cta-overlay: linear-gradient(to top, rgba(19, 19, 19, 0.8) 0%, rgba(19, 19, 19, 0.5) 40%, rgba(19, 19, 19, 0.35) 65%, rgba(19, 19, 19, 0.2) 100%);
+}
+.block--cta[data-variant="image-band"]:not(:has(.related-pages--grid)) { padding-block: 0; }
+.block--cta[data-variant="image-band"] > .container { max-width: none; padding-inline: 0; }
+.block--cta[data-variant="image-band"] .cta {
+  align-items: flex-end;
+  min-height: clamp(26rem, 55vw, 50rem);
+  padding: 4rem max(var(--gutter), calc((100% - var(--container-max)) / 2)) 2.5rem;
+  border-radius: 0;
+}
+@media (min-width: 768px) { .block--cta[data-variant="image-band"] .cta { padding-bottom: 3.5rem; } }
+.block--cta[data-variant="image-band"] .cta__content > :is(.eyebrow, .cta__text) { color: var(--text-inverse); }
+.block--cta[data-variant="image-band"] .related-pages--grid {
+  max-width: calc(var(--container-max) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* ---------------------------------------------------------------- form, charts, contents */
+/* An enquiry form under a heading alone: the column on the content's left edge, where every section heading starts,
+   not centred (heading_off_axis on the contact and quote pages). */
+@media (min-width: 900px) {
+  body[data-heading-align="start"] .form-block:has(.form-block__intro > h2:only-child) { justify-content: start; }
+}
+/* A section's chart panel: its caption heads the panel (a title of the chart) and the block's half gap below is taken
+   from the panel's own inset, so the space to the next section stays the section rhythm (boundary_gap: the caption and
+   the inset under the bars ran it to 225px on desktops, 176 at most). The caption sits 8px over its chart: the
+   measure reads the caption as blank too, and at 12px the gap above the panel ran to 177px after a proof or intro. */
+.section-charts > .prose__chart { display: flex; flex-direction: column; padding-block: clamp(1.25rem, 3vw, 2rem); }
+.section-charts > .prose__chart > figcaption { order: -1; margin: 0 0 0.5rem; }
+.block--charts { padding-bottom: calc(var(--section-space) / 2 - clamp(1.25rem, 3vw, 2rem)); }
+/* A proof panel's chart goes on in the same panel (one card: copy, then figures), at the proof panel's inline inset and
+   the same inset above its caption; the inset under the bars stays the chart's own (the boundary rhythm above). */
+.block--proof[data-variant="band"]:has(+ .block--charts) { padding-bottom: 0; }
+.block--proof[data-variant="band"] + .block--charts .section-charts > .prose__chart { background: var(--surface-primary); --table-ground: var(--surface-primary); padding-top: clamp(1.5rem, 4vw, 3rem); padding-inline: clamp(1.5rem, 4vw, 3rem); }
+/* A proof introduction followed by steps shares the steps' content edge and the template's surface. */
+.block--proof[data-variant="band"]:has(+ .block--process[data-variant="list"]) .text-block { background: transparent; padding: 0; }
+.block--proof[data-variant="band"]:has(+ .block--process[data-variant="list"]) { padding-bottom: calc(var(--grid-gap) / 2); }
+.block--proof[data-variant="band"] + .block--process[data-variant="list"] { padding-top: calc(var(--grid-gap) / 2); }
+/* Bars and spans thin, on a track that shows against the panel; equal fees read as a quiet list in the muted tone. A
+   span is filled from the scale's start in a lighter tone, so a value reads as a filled length, not a handle. */
+.chart-bars__track,
+.chart-timeline__track { height: 0.5rem; overflow: hidden; background: color-mix(in srgb, var(--text-primary) 10%, transparent); }
+.chart-bars__bar { background: var(--text-muted); }
+.chart-timeline__span { background: var(--text-primary); }
+.chart-timeline__span::before { content: ""; position: absolute; inset-block: 0; right: 100%; width: 100vw; background: color-mix(in srgb, var(--text-primary) 30%, transparent); }
+/* The track takes the full width left of its value where the label has a line of its own. */
+.split__charts :is(.chart-bars__row, .chart-timeline__row) { grid-template-columns: minmax(0, 1fr) auto; }
+@media (max-width: 599px) { :is(.chart-bars__row, .chart-timeline__row) { grid-template-columns: minmax(0, 1fr) auto; } }
+
+/* Two-column tables (a label and its text): the label column takes a share that keeps short labels on a line and the
+   table is held to the measure (the description about 70ch). */
+@media (min-width: 600px) {
+  :is(.prose__table, .table-block__scroll)[data-columns="2"] table { max-width: 93ch; }
+  :is(.prose__table, .table-block__scroll)[data-columns="2"] :is(th, td):first-child { width: 25%; }
+}
+/* A table's first column on the heading's left edge; its notes a clear gap under the last rule. */
+.table-block :is(th, td):first-child { padding-inline-start: 0; }
+.table-block__scroll + .table-block__note { margin-top: 1.5rem; }
+/* Table cards as the competitor's outlined panels: no dark fill, a 1px hairline, the page's own tones, a bold title. */
+.table-card { border: 1px solid var(--border-color); background: transparent; color: var(--text-primary); --heading-color: var(--text-primary); }
+.table-card__title { color: var(--text-primary); font-weight: 700; }
+.table-card__row { border-bottom-color: var(--border-color); }
+.table-card__row dt { color: var(--text-muted); }
+.table-block__lead + .table-cards { margin-top: 1.5rem; }
+
+/* The contents box: its own 20px inset under the links counts in the gap below it (boundary_gap 180px on desktops).
+   The links as the competitor's in-page labels (small, bold, uppercase, tracked), flowing in rows; no heavy rule. */
+.block--page-toc { padding-bottom: calc(var(--section-space) / 2 - 1.25rem); }
+.page-toc { border-left: 0; }
+.page-toc ol { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; padding-left: 0; columns: auto; list-style: none; }
+.page-toc a {
+  font-family: var(--font-ui);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+/* Related pages. A single onward link is a text link with its arrow, sized to its label, not a box across the page. */
+.related-pages--grid .related-links:has(> li:only-child) > li { justify-self: start; }
+.block .related-pages--grid .related-links:has(> li:only-child) .related-links__link {
+  padding: 0;
+  border: 0;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+/* Phones: the link boxes become hairline-ruled rows, as the competitor's long phone lists. */
+@media (max-width: 599px) {
+  .related-pages--grid .related-links:not(:has(> li:only-child)) { gap: 0; border-top: 1px solid var(--border-color); }
+  .block .related-pages--grid .related-links:not(:has(> li:only-child)) .related-links__link { padding-inline: 0; border: 0; border-bottom: 1px solid var(--border-color); border-radius: 0; background: transparent; }
+}
+
+/* The reviewer line under the last section stands on the footer's surface with room of its own, so no bare white strip
+   parts the closing band from the footer (the fill runs the full width from the content box). */
+.page-updated {
+  margin-block: 0;
+  padding-block: 1.5rem;
+  background: var(--surface-secondary);
+  border-image: conic-gradient(var(--surface-secondary) 0 0) fill 0 / / 0 100vmax;
+}
+
+/* ---------------------------------------------------------------- footer */
+/* Cream footer with dark text (the template's dark footer repainted light: its inverse tokens reset with inherit),
+   py-20 / md:py-28; three columns from 1024px, two from 768px, 48px apart; wordmark line 20px 700 tracking -0.5px;
+   column titles in the label style, muted; links 14px / 20px; bottom bar 80px down, a hairline across the content,
+   12px muted. */
+.site-footer {
+  --heading-color: inherit;
+  --text-primary: inherit;
+  --text-muted: inherit;
+  --text-muted-2: inherit;
+  padding-block: 5rem;
+  background: var(--surface-secondary);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+@media (min-width: 768px) { .site-footer { padding-block: 7rem; } }
+.site-footer__columns { gap: 3rem; }
+.site-footer__brand { font-size: 1.25rem; line-height: 1.375; font-weight: 700; letter-spacing: -0.025em; }
+.site-footer__title {
+  margin: 0 0 1rem;
+  font-family: var(--font-ui);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.site-footer__links { gap: 0.5rem; }
+.site-footer__bottom {
+  margin-top: 5rem;
+  padding-top: 0;
+  border-top: 0;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--text-muted);
+}
+.site-footer__bottom-inner {
+  padding-top: 2rem;
+  background: linear-gradient(var(--border-color), var(--border-color)) top center / calc(100% - 2 * var(--gutter)) 1px no-repeat;
+}
+
+/* Design gate: shared module repairs; sizing and surface sequencing stay with the template.
+   A split/form hero has a photo beside its copy, not beneath the header. Keep its normal light header;
+   only full-width opening photos take the transparent header and inverse navigation. */
+body:has(main[data-hero-photo]):not(:has(main[data-hero-photo] > .page-hero:is([data-variant="media-split"], [data-variant="media-form"]))) .site-header {
+  position: absolute;
+  inset: 0 0 auto;
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  --logo-filter: brightness(0) invert(1);
+}
+body:has(main[data-hero-photo]):not(:has(main[data-hero-photo] > .page-hero:is([data-variant="media-split"], [data-variant="media-form"]))) .site-header :is(.site-header__brand, .site-nav__link, .site-menu__toggle) {
+  color: var(--text-inverse);
+  opacity: 1;
+}
+body:has(main[data-hero-photo]):not(:has(main[data-hero-photo] > .page-hero:is([data-variant="media-split"], [data-variant="media-form"]))) .site-header__cta {
+  background: var(--text-inverse);
+  color: var(--surface-dark);
+}
+/* The header scrolls with the photo. Open menus keep their opaque, dark-ink surfaces. */
+body:has(main[data-hero-photo]):not(:has(main[data-hero-photo] > .page-hero:is([data-variant="media-split"], [data-variant="media-form"]))) :is(.site-menu__panel, .site-nav__dropdown) {
+  background: var(--surface-primary);
+  color: var(--text-primary);
+}
+main[data-hero-photo] .page-hero {
+  --hero-overlay: linear-gradient(to bottom, rgba(19, 19, 19, 0.65), transparent 8rem), linear-gradient(to right, rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.65) 50%, rgba(19, 19, 19, 0.35) 75%, rgba(19, 19, 19, 0.1));
+}
+/* Centred copy needs an even shade; 0.58 keeps white text above 4.5:1 even over white pixels. */
+main[data-hero-photo][data-page-type="home"] .page-hero[data-variant="media-overlay"] {
+  --hero-overlay: rgba(19, 19, 19, 0.58);
+}
+.order-cases { max-width: none; }
+.order-cases .order-case {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  border-radius: 0;
+  padding: 1.5rem 0 0;
+}
+.order-case__text { max-width: 70ch; }
+.block--testimonials .track__item { flex-grow: 1; }
+.logos__item[data-wordmark] {
+  grid-row: span 2;
+  grid-template-rows: subgrid;
+  align-content: start;
+  align-items: start;
+}
+.logos__name { letter-spacing: 0; }
+.section-charts > .prose__chart { background: transparent; }
+.prose__table :is(th, td) {
+  border: 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.prose__table tr:last-child > :is(th, td) { border-bottom: 0; }
+.prose__table .chart-comparison thead th:empty { background: transparent; }
+.block--data-practices .table-block__scroll { max-width: 70ch; margin-inline: 0; }
+.block--posts .post-card { border: 0; background: transparent; }
+.block.block--posts[data-card="wide"] .post-card { border: 0; }
+.block--posts .post-card__body { padding-inline: 0; }
+.post-header__title { font-weight: 700; letter-spacing: -0.025em; }
+.block--prose .prose__subheading { font-weight: 700; }
+.block--process[data-variant="circles"] {
+  --process-marker-bg: transparent;
+  --process-marker-text: var(--text-muted);
+}
+.block--process[data-variant="circles"] .process-step__marker {
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  place-items: start;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.block--process[data-variant="circles"] .process-steps::before { display: none; }
+.block--process[data-variant="circles"] .process-step { border-top: 1px solid var(--border-color); padding-top: 1rem; }
+.block--process[data-variant="photo-cards"] { --cta-overlay: rgba(19, 19, 19, 0.62); }
+.block--process[data-variant="photo-cards"]::before { background: var(--cta-overlay); }
+.block--process[data-variant="photo-cards"] .process-step {
+  background: transparent;
+  border: 0;
+  backdrop-filter: none;
+  padding-inline: 0;
+}
+.block--process[data-variant="photo-cards"] .process-step__marker { background: transparent; border: 0; left: 0; }
+.block--process[data-variant="list"] .point-list__intro > h2:last-child { margin-bottom: 0 !important; }
+.block--process[data-variant="list"] :is(.block__lead, .point-list__item p) { text-align: start; margin-inline: 0; }
+.block--process[data-variant="list"] .point-list__item { justify-items: stretch; }
+.block--process[data-variant="list"] .point-list__item p { justify-self: stretch; }
+.table-card__row:only-child dt { display: none; }
+.point-list__items[data-numbered] > .point-list__item::after { font-variant-numeric: tabular-nums; }
+@media (max-width: 1023px) {
+  .site-header[data-layout="inline"] .site-header__bar { gap: 0.5rem; padding-left: 0; }
+  .site-header__brand-row .container { padding-right: 0.5rem; }
+  .site-header .site-header__cta { display: inline-flex; padding-inline: 0.875rem; }
+  .site-header { --logo-max-width: min(9rem, 35vw); }
+}
+@media (max-width: 767px) {
+  main[data-hero-photo] .page-hero { --hero-overlay: rgba(19, 19, 19, 0.62); }
+  .page-hero .page-hero__actions { width: 100%; }
+  .page-hero__actions .button { width: 100%; }
+  .block--cta[data-variant="image-band"] .cta__content > .button { flex: 1 1 100%; width: 100%; }
+  .page-toc ol { flex-direction: column; gap: 0.5rem; }
+  .logos__item[data-wordmark] { padding-inline: 0; }
+  .logos__name { font-size: 0.875rem; text-wrap: balance; }
+  .point-list .point-list__items > .point-list__item { padding-block: 1rem; }
+  .breadcrumbs__item + .breadcrumbs__item::before { content: none; }
+  .breadcrumbs__item:not(:last-child)::after { content: " /"; white-space: nowrap; margin-left: 0.5rem; opacity: 0.5; }
+}

@@ -1,0 +1,417 @@
+{
+  "/": {
+    "m2": [
+      {
+        "id": "brief-m2-1",
+        "type": "photo",
+        "content": "A Chinese pattern maker in the factory's development room grades a tailored slim men's aloha shirt pattern, tracing nested paper pattern pieces in graduated sizes onto a long cutting table while a finished hibiscus-print sample shirt hangs on a fit form beside her.",
+        "setting": "In-house pattern and fit development room, Guangzhou factory",
+        "caption": "Our pattern team grades each new cut in-house before sampling."
+      }
+    ],
+    "cta": [
+      {
+        "id": "brief-cta-1",
+        "type": "photo",
+        "content": "A visiting buyer and a Chinese account manager stand at a showroom table, the buyer holding up a sample aloha shirt in a tropical leaf print against the window light while folded fabric swatches and blank woven labels lie spread out in front of them.",
+        "setting": "Factory sample showroom, Guangzhou",
+        "caption": "Bring your references and we'll start your next shirt order together."
+      }
+    ]
+  },
+  "/women-s-hawaiian-shirt-manufacturer/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese female model in a fitted women's Hawaiian shirt with a hibiscus print in comfort-stretch fabric reaches one arm forward and up, and the woven fabric stretches smoothly across her back and elbow without pulling or bagging.",
+        "setting": "Factory fit room, plain backdrop",
+        "caption": "Our fitted women's cut stretches with you and springs back to shape."
+      }
+    ],
+    "m3": [
+      {
+        "id": "brief-m3-1",
+        "type": "photo",
+        "content": "A Chinese female quality technician lays a washed swatch of printed rayon-spandex shirt fabric over a measuring grid and checks it with a steel ruler for shrinkage, with an unwashed swatch of the same print beside it for comparison.",
+        "setting": "Factory quality-control lab bench",
+        "caption": "We wash-test your bulk fabric and print before we write the care label."
+      }
+    ]
+  },
+  "/resort-dress-manufacturer/": {
+    "m4": [
+      {
+        "id": "brief-m4-1",
+        "type": "photo",
+        "content": "A Chinese print technician in the factory print room holds a fresh strike-off of a tropical hibiscus print on rayon challis against the matching bulk roll, checking that the colour and repeat scale match, while a wide digital textile printer runs behind her.",
+        "setting": "Factory digital print room, Guangzhou",
+        "caption": "Checking a strike-off on the actual dress fabric before bulk printing"
+      }
+    ],
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "Close overhead view of a Chinese cutter's hands cutting a digitally printed placement-floral maxi dress panel by hand with shears on a long cutting table, lining the large symmetrical flower motif up with a chalked centre-front line.",
+        "setting": "Cutting table, factory cutting floor",
+        "caption": "Hand-cutting placement prints so motifs line up across seams"
+      }
+    ]
+  },
+  "/swimwear-manufacturer/": {
+    "m6": [
+      {
+        "id": "brief-m6-1",
+        "type": "photo",
+        "content": "A Chinese female quality inspector in a plain smock stretches the side seam of a finished printed one-piece swimsuit across her hands, checking its elasticity and print accuracy under bright inspection lights, with a stack of inspected one-pieces and a tape measure beside her.",
+        "setting": "Factory final inspection table",
+        "caption": "Every finished swimsuit is checked for stretch, print accuracy and size tolerance."
+      }
+    ]
+  },
+  "/kids-hawaiian-clothing-manufacturer/": {
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese female quality inspector clamps a coconut button on a small child's hibiscus-print aloha shirt into a handheld pull-test gauge and draws it steadily upward, while other inspected kids' shirts lie folded beside her.",
+        "setting": "Factory quality-control bench, Guangzhou",
+        "caption": "Pull-testing buttons on a kids' aloha shirt before shipment"
+      }
+    ]
+  },
+  "/boys-hawaiian-shirt-manufacturer/": {
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese packing worker folds a finished boys' Hawaiian shirt in a tropical print around a tissue insert and slides it into a clear individual polybag, with a stack of folded, bagged shirts and an open carton beside her on the table.",
+        "setting": "Packing area of the Guangzhou garment factory",
+        "caption": "Each finished shirt is folded and bagged to the approved packing reference."
+      }
+    ]
+  },
+  "/baby-hawaiian-clothing-manufacturer/": {
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese female inspector at a final-inspection table holds up a finished Hawaiian-print baby romper under bright lights and checks its snap placket against an approved sample romper laid flat beside her, with folded rompers stacked ready for packing.",
+        "setting": "Final inspection area, Guangzhou garment factory",
+        "caption": "A bulk baby romper checked against the approved sample before shipment"
+      }
+    ]
+  },
+  "/hawaiian-uniform-shirt-manufacturer/": {
+    "m4": [
+      {
+        "id": "brief-m4-1",
+        "type": "photo",
+        "content": "A Chinese seamstress at a bar-tack machine sews a small reinforcing tack into the top corner of a patch pocket on a navy hibiscus-print rayon Hawaiian shirt, with her fingers holding the pocket edge flat under the presser foot.",
+        "setting": "Sewing line in the Guangzhou factory, close-up",
+        "caption": "Bar-tacking a patch pocket corner so it holds up to daily wear"
+      }
+    ]
+  },
+  "/beach-towel-manufacturer/": {
+    "related": [
+      {
+        "id": "brief-related-1",
+        "type": "photo",
+        "content": "A Chinese lab technician lifts a freshly washed white cotton terry beach towel sample out of a front-loading test washing machine and lays it flat on a table beside a steel ruler to check it after the wash test that sets its care instructions.",
+        "setting": "Factory wash-testing room, Guangzhou",
+        "caption": "Wash-testing a towel sample before we draft its care label"
+      }
+    ]
+  },
+  "/product-development/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "Seen from directly above, a Chinese design team member's hands place a fan of printed cotton aloha fabric swatch cards next to coconut and shell buttons and a closed launch guide with a blank cover, inside an open starter kit box.",
+        "setting": "Design studio worktable, overhead close-up",
+        "caption": "A starter kit being put together for a new label"
+      }
+    ],
+    "m7": [
+      {
+        "id": "brief-m7-1",
+        "type": "photo",
+        "content": "A Chinese designer pins the camp collar of a sample floral aloha shirt that a fit model is wearing during a fit-sample round.",
+        "setting": "Factory sampling room, medium shot",
+        "caption": "Checking fit on a development sample before sign-off"
+      }
+    ],
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese pattern maker measures the chest width of a buyer's reference Hawaiian shirt laid flat with a tape measure, with paper pattern pieces for a camp-collar shirt spread beside it.",
+        "setting": "Pattern-making table in the development room",
+        "caption": "Turning a reference shirt into a specification ready for sampling"
+      }
+    ],
+    "m3": [
+      {
+        "id": "brief-m3-1",
+        "type": "photo",
+        "content": "A Chinese development coordinator pulls a hanging tropical-print fabric swatch from a long rack of printed rayon and cotton swatches to match a buyer's print direction.",
+        "setting": "Factory fabric library, wide shot",
+        "caption": "Choosing swatches and print samples to suit your brief"
+      }
+    ]
+  },
+  "/quality-control/": {
+    "m8": [
+      {
+        "id": "brief-m8-1",
+        "type": "photo",
+        "content": "A Chinese female QC inspector in a plain grey smock unrolls a bolt of tropical-print rayon over a lit fabric-inspection frame and runs her fingertip along the print, looking for stains and holes, as the cloth comes in.",
+        "setting": "Fabric receiving and inspection area, Guangzhou factory",
+        "caption": "Incoming fabric is checked before it goes into production"
+      }
+    ],
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese male QC technician holds a handheld colour-measuring device against a printed hibiscus panel of a freshly printed aloha shirt fabric length, while the approved sample shirt lies flat beside it for comparison.",
+        "setting": "Inline print QC bench beside the printing line",
+        "caption": "Inline print colour checked against the approved sample"
+      }
+    ],
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "Close-up of a Chinese female inspector's hands laying a measuring tape across the chest of a finished, pressed aloha shirt on a white inspection table, with the collar points and front placket print visibly aligned.",
+        "setting": "Final inspection table in the finishing department",
+        "caption": "Every finished shirt is measured and inspected before packing"
+      }
+    ],
+    "m4": [
+      {
+        "id": "brief-m4-1",
+        "type": "photo",
+        "content": "A Chinese male warehouse worker counts folded aloha shirts, each sealed in a clear poly bag, as he places them into an open export carton on a pallet, with stacked sealed cartons with blank shipping marks behind him.",
+        "setting": "Packing and dispatch area of the factory warehouse",
+        "caption": "Carton counts and packing checked before dispatch"
+      }
+    ],
+    "m6": [
+      {
+        "id": "brief-m6-1",
+        "type": "photo",
+        "content": "A Chinese female QC technician clamps a snap button on a small kids' aloha shirt into a bench pull-test gauge and pulls it to test that the button holds.",
+        "setting": "In-house QC testing room",
+        "caption": "Pull-testing buttons and snaps on kids' aloha shirts"
+      }
+    ]
+  },
+  "/customization/": {
+    "m5": [
+      {
+        "id": "brief-m5-1",
+        "type": "photo",
+        "content": "A Chinese pattern maker at a cutting table lays a buyer's reference aloha shirt flat beside a freshly sewn prototype in the same tropical print, and lines up the two collars and plackets with a measuring tape to compare them.",
+        "setting": "Sample room, Guangzhou factory",
+        "caption": "Before bulk production, we check the prototype against your reference shirt."
+      }
+    ]
+  },
+  "/bulk-production/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese quality technician holds a freshly made reorder Hawaiian shirt next to the retained approved sample shirt and its signed fabric swatch, comparing the hibiscus print colour side by side under a colour-matching light booth.",
+        "setting": "Factory QC room, Guangzhou",
+        "caption": "Every reorder is checked against your retained approved sample and swatch."
+      }
+    ]
+  },
+  "/embroidery/": {
+    "m4": [
+      {
+        "id": "brief-m4-1",
+        "type": "photo",
+        "content": "A Chinese operator walks along a row of multi-head embroidery machines as every head stitches the same hibiscus chest motif onto hooped front panels of a rayon Hawaiian shirt.",
+        "setting": "Embroidery floor of the Guangzhou factory, wide view",
+        "caption": "Test batch and bulk run share one machine setup"
+      }
+    ],
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese technician's hands press a printed linen shirt panel with a sheet of white cut-away backing into an embroidery hoop and tighten the frame screw beside a machine needle bar.",
+        "setting": "Embroidery machine station, close-up",
+        "caption": "Backing and hoop tension set to the fabric"
+      }
+    ],
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese packer places folded embroidered Hawaiian shirts, each in its own clear poly bag, into a plain brown export carton on a packing table stacked with sealed cartons.",
+        "setting": "Factory packing and dispatch area",
+        "caption": "Bulk order packed for delivery"
+      }
+    ]
+  },
+  "/packaging/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese female packing worker on the packing line folds a printed rayon aloha shirt into ivory logo-free tissue, laying a blank brand card and a kraft hang tag on top before the outer bag goes on.",
+        "setting": "Garment factory packing line, Guangzhou",
+        "caption": "Each shirt is folded and finished with tissue, card and hang tag before outer packaging"
+      }
+    ],
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese warehouse worker seals the top of a stacked brown 5-ply export carton with tape beside a pallet of finished cartons whose shipping marks show only unreadable blocks of print.",
+        "setting": "Factory dispatch area, loading dock",
+        "caption": "5-ply export cartons sealed and marked for warehouse receiving"
+      }
+    ],
+    "m3": [
+      {
+        "id": "brief-m3-1",
+        "type": "photo",
+        "content": "Close-up of a Chinese worker's hands slipping a curved white card band under the open camp collar of a folded soft rayon Hawaiian shirt, with a small clip on the inner collar stand cushioned by folded tissue.",
+        "setting": "Packing table, close-up",
+        "caption": "A curved card band keeps a soft camp collar's natural roll"
+      }
+    ]
+  },
+  "/sampling/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese QC technician holds a bulk-production aloha shirt next to the signed approved counter-sample on a lightbox table under a colour-matching lamp, lining up the printed hibiscus motif at the chest pocket so both prints sit side by side.",
+        "setting": "Factory QC colour-matching booth",
+        "caption": "Bulk shirts checked against the signed counter-sample under the same light"
+      }
+    ]
+  },
+  "/private-label/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese female pattern maker in the factory's development room pins a sample aloha shirt in a hibiscus print onto a dress form and checks the collar and shoulder fit, with unmarked paper pattern pieces and small rayon and linen fabric swatches laid out on the worktable beside her.",
+        "setting": "In-house product development room, Guangzhou factory",
+        "caption": "Our design team fits a base aloha style before sampling"
+      }
+    ]
+  },
+  "/cut-sew/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese cutter in the factory lays one ply of hibiscus-print rayon flat on a long cutting table and lines up a front-panel pattern piece so the large flower motif sits centred on the chest, his hands pressing the pattern edge against the print.",
+        "setting": "Factory cutting room, single-ply cutting table",
+        "caption": "Matched panels are cut one ply at a time so the print sits where you agreed."
+      }
+    ],
+    "m2": [
+      {
+        "id": "brief-m2-1",
+        "type": "photo",
+        "content": "A Chinese female pattern maker at a drafting table traces a revised curve on a brown paper aloha shirt base-size pattern with a pattern ruler, while a stack of graded paper patterns in nested sizes hangs on a hook rail beside her.",
+        "setting": "Pattern-making room, drafting table",
+        "caption": "We revise your base-size pattern before any grading begins."
+      }
+    ],
+    "m4": [
+      {
+        "id": "brief-m4-1",
+        "type": "photo",
+        "content": "A Chinese garment technician pins the side seam of a printed camp-collar aloha fit sample worn by a model standing in front of a mirror, checking how the shirt hangs across the back and hip.",
+        "setting": "Factory sample room fitting area",
+        "caption": "Fit samples are tried on real people before bulk production starts."
+      }
+    ]
+  },
+  "/custom-print-design/": {
+    "m2": [
+      {
+        "id": "brief-m2-1",
+        "type": "photo",
+        "content": "A Chinese pattern technician lays a cut rayon front panel printed with a hibiscus border along its hem next to a panel cut from an all-over palm-frond print on a cutting table, aligning the border band to the hem edge with a clear ruler.",
+        "setting": "Cutting room table, Guangzhou factory",
+        "caption": "Border print and all-over print panels checked against the hem before sewing"
+      }
+    ]
+  },
+  "/custom-labels-hang-tags/": {
+    "splitMedia-2": [
+      {
+        "id": "brief-splitMedia-2-1",
+        "type": "photo",
+        "content": "A Chinese female product developer at a sample-room table holds a woven label sample up beside a swatch of printed aloha shirt fabric and a card of coconut buttons, checking the label against the actual garment materials, with the label's woven details too small to read.",
+        "setting": "Factory sample development room, Guangzhou",
+        "caption": "Label artwork is checked against the fabric and trims actually used in your shirt."
+      }
+    ],
+    "splitMedia-3": [
+      {
+        "id": "brief-splitMedia-3-1",
+        "type": "photo",
+        "content": "A Chinese male lab technician in a plain smock lays a washed swatch of printed aloha fabric next to an unwashed one on a light-grey inspection table, comparing the print for cracking, fading and colour bleed, with a front-loading test washer behind him.",
+        "setting": "In-house wash-test lab, factory QC area",
+        "caption": "Wash tests on your fabric and print decide the care instructions."
+      }
+    ],
+    "splitMedia-4": [
+      {
+        "id": "brief-splitMedia-4-1",
+        "type": "photo",
+        "content": "In a wide view of the packing line, Chinese workers thread cotton-string hang tags onto finished folded aloha shirts and place them into cartons stacked beside trays of woven labels and buttons, all tags blank or too distant to read.",
+        "setting": "Finishing and packing floor, Guangzhou factory",
+        "caption": "Labels, buttons and hang tags are scheduled into production through to shipment."
+      }
+    ]
+  },
+  "/custom-printing/": {
+    "m3": [
+      {
+        "id": "brief-m3-1",
+        "type": "photo",
+        "content": "A Chinese quality inspector holds the signed-off screen-printed sample panel of a hibiscus-pattern Hawaiian shirt fabric next to the freshly printed rayon running off a roll at the end of the printing table, checking the colours side by side for shade changes and misregistration.",
+        "setting": "Screen-printing line, Guangzhou factory",
+        "caption": "Each printed roll is checked against your approved sample during bulk printing."
+      }
+    ]
+  },
+  "/about-us/": {
+    "splitMedia-1": [
+      {
+        "id": "brief-splitMedia-1-1",
+        "type": "photo",
+        "content": "A Chinese sewer at her machine lines up a sublimation-printed hibiscus pocket on a cut aloha shirt front so the flowers continue across it, pinning it in place before she sews.",
+        "setting": "Bulk sewing floor, Guangzhou factory",
+        "caption": "Pocket print matched to the shirt front before stitching"
+      }
+    ]
+  },
+  "/contact-us/": {
+    "m3": [
+      {
+        "id": "brief-m3-1",
+        "type": "photo",
+        "content": "A Chinese account manager sits at a sampling-room table, holding a freshly sewn sample shirt up to a laptop's camera, pinching the collar and front placket so the buyer on the video call can see the fabric, colour and stitching up close; the laptop screen is turned away from the viewer.",
+        "setting": "Factory sampling room, cutting table and sample rails behind",
+        "caption": "On a live video call, your account manager shows your sample shirt up close for approval."
+      }
+    ]
+  }
+}

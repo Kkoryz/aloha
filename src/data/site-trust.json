@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "seo-site-trust-v1",
+  "items": [
+    {
+      "value": "2011",
+      "label": "Operating since",
+      "note": "The factory has been running since 2011.",
+      "factId": "owner:founded"
+    },
+    {
+      "value": "350",
+      "label": "Independent labels",
+      "note": "We currently produce for more than 350 independent labels, and with their permission we can share case examples before you order. Because we work under NDA, we never show other clients' unreleased designs.",
+      "factId": "homed:SG12",
+      "unconfirmed": true
+    }
+  ],
+  "location": "a single factory of our own in Guangzhou, Guangdong, China"
+}

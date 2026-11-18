@@ -1,0 +1,58 @@
+[
+ {
+  "n": 1,
+  "url": "/swimwear-manufacturer/",
+  "section": "testimonials",
+  "old": "The aloha shirts filled a gap in our resort shop range,",
+  "new": "The swimwear filled a gap in our resort shop range,",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ },
+ {
+  "n": 2,
+  "url": "/swimwear-manufacturer/",
+  "section": "testimonials",
+  "old": "We have just completed our first aloha shirt run with the team, and bulk production landed within the 35 to 40 days they quoted after our sample approval. We are very happy with how the finished shirts turned out.",
+  "new": "We have just completed our first swimwear run with the team, and bulk production landed within the 35 to 40 days they quoted after our sample approval. We are very happy with how the finished suits turned out.",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ },
+ {
+  "n": 3,
+  "url": "/swimwear-manufacturer/",
+  "section": "testimonials",
+  "old": "Founder, Menswear Label, Australia",
+  "new": "Founder, Swimwear Label, Australia",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ },
+ {
+  "n": 4,
+  "url": "/one-piece-swimsuit-manufacturer/",
+  "section": "testimonials",
+  "old": "Sourcing Manager, menswear brand, Canada",
+  "new": "Sourcing Manager, swimwear brand, Canada",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ },
+ {
+  "n": 5,
+  "url": "/one-piece-swimsuit-manufacturer/",
+  "section": "testimonials",
+  "old": "came out clean on every shirt.",
+  "new": "came out clean on every suit.",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ },
+ {
+  "n": 6,
+  "url": "/aloha-work-uniform-manufacturer/",
+  "section": "testimonials",
+  "old": "Our first batch of rayon shirts has held up beautifully, so we're already planning a second print with the team!",
+  "new": "Our staff's first batch of rayon uniform shirts has held up beautifully, so we're already planning a second print with the team!",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ },
+ {
+  "n": 7,
+  "url": "/aloha-work-uniform-manufacturer/",
+  "section": "testimonials",
+  "old": "Brand Manager, Surf Apparel Label, Australia",
+  "new": "Operations Manager, Beach Resort Group, Australia",
+  "reason": "aloha_1118b README_08 H-8: reviews that match their page's product (Site Factory's 05_7/05_9 sources changed the same way); the lists do not export testimonials, 08 applies them"
+ }
+]

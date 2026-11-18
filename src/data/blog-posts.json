@@ -1,0 +1,1149 @@
+[
+  {
+    "slug": "garment-quality-control-guide",
+    "status": "published",
+    "seo": {
+      "title": "Garment Quality Control: Reports, Tools and Checklists",
+      "description": "Learn to read garment QC reports, distinguish defects from defective garments, and connect inspection findings to repairs and shipment release."
+    },
+    "title": "Garment quality control: what should a buyer check?",
+    "lead": [
+      "Garment quality control checks clothing against agreed requirements for materials, measurements, construction, performance, labels, and packing. For a buyer, the useful result is evidence that connects the approved specification to inspection findings and a shipment decision. [QIMA’s garment inspection procedures](https://www.qima.com/blog/inspection/garment-quality-inspection-procedures) describe these checks.",
+      "At Tapa Works, we manufacture aloha shirts in our own Guangzhou factory and check fabric on arrival, cutting, sewing, and finished garments. Use this guide to read a report, question an improvement chart, and work through a failed checklist item. For our inspection scope, see our [Quality Control](/quality-control/) page."
+    ],
+    "datePublished": "2026-11-17T22:46:31Z",
+    "dateModified": "2026-11-17T22:46:31Z",
+    "author": {
+      "type": "Organization"
+    },
+    "image": {
+      "src": "/media/blog/garment-quality-control-guide/V1-1536.webp",
+      "alt": "Inspecting the construction of an aloha shirt",
+      "width": 1536,
+      "height": 1024
+    },
+    "takeaways": [],
+    "sections": [
+      {
+        "heading": "What garment QC checks tell you about your order",
+        "body": [
+          {
+            "text": "Garment QC checks tell you whether the inspected materials and garments meet the requirements you agreed, which problems are still open, and what supports a decision to hold or release. A sampled pass supports acceptance under the agreed plan, but it doesn't guarantee a defect-free shipment. For more, see [TradeAider's Improving Garment Quality Control: A Step-by-Step Guide](https://www.tradeaiders.com/improving-garment-quality-control-a-step-by-step-guide.html)."
+          },
+          {
+            "text": "Start with approved materials, construction, measurements, labels and a reference sample. During production, check the work against those approvals. Before dispatch, reconcile workmanship, performance evidence and packing. Keep the US-market labeling and any applicable test evidence alongside the inspection verdict. As [QIMA's Garment Quality Control & Inspection Procedures](https://www.qima.com/blog/inspection/garment-quality-inspection-procedures) explains, each of these checks answers a different question."
+          },
+          {
+            "text": "At Tapa Works, our final inspection covers 100% of garments and takes 2 to 3 days. For pre-shipment sampling, we use AQL 2.5 for major defects and 4.0 for minor defects, checked against your approved sample. Our [Quality Control](/quality-control/) page sets out our inspection scope. Agree on the sampling plan and severity rules before anyone starts counting findings. An AQL setting doesn't give permission to ship a fixed percentage of faulty clothing."
+          },
+          {
+            "subheading": "Follow the report from finding to release"
+          },
+          {
+            "text": "Our redacted Palm order record covers 500 adult cotton aloha shirts in one print, sizes S to XL, made to specification revision C. Its header identifies the fabric batch, the inspector, the selected cartons and the garment identifiers. We've removed the customer's branding but kept the links between the inspected goods and their records."
+          },
+          {
+            "text": "On October 12, 2026, the independent inspection found open underarm seams, and the lot went on hold. The close-up of garment C-A showed an opening that failed the major-defect criterion in reference sheet D. Lin, our QC lead, authorized containment. Mei, our sewing supervisor, took responsibility for sorting the held goods and repairing the affected joins."
+          },
+          {
+            "text": "The closure file links C-A's original photograph to its repair record. A fresh inspection on October 15 found no open seams or other counted defects in the selected garments. That same day, the buyer's quality manager reviewed the repeat report, reconciled the label, packing and test documents, and signed the release."
+          },
+          {
+            "text": "Read that chain for what each record actually proves. The specification defines the target, the original photo supports the finding, and the hold identifies the goods waiting on a decision. A repair photo shows the visible correction on that garment. The repeat report establishes the scope of verification, and the release signature shows who accepted the order. When a report just says \"fixed,\" ask for the full chain."
+          },
+          {
+            "subheading": "Settle borderline grades before they change the verdict"
+          },
+          {
+            "text": "Palm's buyer first graded a loose thread inside the hem as major, while our inspector graded it minor. They settled on minor because the seam stayed secure and the thread was hidden during wear. Both graded the open underarm seam as major, because arm movement exposed the opening and put stress on the join. Neither finding was safety-critical. Reference sheet D keeps the original close-ups, the initial grades, the reasons and the final grades the buyer approved."
+          },
+          {
+            "figure": {
+              "src": "/media/blog/garment-quality-control-guide/V2-960.webp",
+              "srcset": "/media/blog/garment-quality-control-guide/V2-480.webp 480w, /media/blog/garment-quality-control-guide/V2-960.webp 960w, /media/blog/garment-quality-control-guide/V2-1536.webp 1008w",
+              "alt": "Compare a loose thread with an open structural seam",
+              "width": 960,
+              "height": 640,
+              "caption": "Compare a loose thread with an open structural seam"
+            }
+          },
+          {
+            "text": "When a grade is disputed, talk it through in terms of location, visibility, function and safety. A thread end inside a secure hem and stitching coming apart at a stressed join call for different decisions. [Tetra's Quality Control in Clothing guide](https://tetrainspection.com/quality-control-clothing/) describes how position and functional effect shape classification. Keep the agreed criterion with the original garment photos so the next inspector can apply it the same way."
+          },
+          {
+            "subheading": "Separate a measurement pass from fit approval"
+          },
+          {
+            "text": "Correct flat measurements don't guarantee an acceptable fit, and [QIMA's Garment Quality Control & Inspection Procedures](https://www.qima.com/blog/inspection/garment-quality-inspection-procedures) describes fit as a separate check. Settle fit during development, before you approve bulk. Our [Sampling](/sampling/) page covers that stage."
+          },
+          {
+            "text": "During Palm development, the medium sample measured 56.0 cm across the chest and 74.0 cm in body length, which matched its targets within the specified ±1 cm tolerance. Even so, the front and side fit photos showed the placket pulling when the wearer reached forward. After three separate 40°C home washes with line drying, the readings were 55.0 cm and 72.5 cm. Shrinkage stayed within our 3% limit, but the movement problem hadn't gone away."
+          },
+          {
+            "text": "Our pattern team redistributed the back-shoulder ease and adjusted the sleeve pitch while keeping the approved chest and length targets. Repeat photos of the medium and large samples showed the placket lying flat in the same reach test, and the buyer approved revision C. That result applies only to the tested sizes and that cotton style."
+          },
+          {
+            "subheading": "Read costs and delays against the order scope"
+          },
+          {
+            "text": "You book and pay the independent inspection agency directly, and you give us at least 3 business days’ notice. If goods fail because of our workmanship, we rework them and pay the reinspection fee. Laboratory testing costs extra unless your quote lists it. You pay the lab's rate per test item, and nothing is booked until you approve it. Our [Quality Control](/quality-control/) page has the details."
+          },
+          {
+            "text": "Palm's October 2026 ledger covers the cotton shirt order above, with stock buttons and matched printed pockets. All amounts are in USD, with no currency conversion. The sorting and repair amounts are internal factory labor costs, not extra charges to the buyer."
+          },
+          {
+            "table": {
+              "columns": [
+                "Activity",
+                "Cost and payer",
+                "Timing"
+              ],
+              "rows": [
+                [
+                  "Factory QC",
+                  "Internal cost not separately allocated",
+                  "Final inspection: 2 days"
+                ],
+                [
+                  "External inspection",
+                  "Buyer paid USD 280 directly",
+                  "Initial visit: October 12"
+                ],
+                [
+                  "Laboratory testing",
+                  "Buyer approved and paid USD 160",
+                  "Report received before final inspection"
+                ],
+                [
+                  "Sorting",
+                  "Factory labor: USD 60",
+                  "Held lot sorted: October 13"
+                ],
+                [
+                  "Repair",
+                  "Factory labor: USD 48",
+                  "Repairs completed: October 14"
+                ],
+                [
+                  "Reinspection",
+                  "Factory paid USD 280",
+                  "Repeat visit and release: October 15"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "The hold added 3 calendar days between the initial inspection and release. The laboratory schedule wasn't affected."
+          },
+          {
+            "text": "For planning, suppose an early sewing check isolates 100 shirts, while late detection means sorting all 500. At an assumed sorting rate of USD 0.12 per shirt, sorting comes to USD 12 instead of USD 60. The calculation covers sorting only and leaves out repair, inspection, freight and sales effects. It's an assumed comparison, not a measured saving or a service quote."
+          },
+          {
+            "text": "Our own records give the measured version for a repeat of the same Palm style in November 2026. The same underarm fault turned up at the inline sewing check on day 9 of production: 18 shirts from one operator's bundle were held, sorted and repaired in 40 minutes of factory labor, and the final inspection and the buyer's single independent visit went ahead on the original dates. On the October order, the fault was found only at the independent inspection, so all 500 shirts were sorted, a second visit was needed and release moved by 3 days."
+          },
+          {
+            "text": "Ask for the approved criteria, the completed report, any unresolved exceptions and the authorized disposition all together. The tools and worked checklist below help you check that the findings, corrections and release decision connect."
+          }
+        ]
+      },
+      {
+        "heading": "What are the 7 QC tools used in apparel?",
+        "body": [
+          {
+            "text": "A common apparel QC toolkit includes check sheets, Pareto charts, fishbone diagrams, histograms, control charts, scatter diagrams and flowcharts. The [Scribd apparel-tool summary](https://www.scribd.com/document/485441424/7-QC-Tools-in-Apparel-Industry) lists this combination. Lists vary, though, and some versions use stratification in place of flowcharts."
+          },
+          {
+            "text": "[Manufacturing Connected's quality-tool review](https://www.mfgconnected.com/columns/reviewing-seven-tools-for-quality-management) explains the shared tools but names graphs as its final tool. In practice, what matters is which decision each tool supports. A check sheet records what you observe. A checklist defines what to inspect."
+          },
+          {
+            "table": {
+              "columns": [
+                "Tool",
+                "Job",
+                "Apparel application"
+              ],
+              "rows": [
+                [
+                  "Check sheet",
+                  "Capture observations consistently",
+                  "Record seam faults by garment and line"
+                ],
+                [
+                  "Pareto chart",
+                  "Rank categories",
+                  "Compare recurring fault counts or repair burden"
+                ],
+                [
+                  "Fishbone diagram",
+                  "Organize possible causes",
+                  "Separate machine, material, and sewing-method hypotheses"
+                ],
+                [
+                  "Histogram",
+                  "Show a distribution",
+                  "Examine chest measurements within the same size"
+                ],
+                [
+                  "Control chart",
+                  "Track process variation over time",
+                  "Monitor repeated samples using statistical limits"
+                ],
+                [
+                  "Scatter diagram",
+                  "Explore paired variables",
+                  "Compare sewing speed with seam-opening results"
+                ],
+                [
+                  "Flowchart",
+                  "Map work and checkpoints",
+                  "Locate where seam checks occur before packing"
+                ]
+              ]
+            }
+          },
+          {
+            "subheading": "Follow a cause through a trial"
+          },
+          {
+            "text": "In Palm's repair investigation, the raw first-pass rows recorded an open underarm seam on C-A, C-B, C-C and C-D. C-A also had a loose thread, and C-E had only a loose thread. Grouping showed that the seam findings all came from the same underarm operation. Lin's hypothesis log listed missed backtacking, thread tension and fabric damage. A trial kept fabric, operator and thread the same while correcting the backtack method, and the seam stayed closed in the agreed handling check. Mei then retrained the operation and checked the repaired joins."
+          },
+          {
+            "text": "For a comparable first-pass follow-up, Lin checked 50 new Palm shirts from the same line and size mix on October 16, 2026. She found 1 open seam, compared with 4 among 50 at the initial inspection. Repaired garments were left out of that comparison. The lower count supported continuing to monitor the method. It didn't prove the process would stay stable over the long term."
+          },
+          {
+            "text": "Here, the check sheet, the grouping and the cause log did the useful work. A histogram would answer a question about dimensions, and a scatter diagram would need paired measurements. Don't make a chart just to complete the toolkit."
+          },
+          {
+            "text": "Control limits describe how the process has actually behaved. Specification tolerances describe the result the buyer requires. A stable process can still miss the requirement. In the same way, an association in a scatter diagram is a hypothesis to test, not proof of cause. See [Manufacturing Connected's control-chart and correlation discussion](https://www.mfgconnected.com/columns/reviewing-seven-tools-for-quality-management)."
+          },
+          {
+            "subheading": "Count garments separately from faults"
+          },
+          {
+            "text": "This separate, synthetic teaching dataset assumes 5 first-pass inspections of style Demo, size M, line Cedar, on November 2, 2026. Each row is a different garment. The figures are assumed and aren't Palm results."
+          },
+          {
+            "table": {
+              "columns": [
+                "Garment",
+                "First-pass status",
+                "Observed faults",
+                "Fault count"
+              ],
+              "rows": [
+                [
+                  "A",
+                  "Fail",
+                  "Loose thread; open seam",
+                  "2"
+                ],
+                [
+                  "B",
+                  "Fail",
+                  "Loose thread",
+                  "1"
+                ],
+                [
+                  "C",
+                  "Fail",
+                  "Loose thread; needle fragment",
+                  "2"
+                ],
+                [
+                  "D",
+                  "Pass",
+                  "None",
+                  "0"
+                ],
+                [
+                  "E",
+                  "Pass",
+                  "None",
+                  "0"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "These assumed rows contain 5 defects on 3 defective garments, out of 5 units inspected. Defects per hundred units equals 5 ÷ 5 × 100 = 100. Percent defective equals 3 ÷ 5 × 100 = 60%. By frequency, loose threads come to 3, open seams to 1 and needle fragments to 1."
+          },
+          {
+            "chart": {
+              "kind": "bar",
+              "unit": "defects",
+              "items": [
+                {
+                  "label": "Loose threads",
+                  "value": 3
+                },
+                {
+                  "label": "Open seams",
+                  "value": 1
+                },
+                {
+                  "label": "Needle fragments",
+                  "value": 1
+                }
+              ],
+              "alt": "Synthetic fault counts: frequency alone does not set priority",
+              "caption": "Synthetic fault counts: frequency alone does not set priority"
+            }
+          },
+          {
+            "text": "For the same assumed findings, allow 1 minute to trim each loose thread and 8 minutes to repair the open seam. That gives 3 minutes of thread rework and 8 minutes of seam rework in total. A needle fragment gets no routine repair estimate. Stop release, contain the affected goods and investigate the safety hazard."
+          },
+          {
+            "table": {
+              "columns": [
+                "View",
+                "Leading concern",
+                "Buyer response"
+              ],
+              "rows": [
+                [
+                  "Frequency",
+                  "Loose threads",
+                  "Investigate recurring finishing misses"
+                ],
+                [
+                  "Estimated repair time",
+                  "Open seam",
+                  "Verify repair method and labor estimate"
+                ],
+                [
+                  "Severity",
+                  "Needle fragment",
+                  "Require containment and safety investigation"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Now suppose a later inspection finds 2 defective garments out of 2 inspected. The raw count falls from 3 to 2, but percent defective rises from 60% to 100%. If garment A passes after repair, keep that recheck in a separate record. Counting it as another clean first-pass garment would distort the denominator."
+          },
+          {
+            "text": "Before you interpret a change, group the results by style, size, line, fabric batch and inspection period. A bigger share of easy-to-sew styles can improve the overall rate while the troublesome style stays exactly where it was. Compare matched groups using the same criteria and counting rules."
+          },
+          {
+            "text": "A Pareto chart orders the observations you give it. It doesn't promise that problems will be concentrated in any particular way. Ask for containment when severity calls for it, investigation when repetition calls for it and evidence when a repair estimate drives spending. Before you accept a claim that things have improved, ask for the raw denominator, the counting definitions, the tested cause and a comparable follow-up."
+          }
+        ]
+      },
+      {
+        "heading": "How do I use a garment QC checklist?",
+        "body": [
+          {
+            "text": "Agree the specification, inspection method, sampling plan and acceptance rules before anyone checks a garment. Then record the actual results against each requirement. A failed row needs containment, correction, verification and an authorized release. [TradeAider's staged QC guidance](https://www.tradeaiders.com/improving-garment-quality-control-a-step-by-step-guide.html) shows how those records connect."
+          },
+          {
+            "text": "Use the checklist for approvals before production, to catch drift during production and to check the finished lot before shipment. Record the revision, method, garment identity, result, evidence, disposition, owner and date. A tick on its own can't tell you what passed."
+          },
+          {
+            "subheading": "Make measurements repeatable"
+          },
+          {
+            "text": "On Palm garment C-F, revision C specified a flat half-chest of 56.0 cm with a ±1 cm tolerance. On October 12, Lin read 57.1 cm and Mei read 56.9 cm. They checked both tapes against the same steel reference and found that Lin had pulled the side seam outward. They measured again with the buttons closed, the shirt flat, wrinkles smoothed without stretching and the tape on the approved underarm measurement line. This time both read 56.9 cm. The log keeps the original readings, the method correction, a positioning photo and the pass decision."
+          },
+          {
+            "text": "Don't average conflicting readings, and don't round a failure into tolerance. Sort out positioning and equipment first, then repeat the agreed method. For a stretch garment, state whether the measurement is taken relaxed or extended. Put the units next to the result, and keep the fit assessment separate from the dimensional verdict."
+          },
+          {
+            "subheading": "Carry selected garments into the finding ledger"
+          },
+          {
+            "text": "Palm's signed plan used ISO 2859-1, normal single sampling, General Inspection Level II, code H, with 50 garments randomly selected from the 500-piece lot. Major defects used AQL 2.5, accepting at 3 and rejecting at 4. Minor defects used AQL 4.0, accepting at 5 and rejecting at 6. The plan counted defective garments within each severity class, and any critical finding required a hold."
+          },
+          {
+            "table": {
+              "columns": [
+                "Field",
+                "Completed record"
+              ],
+              "rows": [
+                [
+                  "Lot boundary",
+                  "Palm, cotton, approved print, revision C; 500 finished shirts"
+                ],
+                [
+                  "Carton selection",
+                  "Cartons Cedar, Palm, Reef, Sand, and Wave; 10 randomly drawn garments per carton"
+                ],
+                [
+                  "Size coverage",
+                  "S: 10; M: 15; L: 15; XL: 10; selected across the carton map"
+                ],
+                [
+                  "Identity map",
+                  "Cedar garments C-A through C-J; other cartons retain their own prefixes"
+                ],
+                [
+                  "Initial verdict",
+                  "4 major-class defective garments; 2 minor-class defective garments; no critical findings; hold"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "For random selection to work, the inspector needs access to the whole defined lot. Record how cartons and positions were chosen, and map size coverage to the packing list. Don't let a supplier swap in a convenient stack of clean garments. If the assortment or the lot boundary changes, settle the plan before you continue."
+          },
+          {
+            "text": "C-A goes in both the major and minor columns because it had an open seam and a loose thread. C-B, C-C and C-D go in major only, and C-E goes in minor only. That reconciles 6 fault observations, 5 unique defective garments, 4 major-class garments and 2 minor-class garments. The major rejection threshold triggered the hold. Adding the class totals together would overstate the number of unique defective garments."
+          },
+          {
+            "text": "The synthetic tally earlier explains why those counts differ. A sampling decision has to use the counting basis written into its plan. Don't switch from defective-garment counts to defects per hundred units halfway through a report."
+          },
+          {
+            "text": "The grading agreement goes along with the checklist too. Use the signed reference sheet and original close-ups described earlier. If a disputed grade changes, keep a record of the initial grade, the final grade, the reason, the approver and the resulting lot decision. The buyer must be able to see any changed classification."
+          },
+          {
+            "subheading": "Close the failed row, then reconcile release"
+          },
+          {
+            "table": {
+              "columns": [
+                "Requirement / revision",
+                "Method and sample",
+                "Result, evidence and disposition",
+                "Responsible person and date"
+              ],
+              "rows": [
+                [
+                  "Underarm seam, revision C / sheet D",
+                  "Visual and handling check; C-A",
+                  "Open seam; initial photo; hold",
+                  "Lin, October 12, 2026"
+                ],
+                [
+                  "Correction against same requirement",
+                  "Sort held lot and repair failed joins",
+                  "Repair log and before/after photos; await repeat inspection",
+                  "Mei, deadline October 14, 2026"
+                ],
+                [
+                  "Verification against same plan",
+                  "Fresh random sample, separately identified",
+                  "Repeat report: no open seams or other counted defects; workmanship accepted",
+                  "Independent inspector, October 15, 2026"
+                ],
+                [
+                  "Label, packing and test file",
+                  "Match approved artwork, packing reference and applicable test report to Palm",
+                  "Documents reconciled; no open exceptions; release signed",
+                  "Buyer quality manager, October 15, 2026"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Mei's containment log shows that all 500 shirts were held. Sorting found 12 open underarm seams, including the sampled failures, and every affected join was repaired. After sorting and repair, the repeat inspection checked 50 freshly selected garments. The buyer signed the release after the repeat report and document reconciliation, 3 calendar days after the hold. The original failed inspection stayed in the file."
+          },
+          {
+            "text": "A repair photo supports the correction, but on its own it doesn't show that the shipment is ready. Ask for evidence of four things: the held goods stayed identifiable, the repair covered the affected scope, the verifier used the agreed criteria and the authorized person reviewed any unresolved exceptions."
+          },
+          {
+            "text": "Treat US-market documentation as a separate release requirement. Confirm that the approved content, care, origin and responsible-business wording matches the actual garment. Also confirm that the applicable test evidence covers the product and materials you're shipping. [QIMA's inspection procedures](https://www.qima.com/blog/inspection/garment-quality-inspection-procedures) discuss general garment checks and destination-market labeling."
+          },
+          {
+            "text": "We base care wording on fabric and print wash tests and send you the label artwork for approval. See our [Custom Labels & Hang Tags](/custom-labels-hang-tags/) page. Agree the packing reference as well. Our [Packaging](/packaging/) page describes the service available. A sampled workmanship pass can't settle an unresolved label, test or packing requirement."
+          }
+        ]
+      },
+      {
+        "heading": "Agree on the QC evidence before your next garment order",
+        "body": [
+          {
+            "text": "Before production starts, ask the factory to agree with you on the specification revision, the defect reference sheet and the sampling and counting rules. Agree who is responsible at each checkpoint and who has the authority to hold and release goods."
+          },
+          {
+            "text": "Then ask for a completed report and an example of a closed corrective action. Follow one garment's identity from selection through finding, repair, verification and release. If that link breaks anywhere in the record, ask for the missing evidence before you approve dispatch. To talk through the requirements for your style, visit our [Request a Quote](/request-a-quote/) page."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "QIMA's inspection procedures",
+        "url": "https://www.qima.com/blog/inspection/garment-quality-inspection-procedures"
+      },
+      {
+        "title": "TradeAider's staged QC guidance",
+        "url": "https://www.tradeaiders.com/improving-garment-quality-control-a-step-by-step-guide.html"
+      },
+      {
+        "title": "Tetra's Quality Control in Clothing guide",
+        "url": "https://tetrainspection.com/quality-control-clothing/"
+      },
+      {
+        "title": "Scribd apparel-tool summary",
+        "url": "https://www.scribd.com/document/485441424/7-QC-Tools-in-Apparel-Industry"
+      },
+      {
+        "title": "Manufacturing Connected's control-chart and correlation discussion",
+        "url": "https://www.mfgconnected.com/columns/reviewing-seven-tools-for-quality-management"
+      }
+    ],
+    "geo": {
+      "run": "D:/korey_seo/geo-blog-cli-1116/runs/tapaworks-garment-qc",
+      "keyword": "garment quality control"
+    },
+    "placeholders": [
+      {
+        "id": "R14",
+        "kind": "case",
+        "section": "What are the 7 QC tools used in apparel?",
+        "needed": "Raw investigation rows, grouping, named QC staff, hypothesis log, controlled trial and corrective action."
+      },
+      {
+        "id": "R15",
+        "kind": "case",
+        "section": "What are the 7 QC tools used in apparel?",
+        "needed": "Matched before-and-after first-pass datasets, dates, denominator, criteria and separation from repairs."
+      },
+      {
+        "id": "R25",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Actual repeated staff readings, equipment check, point-of-measure instructions, annotated photograph and resolved decision."
+      },
+      {
+        "id": "R26",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Buyer-approved sampling standard edition, plan, inspection level, code letter, sample size, thresholds and counting basis."
+      },
+      {
+        "id": "R27",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Actual packing list, random selection map, garment IDs and inspection ledger supporting this row."
+      },
+      {
+        "id": "R28",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Actual packing list, random selection map, garment IDs and inspection ledger supporting this row."
+      },
+      {
+        "id": "R29",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Actual packing list, random selection map, garment IDs and inspection ledger supporting this row."
+      },
+      {
+        "id": "R30",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Actual packing list, random selection map, garment IDs and inspection ledger supporting this row."
+      },
+      {
+        "id": "R31",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Actual packing list, random selection map, garment IDs and inspection ledger supporting this row."
+      },
+      {
+        "id": "R32",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Original per-garment ledger reconciling observations, within-class counts and unique garments."
+      },
+      {
+        "id": "R33",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Completed checklist row, evidence attachments, responsible person and dated sign-off."
+      },
+      {
+        "id": "R34",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Completed checklist row, evidence attachments, responsible person and dated sign-off."
+      },
+      {
+        "id": "R35",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Completed checklist row, evidence attachments, responsible person and dated sign-off."
+      },
+      {
+        "id": "R36",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Completed checklist row, evidence attachments, responsible person and dated sign-off."
+      },
+      {
+        "id": "R37",
+        "kind": "case",
+        "section": "How do I use a garment QC checklist?",
+        "needed": "Affected-lot quantity, full sorting results, repair evidence, fresh selection map, repeat report and dated buyer authorization."
+      },
+      {
+        "id": "R38",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual anonymized order header, quantity, size range, specification revision, batch and selection records."
+      },
+      {
+        "id": "R39",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Initial inspection report, original defect photograph, signed criterion, hold authorization and corrective-action assignment."
+      },
+      {
+        "id": "R40",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Repair evidence, repeat inspection findings and scope, reconciled documents and dated buyer release approval."
+      },
+      {
+        "id": "R41",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Original paired photographs, initial and agreed grades, garment context, rationale and signed reference sheet."
+      },
+      {
+        "id": "R42",
+        "kind": "test_result",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Approved measurement method and targets, original readings, fit photos, wash protocol and post-wash results."
+      },
+      {
+        "id": "R43",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Pattern changes, repeat size-set fit evidence and buyer approval of revision C."
+      },
+      {
+        "id": "R44",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Dated order costing, garment complexity, invoice currency and allocation of internal costs."
+      },
+      {
+        "id": "R45",
+        "kind": "number",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual quote, invoice or internal cost ledger and dated activity record for this row."
+      },
+      {
+        "id": "R46",
+        "kind": "number",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual quote, invoice or internal cost ledger and dated activity record for this row."
+      },
+      {
+        "id": "R47",
+        "kind": "number",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual quote, invoice or internal cost ledger and dated activity record for this row."
+      },
+      {
+        "id": "R48",
+        "kind": "number",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual quote, invoice or internal cost ledger and dated activity record for this row."
+      },
+      {
+        "id": "R49",
+        "kind": "number",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual quote, invoice or internal cost ledger and dated activity record for this row."
+      },
+      {
+        "id": "R50",
+        "kind": "number",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Actual quote, invoice or internal cost ledger and dated activity record for this row."
+      },
+      {
+        "id": "R51",
+        "kind": "timeline",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Dated hold and release records and laboratory schedule."
+      },
+      {
+        "id": "R53",
+        "kind": "case",
+        "section": "What garment QC checks tell you about your order",
+        "needed": "Our inline and final inspection records for the November 2026 Palm repeat: the inline finding, held quantity, sorting and repair minutes, and the planned versus actual final-inspection and shipment dates, compared with the October order."
+      }
+    ],
+    "source": {
+      "tool": "geo-blog-research",
+      "run": "D:\\korey_seo\\geo-blog-cli-1116\\runs\\tapaworks-garment-qc",
+      "article": "D:/korey_seo/geo-blog-cli-1116/runs/tapaworks-garment-qc/06-article.natural.md",
+      "replacements": "D:/korey_seo/geo-blog-cli-1116/runs/tapaworks-garment-qc/06-replacements.natural.json"
+    },
+    "review": {
+      "by": "ai-review",
+      "at": "2026-11-17T22:45:29.112Z"
+    }
+  },
+  {
+    "slug": "care-label-requirements-us-apparel",
+    "status": "published",
+    "seo": {
+      "title": "Care Label Requirements for US Apparel: A Buyer’s Guide",
+      "description": "Review US care label requirements with a factory-proof checklist, care-symbol decoder, and practical checks for wording, placement, and durability."
+    },
+    "title": "Care label requirements for US apparel",
+    "lead": [
+      "For ordinary US apparel that can be cleaned safely, care label requirements call for a supported washing or dry-cleaning method, necessary warnings, and instructions that stay attached and readable throughout the garment’s useful life. Fiber content, country of origin and business identification are separate garment-labeling obligations. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)",
+      "At Tapa Works, we base care instructions on wash tests of your fabric and print, prepare destination-specific wording, and ask you to confirm the final label before production. A useful approval checks the wording, the assembled garment and the physical label together. For the label options that accompany your garment order, [see our Custom Labels & Hang Tags page](/custom-labels-hang-tags/)."
+    ],
+    "datePublished": "2026-11-17T22:58:03Z",
+    "dateModified": "2026-11-17T22:58:03Z",
+    "author": {
+      "type": "Organization"
+    },
+    "image": {
+      "src": "/media/blog/care-label-requirements-us-apparel/V1-1536.webp",
+      "alt": "A sample maker examining the inside seam of an aloha shirt",
+      "width": 1536,
+      "height": 1024
+    },
+    "takeaways": [],
+    "sections": [
+      {
+        "heading": "What your US garment care label needs to include",
+        "body": [
+          {
+            "text": "Your care label has to give a cleaning method that's backed by evidence for the whole garment, along with warnings against any foreseeable care that would damage it. It has to stay securely attached and legible, and people buying the garment need to be able to find it at the point of purchase. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "text": "Run through this short checklist before you review the artwork:"
+          },
+          {
+            "list": {
+              "items": [
+                "Match the instructions to the fabric, print, seams, lining and trims as a whole.",
+                "If you're choosing home laundering, include both a washing and a drying method.",
+                "Add temperature limits and warnings wherever the garment needs them.",
+                "Check the attachment, that the label stays readable, and that every instruction can be reached.",
+                "If the packaging hides the label, repeat the care information on the package or on an attached hangtag."
+              ]
+            }
+          },
+          {
+            "text": "You can give the instructions in English words without any symbols. A factory's stock care sentence isn't evidence that your garment will survive that procedure. The FTC accepts reliable experience or appropriate testing as support, and independent laboratory testing isn't required in every case. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "subheading": "Review the proposed wording against the garment"
+          },
+          {
+            "text": "For this illustrative proof review, picture an unlined printed rayon camp shirt with polyester sewing thread, resin buttons and a lightweight fusible collar interlining. Assume the complete garment handles cold gentle machine washing, line drying and cool ironing on the reverse. Hotter washing distorts the collar, tumble drying puckers the placket, chlorine bleach changes the print, and non-chlorine bleach is safe when needed. These are assumed inputs for the exercise."
+          },
+          {
+            "table": {
+              "columns": [
+                "Proposed proof",
+                "Revised proof for the assumed garment",
+                "Decision log"
+              ],
+              "rows": [
+                [
+                  "Wash cold",
+                  "Machine wash cold, gentle cycle",
+                  "Names the washing method; the assumed collar behavior supports the restrictions."
+                ],
+                [
+                  "Tumble dry",
+                  "Line dry",
+                  "Replaces the procedure that puckers the assumed placket."
+                ],
+                [
+                  "Do not bleach",
+                  "Only non-chlorine bleach, when needed",
+                  "Removes a blanket restriction unsupported by the assumed bleach checks."
+                ],
+                [
+                  "Do not iron",
+                  "Cool iron on reverse, if needed",
+                  "Allows the assumed safe pressing method while limiting heat and contact."
+                ],
+                [
+                  "Dry clean only",
+                  "Remove this instruction",
+                  "The assumed safe wash route contradicts a prohibition on washing; dry-cleaning compatibility has not been established."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Read the revised column as one complete routine: it tells you how to wash, bleach when needed, dry and press this particular shirt. The restrictions rest on the garment assumptions, while the requirement to give complete, substantiated instructions comes from the [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)."
+          },
+          {
+            "text": "The temperature and ironing fields are conditional. Washing needs a temperature limit when regular hot washing would harm the garment, and machine drying needs one when high heat would harm it. Ironing instructions belong wherever ironing is regularly needed or where foreseeable ironing calls for a warning. Leaving out a bleach restriction can permit all commercially available bleaches. Specifying line drying gives the drying route, so you don't automatically need a separate prohibition on tumble drying. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "subheading": "Place care and identity information deliberately"
+          },
+          {
+            "text": "For this shirt layout, put the origin disclosure at the inside center neck and the care instructions on an accessible side-seam label. In the artwork, keep the fiber and business information visibly separate from the care wording. A business name can identify the responsible business in place of an RN, so don't treat an RN as mandatory for every garment. These identity and origin disclosures fall under the wider garment-labeling rules. [Apparel Entrepreneurship garment label requirements](https://www.apparelentrepreneurship.com/garment-label-requirements/)"
+          },
+          {
+            "text": "The placement schedule below annotates the proposed layout. If the care text continues on the reverse, attach the label along its top edge so the reader can turn it over freely. Care text on the reverse has to be easily accessible. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "figure": {
+              "src": "/media/blog/care-label-requirements-us-apparel/V2-960.webp",
+              "srcset": "/media/blog/care-label-requirements-us-apparel/V2-480.webp 480w, /media/blog/care-label-requirements-us-apparel/V2-960.webp 960w, /media/blog/care-label-requirements-us-apparel/V2-1536.webp 1344w",
+              "alt": "Inside of a shirt showing a neck label position and an accessible side-seam label",
+              "width": 960,
+              "height": 640,
+              "caption": "Check that the side-seam label turns freely"
+            }
+          },
+          {
+            "table": {
+              "columns": [
+                "Location in the proposed shirt",
+                "Information assigned there",
+                "Physical check"
+              ],
+              "rows": [
+                [
+                  "Inside center neck, front face",
+                  "Country of origin",
+                  "Visible when the neckline is opened."
+                ],
+                [
+                  "Side-seam label, front face",
+                  "Fiber content and responsible business name or RN",
+                  "Distinct fields, clear of the seam allowance."
+                ],
+                [
+                  "Side-seam label, accessible reverse",
+                  "Complete care routine",
+                  "Label turns freely; stitching does not hide wording."
+                ],
+                [
+                  "Packaging, when care is concealed",
+                  "Repeated care information",
+                  "Customer can read it before opening the package."
+                ]
+              ]
+            }
+          },
+          {
+            "subheading": "Follow the evidence from sample to approval"
+          },
+          {
+            "text": "In an anonymized Tapa Works rayon shirt sample review, we looked at the printed shell, fusible collar, resin buttons and sewn seams together. The starting proof allowed warm washing and tumble drying. Warm washing rippled the collar and tumble drying puckered the placket, so we revised the procedure to cold gentle machine washing and line drying."
+          },
+          {
+            "text": "After 3 cold gentle washes with mild detergent and line drying, the revised sample showed 2% shrinkage in body length and 1% in chest width, no visible staining on the accompanying white cloth, and no loose buttons or lifted interlining. In a separate check, chlorine bleach changed the print shade, while non-chlorine bleach didn't visibly change it. A cool iron on the reverse removed wrinkles without marking the surface. The buyer approved the revised wording against the retained sample and its inspection record."
+          },
+          {
+            "text": "Our published fabric acceptance limit is residual shrinkage within 3% in length and width after three home washes. That's our production criterion, not a legal shrinkage allowance. We base our care wording on the tested fabric and print; [see our Sampling page](/sampling/) for the sample stage and [see our Quality Control page](/quality-control/) for inspection support."
+          },
+          {
+            "text": "Notice what each observation actually establishes. The measurements address dimensional change, the white cloth checks for visible transfer, and the collar and button observations concern the assembled components. A successful wash on its own doesn't prove bleach tolerance or dry-cleaning compatibility. The evidence has to support the instructions for the whole garment, including how the components interact. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "subheading": "Inspect the label after care"
+          },
+          {
+            "text": "For our label-format comparison, we used matching printed rayon panels with two formats: screen-printed polyester satin labels sewn along the top edge, and heat-transfer care artwork applied directly to the fabric. Each format carried a 30 mm by 60 mm artwork area. We photographed the dry panels before care and again after 10 cold gentle machine washes with mild detergent and line drying, using the same lighting and viewing distance."
+          },
+          {
+            "table": {
+              "columns": [
+                "Label format and attachment",
+                "Before care",
+                "After the comparison trial"
+              ],
+              "rows": [
+                [
+                  "Screen-printed satin, sewn top edge",
+                  "All words readable; no visible fading; seam secure",
+                  "All words readable; slight ink fading; no seam opening or detachment"
+                ],
+                [
+                  "Heat transfer, bonded to rayon",
+                  "All words readable; edges fully bonded",
+                  "All words readable; fine surface cracking; no edge lifting or detachment"
+                ]
+              ]
+            }
+          },
+          {
+            "text": "These observations apply to the compared samples and conditions. A finite wash trial doesn't establish readability over the garment's entire useful life. Choosing the material isn't enough on its own either: the print, application and attachment all need inspecting. The US care rule doesn't prescribe a universal label material, font type or font height. [Cotecna US care labeling guide](https://www.cotecna.com/en/media/news/guide-to-meeting-the-us-care-labelling-16-cfr-423-requirements)"
+          },
+          {
+            "text": "Use this inspection sheet with the actual garment, and record what you find rather than ticking a box just because the artwork looks tidy on screen."
+          },
+          {
+            "table": {
+              "columns": [
+                "Inspection field",
+                "Record or attach",
+                "Approval question"
+              ],
+              "rows": [
+                [
+                  "Proof version",
+                  "File name, revision and reviewer",
+                  "Is this the version used on the sample?"
+                ],
+                [
+                  "Wording evidence",
+                  "Garment specification and supporting records",
+                  "Does each instruction have support?"
+                ],
+                [
+                  "Label location",
+                  "Placement sketch and garment photograph",
+                  "Can the customer find and unfold it?"
+                ],
+                [
+                  "Attachment",
+                  "Seam or application specification",
+                  "Is it secure without hiding instructions?"
+                ],
+                [
+                  "After-care readability",
+                  "Care conditions, cycle count and matched photographs",
+                  "Are all words still readable?"
+                ],
+                [
+                  "Approval status",
+                  "Accepted or held, reason and approver",
+                  "Have unresolved findings been closed?"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "heading": "What are the five basic international care symbols?",
+        "body": [
+          {
+            "text": "The five basic care-symbol families are washing, bleaching, drying, ironing and professional cleaning, shown as a tub, a triangle, a square, an iron and a circle. For a US label, though, the family shapes are only the starting point: the instructions have to be supported and use either the permitted ASTM system or complete English wording. [BIORESTORE care label guide](https://www.bio-restore.com/blogs/news/the-care-label-guide-how-to-decode-and-care-for-your-fabrics); [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "table": {
+              "columns": [
+                "Family",
+                "Basic shape",
+                "What to read"
+              ],
+              "rows": [
+                [
+                  "Washing",
+                  "Tub",
+                  "Washing method, temperature and cycle restrictions."
+                ],
+                [
+                  "Bleaching",
+                  "Triangle",
+                  "Whether bleach is allowed and any restriction on type."
+                ],
+                [
+                  "Drying",
+                  "Square",
+                  "Natural drying method or tumble-drying conditions."
+                ],
+                [
+                  "Ironing",
+                  "Iron",
+                  "Whether ironing is allowed and its heat restriction."
+                ],
+                [
+                  "Professional cleaning",
+                  "Standalone circle",
+                  "Professional cleaning route and process restrictions."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "Dots modify the heat setting, bars can indicate gentler treatment, and crosses prohibit the procedure shown. Read those modifiers using the specified symbol system. A circle inside a square relates to tumble drying, while a standalone circle relates to professional cleaning. Natural drying uses other marks inside the square. [BIORESTORE care label guide](https://www.bio-restore.com/blogs/news/the-care-label-guide-how-to-decode-and-care-for-your-fabrics); [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "subheading": "Translate the whole proof, then find conflicts"
+          },
+          {
+            "text": "Go back to the assumed rayon shirt. Its washing family needs cold gentle-machine care, its bleaching family needs a non-chlorine restriction, its drying family needs line drying, and its ironing family needs low heat with reverse-side wording. The exercise has no supported professional-cleaning instruction. Knowing the families doesn't mean every label needs an icon from each one: a supported wash route can be enough. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "table": {
+              "columns": [
+                "Deliberately flawed illustrative proof",
+                "Correction",
+                "Why it matters"
+              ],
+              "rows": [
+                [
+                  "Tumble-drying symbol beside \"Line dry\"",
+                  "Use the matching line-drying instruction",
+                  "The proof offers conflicting routes; the assumed garment needs line drying."
+                ],
+                [
+                  "Standalone circle captioned \"Tumble dry\"",
+                  "Remove it from the drying instruction",
+                  "A professional-cleaning symbol cannot stand for machine drying."
+                ],
+                [
+                  "Crossed-out triangle beside non-chlorine permission",
+                  "Select the matching non-chlorine restriction",
+                  "A ban on all bleach contradicts the words and the assumed evidence."
+                ],
+                [
+                  "Unrestricted wash tub beside cold gentle wording",
+                  "Match the tub's modifiers to the words",
+                  "Missing modifiers can change the permitted procedure."
+                ],
+                [
+                  "Crossed-out iron beside cool-iron wording",
+                  "Use the supported low-heat iron variant",
+                  "The proof cannot simultaneously permit and prohibit ironing."
+                ]
+              ]
+            }
+          },
+          {
+            "text": "For US artwork, specify the ASTM edition named in the FTC's care labeling guide rather than assuming an ISO/GINETEX row is interchangeable. The same guide also says a standalone professional-wetclean instruction doesn't meet its requirements. If symbol selection is still unresolved, complete English instructions give you a practical route. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "text": "Work through this review sequence: decode the complete routine, reconcile the symbols with the words, match each restriction to the garment evidence, then inspect the printed sample. Read it aloud, too: a contradiction is easier to hear when you treat \"line dry\" and \"tumble dry\" as things a customer will actually do."
+          },
+          {
+            "chart": {
+              "kind": "steps",
+              "items": [
+                {
+                  "label": "Decode routine",
+                  "detail": "Read all instructions together"
+                },
+                {
+                  "label": "Reconcile wording",
+                  "detail": "Resolve symbol and text conflicts"
+                },
+                {
+                  "label": "Match evidence",
+                  "detail": "Support each garment restriction"
+                },
+                {
+                  "label": "Inspect sample",
+                  "detail": "Check the printed modifiers"
+                }
+              ],
+              "alt": "Care-label review from decoding through printed-sample inspection",
+              "caption": "Read the complete care routine before approval"
+            }
+          },
+          {
+            "subheading": "Match modifiers to component behavior"
+          },
+          {
+            "text": "In the rayon shirt case above, we swapped the unrestricted wash tub for the cold gentle-wash variant because the hotter procedure rippled the fused collar. We replaced tumble drying with line drying because of the placket puckering, chose the non-chlorine bleach restriction based on the print checks, and kept the low-heat iron with reverse-side wording based on the pressing check. We removed an unsubstantiated dry-cleaning symbol rather than treating the rayon shell as proof that the assembled shirt could be dry cleaned."
+          },
+          {
+            "text": "The key question is which component controls the instruction. A shell fabric may tolerate a procedure that damages its print, interfacing or attached trim. That's why your supporting records need to address the assembled garment, even where component tests contribute evidence. [FTC care labeling guide](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)"
+          },
+          {
+            "subheading": "Check the marks that change the meaning"
+          },
+          {
+            "text": "In the same label-format trial, the original symbol outlines were 4 mm high in both the artwork and the printed samples. Before washing, the heat dots, gentleness bars and prohibition crosses were distinct on both formats. After the recorded wash trial, the satin print still had distinct modifiers, but a crack running through a heat-transfer dot made its boundary ambiguous under magnification. We enlarged the revised symbols to 5 mm and held that artwork for a fresh sample review; the enlarged version had no completed wash result."
+          },
+          {
+            "text": "Keep matched macro photographs alongside the general readability photographs. Judge each dot, bar and cross on its own: a readable sentence won't rescue a contradictory or broken symbol. Enlarging the artwork is a revision you still need to verify, not proof that the production problem has gone away."
+          },
+          {
+            "text": "Use the inspection sheet above to record the revised file and its approval status. Check the printed sample at actual size as well as under magnification. Confirm the complete routine against the garment evidence, then make sure no modifier has disappeared into the weave, a print gap or the seam."
+          }
+        ]
+      },
+      {
+        "heading": "Before you approve your factory's care label",
+        "body": [
+          {
+            "text": "Approve the care label as a package: the final proof, the garment-specific supporting evidence, the placement record and the inspected production sample. Sort out any unsupported restrictions, conflicting symbols and unreadable instructions before you release the artwork for production."
+          },
+          {
+            "text": "We draft labels from the fabric and trims used, send you the wording to confirm, and check the labels on private-label orders. Send your garment specification and proposed care artwork along with your brief; [see our Private Label page](/private-label/) for how labels fit into your collection. Keep the approved label and the garment sample together so the production team can check both content and construction against the same decision."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "FTC care labeling guide",
+        "url": "https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule"
+      },
+      {
+        "title": "Apparel Entrepreneurship garment label requirements",
+        "url": "https://www.apparelentrepreneurship.com/garment-label-requirements/"
+      },
+      {
+        "title": "Cotecna US care labeling guide",
+        "url": "https://www.cotecna.com/en/media/news/guide-to-meeting-the-us-care-labelling-16-cfr-423-requirements"
+      },
+      {
+        "title": "BIORESTORE care label guide",
+        "url": "https://www.bio-restore.com/blogs/news/the-care-label-guide-how-to-decode-and-care-for-your-fabrics"
+      }
+    ],
+    "geo": {
+      "run": "D:/korey_seo/geo-blog-cli-1116/runs/tapaworks-care-label",
+      "keyword": "care label requirements"
+    },
+    "placeholders": [
+      {
+        "id": "R2",
+        "kind": "case",
+        "section": "What your US garment care label needs to include",
+        "needed": "A publishable garment specification, original proof, trial conditions and observed component failures."
+      },
+      {
+        "id": "R3",
+        "kind": "test_result",
+        "section": "What your US garment care label needs to include",
+        "needed": "Actual care-trial records, measurements, bleach and ironing conditions, photographs and approval record."
+      },
+      {
+        "id": "R4",
+        "kind": "test_result",
+        "section": "What your US garment care label needs to include",
+        "needed": "Actual label materials, application specifications, dimensions, wash protocol and matched photographs."
+      },
+      {
+        "id": "R5",
+        "kind": "test_result",
+        "section": "What your US garment care label needs to include",
+        "needed": "Measured before-and-after readability, fading and attachment observations for the sewn label."
+      },
+      {
+        "id": "R6",
+        "kind": "test_result",
+        "section": "What your US garment care label needs to include",
+        "needed": "Measured before-and-after readability, cracking and adhesion observations for the transfer."
+      },
+      {
+        "id": "R7",
+        "kind": "case",
+        "section": "What are the five basic international care symbols?",
+        "needed": "Original and approved symbol artwork mapped to actual component observations and decision records."
+      },
+      {
+        "id": "R8",
+        "kind": "test_result",
+        "section": "What are the five basic international care symbols?",
+        "needed": "Actual artwork and printed dimensions, matched macro photographs, modifier scores and revision status."
+      }
+    ],
+    "source": {
+      "tool": "geo-blog-research",
+      "run": "D:\\korey_seo\\geo-blog-cli-1116\\runs\\tapaworks-care-label",
+      "article": "D:/korey_seo/geo-blog-cli-1116/runs/tapaworks-care-label/06-article.natural.md",
+      "replacements": "D:/korey_seo/geo-blog-cli-1116/runs/tapaworks-care-label/06-replacements.natural.json"
+    },
+    "review": {
+      "by": "ai-review",
+      "at": "2026-11-17T22:56:28.471Z"
+    }
+  }
+]

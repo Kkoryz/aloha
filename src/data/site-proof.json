@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": "seo-site-proof-v1",
+  "standIn": true,
+  "note": "Stand-in proof (scripts/scaffold-site-proof.mjs): replace with real, permitted values before launch; listed in docs/research/release-signoff.json. The order terms are the approved facts.",
+  "headings": {
+    "factory": "Our factory in figures",
+    "certifications": "Certified production",
+    "clients": "Brands we make for",
+    "caseStudies": "Client projects",
+    "testimonials": "What buyers say",
+    "history": "Our story",
+    "terms": "Order terms at a glance",
+    "orderRoutes": "Ways to start your order",
+    "team": "Meet the team"
+  },
+  "factory": [
+    {
+      "value": "13",
+      "label": "sewing lines",
+      "fromCopy": "/bulk-production/"
+    },
+    {
+      "value": "290",
+      "label": "staff",
+      "fromCopy": "/product-development/"
+    },
+    {
+      "value": "150,000 pcs",
+      "label": "hawaiian shirt pieces a month"
+    }
+  ],
+  "certifications": [],
+  "clients": [
+    {
+      "name": "Gullwing & Co.",
+      "note": "Hawaiian shirt, USA"
+    },
+    {
+      "name": "Juno Shore",
+      "note": "Hawaiian shirt, Portugal"
+    },
+    {
+      "name": "Tidewell Atelier",
+      "note": "Hawaiian shirt, Italy"
+    },
+    {
+      "name": "Pebbleworks Basics",
+      "note": "Hawaiian shirt, Netherlands"
+    },
+    {
+      "name": "Estuary Collective",
+      "note": "Hawaiian shirt, Denmark"
+    },
+    {
+      "name": "Harbour Knit Supply",
+      "note": "Hawaiian shirt, Australia"
+    }
+  ],
+  "clientsFor": "Tapa Works",
+  "testimonials": [
+    {
+      "headline": "Samples that match the tech pack",
+      "quote": "Our big & tall aloha shirts samples matched the tech pack on the second round, and the bulk order followed the approved sample.",
+      "author": "Founder",
+      "company": "Gullwing & Co.",
+      "country": "USA",
+      "pages": [
+        "/big-and-tall-aloha-shirt-manufacturer/"
+      ]
+    },
+    {
+      "headline": "Clear on price, clear on dates",
+      "quote": "Every quote listed the sample, pattern and bulk costs separately, and our women's hawaiian shirts order shipped inside the agreed window.",
+      "author": "Head of product",
+      "company": "Juno Shore",
+      "country": "Portugal",
+      "pages": [
+        "/women-s-hawaiian-shirt-manufacturer/"
+      ]
+    },
+    {
+      "headline": "Room to start small",
+      "quote": "We started with a small first order of resort dresses to test the market and reordered the same styles within a season.",
+      "author": "Buyer",
+      "company": "Tidewell Atelier",
+      "country": "Italy",
+      "pages": [
+        "/resort-dress-manufacturer/"
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "A private-label big & tall aloha shirts range from tech pack to reorder",
+      "summary": "Big & tall aloha shirts styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/big-and-tall-aloha-shirt-manufacturer/",
+      "pages": [
+        "/big-and-tall-aloha-shirt-manufacturer/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Women's hawaiian shirts in six colourways",
+      "summary": "A core women's hawaiian shirts programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/women-s-hawaiian-shirt-manufacturer/",
+      "pages": [
+        "/women-s-hawaiian-shirt-manufacturer/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "A capsule launch in resort dresses",
+      "summary": "A small first run of resort dresses in the brand's own designs, with colour samples approved before production.",
+      "results": [
+        {
+          "value": "4",
+          "label": "styles in the capsule"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "12 days",
+          "label": "sample to approval"
+        }
+      ],
+      "href": "/resort-dress-manufacturer/",
+      "pages": [
+        "/resort-dress-manufacturer/"
+      ]
+    },
+    {
+      "client": "Department store buyer",
+      "market": "Toronto, Canada",
+      "title": "A private-label hawaiian dresses range from tech pack to reorder",
+      "summary": "Hawaiian dresses styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/hawaiian-dress-manufacturer/",
+      "pages": [
+        "/hawaiian-dress-manufacturer/"
+      ]
+    },
+    {
+      "client": "Designer launching a first collection",
+      "market": "Paris, France",
+      "title": "Muumuu dresses in six colourways",
+      "summary": "A core muumuu dresses programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/muumuu-dress-manufacturer/",
+      "pages": [
+        "/muumuu-dress-manufacturer/"
+      ]
+    },
+    {
+      "client": "Wholesale distributor",
+      "market": "Dubai, UAE",
+      "title": "A capsule launch in swimwear",
+      "summary": "A small first run of swimwear in the brand's own designs, with colour samples approved before production.",
+      "results": [
+        {
+          "value": "4",
+          "label": "styles in the capsule"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "12 days",
+          "label": "sample to approval"
+        }
+      ],
+      "href": "/swimwear-manufacturer/",
+      "pages": [
+        "/swimwear-manufacturer/"
+      ]
+    },
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "A private-label boardshorts range from tech pack to reorder",
+      "summary": "Boardshorts styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/boardshorts-manufacturer/",
+      "pages": [
+        "/boardshorts-manufacturer/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Swim trunks in six colourways",
+      "summary": "A core swim trunks programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/swim-trunks-manufacturer/",
+      "pages": [
+        "/swim-trunks-manufacturer/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "A capsule launch in bikinis",
+      "summary": "A small first run of bikinis in the brand's own designs, with colour samples approved before production.",
+      "results": [
+        {
+          "value": "4",
+          "label": "styles in the capsule"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "12 days",
+          "label": "sample to approval"
+        }
+      ],
+      "href": "/bikini-manufacturer/",
+      "pages": [
+        "/bikini-manufacturer/"
+      ]
+    },
+    {
+      "client": "Department store buyer",
+      "market": "Toronto, Canada",
+      "title": "A private-label one-piece swimsuits range from tech pack to reorder",
+      "summary": "One-piece swimsuits styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/one-piece-swimsuit-manufacturer/",
+      "pages": [
+        "/one-piece-swimsuit-manufacturer/"
+      ]
+    },
+    {
+      "client": "Designer launching a first collection",
+      "market": "Paris, France",
+      "title": "Kids' hawaiian clothing in six colourways",
+      "summary": "A core kids' hawaiian clothing programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/kids-hawaiian-clothing-manufacturer/",
+      "pages": [
+        "/kids-hawaiian-clothing-manufacturer/"
+      ]
+    },
+    {
+      "client": "Wholesale distributor",
+      "market": "Dubai, UAE",
+      "title": "A capsule launch in boys' hawaiian shirts",
+      "summary": "A small first run of boys' hawaiian shirts in the brand's own designs, with colour samples approved before production.",
+      "results": [
+        {
+          "value": "4",
+          "label": "styles in the capsule"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "12 days",
+          "label": "sample to approval"
+        }
+      ],
+      "href": "/boys-hawaiian-shirt-manufacturer/",
+      "pages": [
+        "/boys-hawaiian-shirt-manufacturer/"
+      ]
+    },
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "A private-label baby hawaiian clothing range from tech pack to reorder",
+      "summary": "Baby hawaiian clothing styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/baby-hawaiian-clothing-manufacturer/",
+      "pages": [
+        "/baby-hawaiian-clothing-manufacturer/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Kids' hawaiian tops in six colourways",
+      "summary": "A core kids' hawaiian tops programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/kids-hawaiian-top-manufacturer/",
+      "pages": [
+        "/kids-hawaiian-top-manufacturer/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "A capsule launch in kids' hawaiian dresses",
+      "summary": "A small first run of kids' hawaiian dresses in the brand's own designs, with colour samples approved before production.",
+      "results": [
+        {
+          "value": "4",
+          "label": "styles in the capsule"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "12 days",
+          "label": "sample to approval"
+        }
+      ],
+      "href": "/kids-hawaiian-dress-manufacturer/",
+      "pages": [
+        "/kids-hawaiian-dress-manufacturer/"
+      ]
+    },
+    {
+      "client": "Department store buyer",
+      "market": "Toronto, Canada",
+      "title": "A private-label hawaiian uniform shirts range from tech pack to reorder",
+      "summary": "Hawaiian uniform shirts styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/hawaiian-uniform-shirt-manufacturer/",
+      "pages": [
+        "/hawaiian-uniform-shirt-manufacturer/"
+      ]
+    },
+    {
+      "client": "Designer launching a first collection",
+      "market": "Paris, France",
+      "title": "Aloha work uniforms in six colourways",
+      "summary": "A core aloha work uniforms programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/aloha-work-uniform-manufacturer/",
+      "pages": [
+        "/aloha-work-uniform-manufacturer/"
+      ]
+    },
+    {
+      "client": "Wholesale distributor",
+      "market": "Dubai, UAE",
+      "title": "A capsule launch in accessories",
+      "summary": "A small first run of accessories in the brand's own designs, with colour samples approved before production.",
+      "results": [
+        {
+          "value": "4",
+          "label": "styles in the capsule"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "12 days",
+          "label": "sample to approval"
+        }
+      ],
+      "href": "/accessories-manufacturer/",
+      "pages": [
+        "/accessories-manufacturer/"
+      ]
+    },
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "A private-label beach towels range from tech pack to reorder",
+      "summary": "Beach towels styles developed from the brand's tech packs, graded across the size range and approved in two sample rounds before bulk.",
+      "results": [
+        {
+          "value": "1,800",
+          "label": "pieces in the first order"
+        },
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "38 days",
+          "label": "bulk production"
+        }
+      ],
+      "href": "/beach-towel-manufacturer/",
+      "pages": [
+        "/beach-towel-manufacturer/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Sarongs in six colourways",
+      "summary": "A core sarongs programme with the brand's own labels and retail packs, sampled once and repeated each season.",
+      "results": [
+        {
+          "value": "6",
+          "label": "colourways"
+        },
+        {
+          "value": "4,200",
+          "label": "pieces a season"
+        },
+        {
+          "value": "3",
+          "label": "repeat orders"
+        }
+      ],
+      "href": "/sarong-manufacturer/",
+      "pages": [
+        "/sarong-manufacturer/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "Product development for a first collection",
+      "summary": "Product development brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/product-development/",
+      "pages": [
+        "/product-development/"
+      ]
+    },
+    {
+      "client": "Department store buyer",
+      "market": "Toronto, Canada",
+      "title": "Quality control carried through every reorder",
+      "summary": "Quality control set up once and kept the same across each reorder of the range.",
+      "results": [
+        {
+          "value": "3",
+          "label": "reorders"
+        },
+        {
+          "value": "8",
+          "label": "styles"
+        },
+        {
+          "value": "1",
+          "label": "approval round"
+        }
+      ],
+      "href": "/quality-control/",
+      "pages": [
+        "/quality-control/"
+      ]
+    },
+    {
+      "client": "Designer launching a first collection",
+      "market": "Paris, France",
+      "title": "Hawaiian fabrics for a seasonal range",
+      "summary": "Hawaiian fabrics planned with the season's styles and delivered with the bulk order.",
+      "results": [
+        {
+          "value": "6",
+          "label": "styles"
+        },
+        {
+          "value": "1,500",
+          "label": "pieces"
+        },
+        {
+          "value": "6 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/hawaiian-fabrics/",
+      "pages": [
+        "/hawaiian-fabrics/"
+      ]
+    },
+    {
+      "client": "Wholesale distributor",
+      "market": "Dubai, UAE",
+      "title": "Customization for a first collection",
+      "summary": "Customization brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/customization/",
+      "pages": [
+        "/customization/"
+      ]
+    },
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "Bulk production carried through every reorder",
+      "summary": "Bulk production set up once and kept the same across each reorder of the range.",
+      "results": [
+        {
+          "value": "3",
+          "label": "reorders"
+        },
+        {
+          "value": "8",
+          "label": "styles"
+        },
+        {
+          "value": "1",
+          "label": "approval round"
+        }
+      ],
+      "href": "/bulk-production/",
+      "pages": [
+        "/bulk-production/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Embroidery for a seasonal range",
+      "summary": "Embroidery planned with the season's styles and delivered with the bulk order.",
+      "results": [
+        {
+          "value": "6",
+          "label": "styles"
+        },
+        {
+          "value": "1,500",
+          "label": "pieces"
+        },
+        {
+          "value": "6 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/embroidery/",
+      "pages": [
+        "/embroidery/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "Packaging for a first collection",
+      "summary": "Packaging brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/packaging/",
+      "pages": [
+        "/packaging/"
+      ]
+    },
+    {
+      "client": "Department store buyer",
+      "market": "Toronto, Canada",
+      "title": "Sampling carried through every reorder",
+      "summary": "Sampling set up once and kept the same across each reorder of the range.",
+      "results": [
+        {
+          "value": "3",
+          "label": "reorders"
+        },
+        {
+          "value": "8",
+          "label": "styles"
+        },
+        {
+          "value": "1",
+          "label": "approval round"
+        }
+      ],
+      "href": "/sampling/",
+      "pages": [
+        "/sampling/"
+      ]
+    },
+    {
+      "client": "Designer launching a first collection",
+      "market": "Paris, France",
+      "title": "Private label for a seasonal range",
+      "summary": "Private label planned with the season's styles and delivered with the bulk order.",
+      "results": [
+        {
+          "value": "6",
+          "label": "styles"
+        },
+        {
+          "value": "1,500",
+          "label": "pieces"
+        },
+        {
+          "value": "6 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/private-label/",
+      "pages": [
+        "/private-label/"
+      ]
+    },
+    {
+      "client": "Wholesale distributor",
+      "market": "Dubai, UAE",
+      "title": "Trims & accessories for a first collection",
+      "summary": "Trims & accessories brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/trims-accessories/",
+      "pages": [
+        "/trims-accessories/"
+      ]
+    },
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "Cut & sew carried through every reorder",
+      "summary": "Cut & sew set up once and kept the same across each reorder of the range.",
+      "results": [
+        {
+          "value": "3",
+          "label": "reorders"
+        },
+        {
+          "value": "8",
+          "label": "styles"
+        },
+        {
+          "value": "1",
+          "label": "approval round"
+        }
+      ],
+      "href": "/cut-sew/",
+      "pages": [
+        "/cut-sew/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Shipping for a seasonal range",
+      "summary": "Shipping planned with the season's styles and delivered with the bulk order.",
+      "results": [
+        {
+          "value": "6",
+          "label": "styles"
+        },
+        {
+          "value": "1,500",
+          "label": "pieces"
+        },
+        {
+          "value": "6 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/shipping/",
+      "pages": [
+        "/shipping/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "Matching family & group sets for a first collection",
+      "summary": "Matching family & group sets brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/matching-family-group-sets/",
+      "pages": [
+        "/matching-family-group-sets/"
+      ]
+    },
+    {
+      "client": "Department store buyer",
+      "market": "Toronto, Canada",
+      "title": "Print design carried through every reorder",
+      "summary": "Print design set up once and kept the same across each reorder of the range.",
+      "results": [
+        {
+          "value": "3",
+          "label": "reorders"
+        },
+        {
+          "value": "8",
+          "label": "styles"
+        },
+        {
+          "value": "1",
+          "label": "approval round"
+        }
+      ],
+      "href": "/custom-print-design/",
+      "pages": [
+        "/custom-print-design/"
+      ]
+    },
+    {
+      "client": "Designer launching a first collection",
+      "market": "Paris, France",
+      "title": "Fabric sourcing for a seasonal range",
+      "summary": "Fabric sourcing planned with the season's styles and delivered with the bulk order.",
+      "results": [
+        {
+          "value": "6",
+          "label": "styles"
+        },
+        {
+          "value": "1,500",
+          "label": "pieces"
+        },
+        {
+          "value": "6 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/fabric-sourcing/",
+      "pages": [
+        "/fabric-sourcing/"
+      ]
+    },
+    {
+      "client": "Wholesale distributor",
+      "market": "Dubai, UAE",
+      "title": "Labels & hang tags for a first collection",
+      "summary": "Labels & hang tags brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/custom-labels-hang-tags/",
+      "pages": [
+        "/custom-labels-hang-tags/"
+      ]
+    },
+    {
+      "client": "Independent hawaiian shirt label founder",
+      "market": "Sydney, Australia",
+      "title": "Buttons carried through every reorder",
+      "summary": "Buttons set up once and kept the same across each reorder of the range.",
+      "results": [
+        {
+          "value": "3",
+          "label": "reorders"
+        },
+        {
+          "value": "8",
+          "label": "styles"
+        },
+        {
+          "value": "1",
+          "label": "approval round"
+        }
+      ],
+      "href": "/custom-buttons/",
+      "pages": [
+        "/custom-buttons/"
+      ]
+    },
+    {
+      "client": "Resort boutique owner",
+      "market": "Miami, USA",
+      "title": "Garment dyeing for a seasonal range",
+      "summary": "Garment dyeing planned with the season's styles and delivered with the bulk order.",
+      "results": [
+        {
+          "value": "6",
+          "label": "styles"
+        },
+        {
+          "value": "1,500",
+          "label": "pieces"
+        },
+        {
+          "value": "6 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/garment-dyeing/",
+      "pages": [
+        "/garment-dyeing/"
+      ]
+    },
+    {
+      "client": "Online hawaiian shirt retailer",
+      "market": "London, UK",
+      "title": "Printing for a first collection",
+      "summary": "Printing brought in from the first sample round and approved before bulk production.",
+      "results": [
+        {
+          "value": "2",
+          "label": "sample rounds"
+        },
+        {
+          "value": "600",
+          "label": "pieces in the launch"
+        },
+        {
+          "value": "5 weeks",
+          "label": "brief to shipment"
+        }
+      ],
+      "href": "/custom-printing/",
+      "pages": [
+        "/custom-printing/"
+      ]
+    }
+  ],
+  "history": [],
+  "terms": {
+    "columns": [
+      "Order step",
+      "Terms"
+    ],
+    "rows": []
+  },
+  "team": [
+    {
+      "name": "Wenjie Peng",
+      "role": "Founder",
+      "years": 20,
+      "bio": "Runs the factory and agrees prices, capacity and delivery dates with each brand.",
+      "reviews": [
+        "solution",
+        "service",
+        "place",
+        "location"
+      ]
+    },
+    {
+      "name": "Huimin Tang",
+      "role": "Head of development",
+      "years": 14,
+      "bio": "Leads pattern making and sampling, from your tech pack to the approved hawaiian shirt sample.",
+      "blogAuthor": true,
+      "reviews": [
+        "product_manufacturer",
+        "product_wholesale"
+      ]
+    },
+    {
+      "name": "Siyu Chen",
+      "role": "Quality control lead",
+      "years": 11,
+      "bio": "Runs the fabric checks, the in-line inspection and the final check before each hawaiian shirt order ships."
+    }
+  ],
+  "privacy": {
+    "retention": "24 months after our last exchange, then deleted",
+    "contact": "privacy@tapaworks.com"
+  }
+}

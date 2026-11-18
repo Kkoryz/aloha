@@ -1,0 +1,12 @@
+{
+  "email": "info@tapaworks.com",
+  "phone": "+86 20 5612 6558",
+  "address": "Guangzhou, Guangdong, China",
+  "hours": "Monday to Saturday, 9:00-18:00 China Standard Time",
+  "same_as": [],
+  "placeholder": true,
+  "standIns": [
+    "email",
+    "phone"
+  ]
+}

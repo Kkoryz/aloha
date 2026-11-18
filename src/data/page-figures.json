@@ -1,0 +1,734 @@
+{
+  "/big-and-tall-aloha-shirt-manufacturer/": [
+    {
+      "value": "XXS to 5XL",
+      "label": "Aloha shirt size range"
+    },
+    {
+      "value": "LT to 4XLT",
+      "label": "Separately graded tall size range"
+    },
+    {
+      "value": "±0.5 cm",
+      "label": "2XL–5XL short-sleeve tolerance against your chart"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/women-s-hawaiian-shirt-manufacturer/": [
+    {
+      "value": "95% rayon 5% spandex",
+      "label": "Woven rayon stretch blend"
+    },
+    {
+      "value": "95% polyester 5% spandex",
+      "label": "Woven polyester stretch blend"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample from brief/tech pack"
+    }
+  ],
+  "/resort-dress-manufacturer/": [
+    {
+      "value": "3 business days",
+      "label": "Stock dispatch after payment completion"
+    },
+    {
+      "value": "25 to 35 days",
+      "label": "Approximate US/Europe sea transit"
+    },
+    {
+      "value": "more than 45 colours",
+      "label": "Dress fabric colour choices"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/hawaiian-dress-manufacturer/": [
+    {
+      "value": "30 days",
+      "label": "Quote validity"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample time"
+    },
+    {
+      "value": "24 hours",
+      "label": "Quote after references, sizes and quantities"
+    }
+  ],
+  "/muumuu-dress-manufacturer/": [
+    {
+      "value": "3 business days",
+      "label": "Stock dispatch after full payment"
+    },
+    {
+      "value": "XS to 3XL",
+      "label": "Muumuu size range"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample readiness"
+    }
+  ],
+  "/swimwear-manufacturer/": [
+    {
+      "value": "1,000 metres",
+      "label": "Custom jacquard/lurex minimum per quality"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample time"
+    },
+    {
+      "value": "24 hours",
+      "label": "Quote after requirements review"
+    }
+  ],
+  "/boardshorts-manufacturer/": [
+    {
+      "value": "25 to 35 days",
+      "label": "Approximate sea shipping: US or Europe"
+    },
+    {
+      "value": "120GSM",
+      "label": "Swim shorts microfibre polyester weight"
+    },
+    {
+      "value": "110GSM",
+      "label": "Beach shorts digitally printed fabric weight"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/swim-trunks-manufacturer/": [
+    {
+      "value": "25 to 35 days",
+      "label": "Sea transit to US or Europe"
+    },
+    {
+      "value": "3 to 4",
+      "label": "Size split per style"
+    },
+    {
+      "value": "1,000 metres",
+      "label": "Custom fabric minimum per quality"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/bikini-manufacturer/": [
+    {
+      "value": "3 to 4",
+      "label": "Size split per style"
+    },
+    {
+      "value": "180 to 230 gsm",
+      "label": "Shell knit weight"
+    },
+    {
+      "value": "90% or more",
+      "label": "Shell recovery after repeated stretching"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/one-piece-swimsuit-manufacturer/": [
+    {
+      "value": "180 to 220 gsm",
+      "label": "Shell fabric weight"
+    },
+    {
+      "value": "UPF 30 up to UPF 50+",
+      "label": "Lab-supported fabric UPF range"
+    },
+    {
+      "value": "1,000 metres",
+      "label": "Custom jacquard/lurex minimum per quality"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style per colour"
+    }
+  ],
+  "/kids-hawaiian-clothing-manufacturer/": [
+    {
+      "value": "6 months to 14 years",
+      "label": "Shorts sets and rompers size range"
+    },
+    {
+      "value": "2T to 14",
+      "label": "Girls' dresses sizes"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample preparation"
+    }
+  ],
+  "/boys-hawaiian-shirt-manufacturer/": [
+    {
+      "value": "110–130 gsm",
+      "label": "Cotton poplin for frequent machine washing"
+    },
+    {
+      "value": "100–120 gsm",
+      "label": "Rayon for gently cared-for dress-up styles"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample preparation"
+    }
+  ],
+  "/baby-hawaiian-clothing-manufacturer/": [
+    {
+      "value": "90 N",
+      "label": "Snap pull-test force every batch"
+    },
+    {
+      "value": "10 seconds",
+      "label": "Snap pull-test duration every batch"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample preparation"
+    }
+  ],
+  "/kids-hawaiian-top-manufacturer/": [
+    {
+      "value": "3 to 4 kids'",
+      "label": "Sizes per style and colour minimum"
+    },
+    {
+      "value": "580+ fabric bases",
+      "label": "Fabric library options"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample time"
+    }
+  ],
+  "/kids-hawaiian-dress-manufacturer/": [
+    {
+      "value": "110–130 gsm",
+      "label": "Cotton poplin fabric weight"
+    },
+    {
+      "value": "70–90 gsm",
+      "label": "Cotton lawn and voile fabric weight"
+    },
+    {
+      "value": "100–130 gsm",
+      "label": "Rayon challis fabric weight"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/hawaiian-uniform-shirt-manufacturer/": [
+    {
+      "value": "3 to 5 days",
+      "label": "Extra production time for individual personalisation"
+    },
+    {
+      "value": "at least 30 home washes",
+      "label": "Standard fusible collar durability at 40°C"
+    },
+    {
+      "value": "up to 12 colours",
+      "label": "Custom printing colour limit"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/aloha-work-uniform-manufacturer/": [
+    {
+      "value": "10,000 units",
+      "label": "Replenishment orders up to"
+    },
+    {
+      "value": "3 to 5 days",
+      "label": "Added production time for employee personalisation"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample time"
+    }
+  ],
+  "/accessories-manufacturer/": [
+    {
+      "value": "up to 12 colours",
+      "label": "Screen printing colours"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample timing"
+    }
+  ],
+  "/beach-towel-manufacturer/": [
+    {
+      "value": "5 to 7 days",
+      "label": "Air express shipping time"
+    },
+    {
+      "value": "70 x 140 cm",
+      "label": "Standard beach towel size"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per custom beach towel design"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample readiness"
+    }
+  ],
+  "/sarong-manufacturer/": [
+    {
+      "value": "100 pieces",
+      "label": "Minimum/design: batik or hand-painted"
+    },
+    {
+      "value": "15 to 20 days",
+      "label": "Batik or hand-painted sample preparation"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum/design: digital prints on polyester"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Printed sample preparation"
+    }
+  ],
+  "/product-development/": [
+    {
+      "value": "48 hours",
+      "label": "Usual digital mockup turnaround"
+    },
+    {
+      "value": "5 to 7 business days",
+      "label": "Custom print repeats turnaround"
+    },
+    {
+      "value": "more than 65 base styles",
+      "label": "Starter kit base styles"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/quality-control/": [
+    {
+      "value": "ΔE ≤ 2.0",
+      "label": "Inline print verification limit"
+    },
+    {
+      "value": "±0.5 cm",
+      "label": "Bulk woven collar/cuffs/small-points tolerance"
+    },
+    {
+      "value": "±1 cm",
+      "label": "Bulk woven chest-width/body-length/sleeve-length tolerance"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/hawaiian-fabrics/": [
+    {
+      "value": "300 metres",
+      "label": "Printed fabric minimum per colourway"
+    },
+    {
+      "value": "more than 580 bases",
+      "label": "Available fabric bases"
+    },
+    {
+      "value": "50 to 100 metres",
+      "label": "Approximate fabric length per roll"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Shirt minimum per style and colour"
+    }
+  ],
+  "/customization/": [
+    {
+      "value": "more than 580 bases",
+      "label": "Fabric range"
+    },
+    {
+      "value": "60 to 200 GSM",
+      "label": "Library or custom material weights"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample turnaround"
+    }
+  ],
+  "/bulk-production/": [
+    {
+      "value": "up to 34,500 pieces a month",
+      "label": "Production output"
+    },
+    {
+      "value": "3 to 4",
+      "label": "Sizes per style"
+    },
+    {
+      "value": "more than 580 fabric bases",
+      "label": "Fabric base choices"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/embroidery/": [
+    {
+      "value": "5 to 7 days",
+      "label": "Additional bulk time for embroidery"
+    },
+    {
+      "value": "30 x 30 cm",
+      "label": "Maximum embroidery field"
+    },
+    {
+      "value": "15 thread colours",
+      "label": "Maximum thread colours per design"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/packaging/": [
+    {
+      "value": "50 units",
+      "label": "Rigid boxes and complex packaging minimum"
+    },
+    {
+      "value": "500 pieces",
+      "label": "Printed bags/mailers minimum each per design"
+    },
+    {
+      "value": "500 sheets",
+      "label": "Printed tissue minimum per design"
+    },
+    {
+      "value": "7–12 business days",
+      "label": "Standard packaging after artwork approval"
+    }
+  ],
+  "/sampling/": [
+    {
+      "value": "3 business days",
+      "label": "In-stock sample dispatch after payment"
+    },
+    {
+      "value": "5 to 7 days",
+      "label": "Tracked DHL sample delivery"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Sample after artwork and fabric confirmation"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/private-label/": [
+    {
+      "value": "3-5 days",
+      "label": "Custom label and tag digital proofs"
+    },
+    {
+      "value": "7-15 days",
+      "label": "Custom label and tag physical samples"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Shirt sample development"
+    }
+  ],
+  "/trims-accessories/": [
+    {
+      "value": "7 to 15 days",
+      "label": "Custom woven labels for samples"
+    },
+    {
+      "value": "7 to 10 days",
+      "label": "Additional bulk time for custom buttons"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "1,000 pieces",
+      "label": "Dyed/engraved button minimum per design/colour"
+    }
+  ],
+  "/cut-sew/": [
+    {
+      "value": "13 production lines",
+      "label": "In-house production lines"
+    },
+    {
+      "value": "60 to 200 GSM",
+      "label": "Available fabric bases"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample preparation"
+    }
+  ],
+  "/shipping/": [
+    {
+      "value": "5 to 7 days",
+      "label": "Air express delivery"
+    },
+    {
+      "value": "at least 3 business days",
+      "label": "Independent inspection notice"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Sample after brief or tech pack"
+    }
+  ],
+  "/matching-family-group-sets/": [
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample readiness"
+    },
+    {
+      "value": "5XL",
+      "label": "Largest matching set size"
+    }
+  ],
+  "/custom-print-design/": [
+    {
+      "value": "5 to 7 business days",
+      "label": "Original artwork after brief submission"
+    },
+    {
+      "value": "48 hours",
+      "label": "Mock-ups after logo and ideas"
+    },
+    {
+      "value": "3 revision rounds",
+      "label": "Included per design"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/fabric-sourcing/": [
+    {
+      "value": "300 metres",
+      "label": "Stock/custom-dyed minimum per colour"
+    },
+    {
+      "value": "1,000 metres",
+      "label": "Custom-development starting minimum per quality"
+    },
+    {
+      "value": "3 to 5 days",
+      "label": "Stock fabrics reach our factory"
+    },
+    {
+      "value": "15 to 20 days",
+      "label": "Custom-dyed/custom-developed fabric adds before bulk production"
+    }
+  ],
+  "/custom-labels-hang-tags/": [
+    {
+      "value": "7 to 15 days",
+      "label": "Custom woven label time"
+    },
+    {
+      "value": "3 to 5 days",
+      "label": "Label proof time"
+    },
+    {
+      "value": "15 to 40 mm",
+      "label": "Printed satin label width"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Aloha shirts: minimum per style/colour"
+    }
+  ],
+  "/custom-buttons/": [
+    {
+      "value": "14L to 24L",
+      "label": "Available button sizes"
+    },
+    {
+      "value": "3 years",
+      "label": "Mould storage for reorders"
+    },
+    {
+      "value": "1,000 pieces",
+      "label": "Custom-button minimum per design per colour"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Shirt minimum per style per colour"
+    }
+  ],
+  "/garment-dyeing/": [
+    {
+      "value": "7 to 10 days",
+      "label": "Garment dyeing adds to bulk schedule"
+    },
+    {
+      "value": "5 to 7 days",
+      "label": "Lab dips add to sampling"
+    },
+    {
+      "value": "30 shades",
+      "label": "Standard colours on PFD shirt fabrics"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    }
+  ],
+  "/custom-printing/": [
+    {
+      "value": "12 colours",
+      "label": "Screen printing maximum colours"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample ready"
+    }
+  ],
+  "/contact-us/": [
+    {
+      "value": "about 15 days",
+      "label": "Chinese New Year closure"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample ready"
+    },
+    {
+      "value": "7 days",
+      "label": "National Day closure"
+    }
+  ],
+  "/our-process/": [
+    {
+      "value": "about 25 to 35 days",
+      "label": "Sea delivery to US or Europe"
+    },
+    {
+      "value": "1 to 2 weeks",
+      "label": "Additional sea transit during peak months"
+    },
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "10 to 15 days",
+      "label": "Standard sample readiness"
+    }
+  ],
+  "/request-a-quote/": [
+    {
+      "value": "50 pieces",
+      "label": "Minimum per style in each colour"
+    },
+    {
+      "value": "24 hours",
+      "label": "Quote after receiving style information"
+    }
+  ]
+}

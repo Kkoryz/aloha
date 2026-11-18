@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "seo-site-identity-v1",
+  "source": "make-wordmark",
+  "siteName": "Tapa Works",
+  "origin": "https://tapaworks.com",
+  "logo": {
+    "src": "/logo-header.webp",
+    "width": 481,
+    "height": 40
+  },
+  "schemaLogo": {
+    "src": "/icon-512.png",
+    "width": 512,
+    "height": 512
+  },
+  "icons": [
+    {
+      "rel": "icon",
+      "src": "/favicon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "manifest": null,
+  "ogImage": {
+    "src": "/og-image.png",
+    "width": 1200,
+    "height": 630
+  },
+  "generated": {
+    "wordmark": "docs/research/brand/wordmark-2.png",
+    "mark": "docs/research/brand/mark.png",
+    "ink": "#111111",
+    "replaceable": true
+  },
+  "logoFit": {
+    "source": "docs/research/brand/logo.png",
+    "background": "#ffffff",
+    "contrast": 18.88,
+    "inverse": false,
+    "png": {
+      "src": "/logo.png",
+      "width": 481,
+      "height": 40,
+      "sha256": "f720f433e2fadfb14470d28e93785490d02e2e908327a9117ecae287849b2804"
+    }
+  }
+}

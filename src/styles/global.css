@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "./template.css";
+@import "./patterns.css";
+@import "./reference.css";
+@import "./fonts.css";
+
+/* design-lock:start */
+:root {
+  --surface-primary: rgb(255, 255, 255);
+  --surface-secondary: rgb(245, 239, 232);
+  --surface-dark: rgb(19, 19, 19);
+  --text-primary: rgb(19, 19, 19);
+  --text-inverse: rgb(255, 255, 255);
+  --text-muted: rgb(106, 105, 102);
+  --border-color: rgb(223, 223, 223);
+  --accent: rgb(19, 19, 19);
+  --accent-contrast: rgb(255, 255, 255);
+  --size-hero: clamp(2.6rem, 6vw, 6rem);
+  --size-body: 16px;
+  --size-lead: 18px;
+  --line-body: 1.625;
+  --weight-heading: 700;
+  --radius-card: 0px;
+  --radius-media: 0px;
+  --radius-button: 3.35544e+07px;
+  --radius-pill: 3.35544e+07px;
+  --shadow-card: none;
+  --container-max: 1600px;
+  --surface-muted: rgb(239, 239, 239);
+  --accent-warm: rgb(189, 156, 134);
+  --text-inverse-muted: rgba(255, 255, 255, 0.8);
+  --header-surface: rgba(255, 255, 255, 0.9);
+  /* Derived (apply-reference-analysis.mjs, four-site audit 2026-11-17): the rgb(223, 223, 223) border is 1.33:1 on the rgb(255, 255, 255) field; a form field's border reads at 3:1 (Modern Web Guidance, color.md). */
+  --input-border: rgb(137, 137, 137);
+}
+/* design-lock:end */
+
+/* Design tokens. A reference run replaces these values with the exact observed values from
+   docs/research/raw/design-lock.json; the font families come from the fonts step (src/styles/fonts.css, generated
+   from docs/research/installed-fonts.json). Components only read tokens. */
+:root {
+
+  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-hero: var(--font-body);
+  --font-display: var(--font-body);
+  --font-subheading: var(--font-body);
+  --font-ui: var(--font-body);
+
+  --size-display: clamp(1.75rem, 3vw, 2.25rem);
+  --size-card-heading: 1.375rem;
+  --size-subheading: 1.125rem;
+
+
+  --gutter: 1.25rem;
+  --section-space: clamp(2.5rem, 5vw, 4.5rem);
+  --grid-gap: 1.5rem;
+  --header-height: 72px;
+  /* Largest allowed gap between the visible content of two consecutive authoring blocks. */
+  --authoring-max-boundary-gap: 176px;
+
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: var(--surface-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+body { margin: 0; background: var(--surface-primary); }
+

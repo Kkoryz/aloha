@@ -1,0 +1,2994 @@
+{
+  "schemaVersion": "seo-site-style-board-v1",
+  "route": "/style-board/",
+  "modules": [
+    {
+      "key": "intro:text",
+      "type": "intro",
+      "variant": "text",
+      "uses": 47,
+      "names": [
+        "intro/proof"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 11,
+          "module": "intro/proof"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/kids-hawaiian-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "overview",
+          "splitIndex": 0,
+          "words": 111,
+          "slots": 0,
+          "block": {
+            "id": "overview",
+            "type": "intro",
+            "sourceSectionIds": [
+              "overview"
+            ],
+            "heading": "Kids' Hawaiian Dress Manufacturer in China",
+            "paragraphs": [
+              "For toddlers up to age 4, cotton poplin and cotton-spandex jersey give your kids’ Hawaiian dresses fabrics that are durable and easy to wear, while for girls aged 5 to 14, lawn, voile and rayon challis give the skirt a flowing shape. For kids' dresses, we work with cotton poplin (110–130 gsm), lighter cotton lawn and voile (70–90 gsm), rayon challis (100–130 gsm) and soft 95% cotton 5% spandex jersey (160–180 gsm). For performance, you can choose quick-dry polyester or 65% polyester 35% cotton (120–140 gsm).",
+              "We make the dresses ourselves, in our single, company-owned factory in Guangzhou, Guangdong, China."
+            ],
+            "wordCount": 100,
+            "visuals": [
+              {
+                "id": "overview_fabric_weights",
+                "type": "data",
+                "purpose": "Help buyers compare the stated fabric weights.",
+                "caption": "Fabric weight options for kids' Hawaiian dresses.",
+                "data": {
+                  "shape": "ranges",
+                  "items": [
+                    {
+                      "label": "Cotton poplin",
+                      "min": 110,
+                      "max": 130,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Cotton lawn and voile",
+                      "min": 70,
+                      "max": 90,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Rayon challis",
+                      "min": 100,
+                      "max": 130,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Cotton-spandex jersey",
+                      "min": 160,
+                      "max": 180,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Polyester-cotton blend",
+                      "min": 120,
+                      "max": 140,
+                      "unit": "gsm"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/accessories-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "overview",
+          "splitIndex": 0,
+          "words": 45,
+          "slots": 0,
+          "block": {
+            "id": "overview",
+            "type": "intro",
+            "sourceSectionIds": [
+              "overview"
+            ],
+            "heading": "Accessories Made in China",
+            "paragraphs": [
+              "We make textile resort accessories printed to match your aloha shirt line: tote bags, bucket hats, caps, scarves, bandanas, scrunchies and smaller add-ons. We make them ourselves, alongside the shirts they match, in our own single factory in Guangzhou, Guangdong, China."
+            ],
+            "wordCount": 39
+          }
+        }
+      ]
+    },
+    {
+      "key": "gallery:band",
+      "type": "gallery",
+      "variant": "band",
+      "uses": 86,
+      "names": [
+        "gallery:band",
+        "figure"
+      ],
+      "evidence": [
+        {
+          "pageType": "about",
+          "index": 1,
+          "module": "figure"
+        },
+        {
+          "pageType": "about",
+          "index": 2,
+          "module": "figure",
+          "gap": "video"
+        },
+        {
+          "pageType": "product_manufacturer",
+          "index": 4,
+          "module": "figure",
+          "gap": "other"
+        },
+        {
+          "pageType": "product_manufacturer",
+          "index": 6,
+          "module": "figure",
+          "gap": "other"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/",
+          "pageType": "home",
+          "blockId": "media-module-budget-2",
+          "splitIndex": 0,
+          "words": 0,
+          "slots": 1,
+          "block": {
+            "id": "media-module-budget-2",
+            "type": "gallery",
+            "variant": "band",
+            "items": [
+              {
+                "media": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "iconList:checks",
+      "type": "iconList",
+      "variant": "checks",
+      "uses": 74,
+      "names": [
+        "iconList:checks"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/hawaiian-fabrics/",
+          "pageType": "solution",
+          "blockId": "iconList-1",
+          "splitIndex": 0,
+          "words": 283,
+          "slots": 0,
+          "block": {
+            "id": "iconList-1",
+            "type": "iconList",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "Got a Project Brief? Let’s Talk Quotes and Samples",
+            "paragraphs": [
+              "Each sample costs USD 50, and design costs USD 50 per design, covering every colourway of its pattern or print. Neither fee is refunded or credited against bulk orders."
+            ],
+            "items": [
+              {
+                "heading": "Exclusive print development",
+                "text": "Send us your references, sketches or moodboard, and through our [Custom Print Design](/custom-print-design/) we develop exclusive, production-ready seamless repeats, with motifs aligned across the collar, placket, pocket and hem."
+              },
+              {
+                "heading": "Printing options",
+                "text": "[Custom Printing](/custom-printing/) covers reverse-print 100% cotton at 110–130 gsm, screen repeats up to 64 cm and digital up to 150 cm. Sublimation works only on light-coloured polyester or on blends with at least 60% polyester.",
+                "placeholder": true
+              },
+              {
+                "heading": "Direct factory relationship",
+                "text": "Our [factory-owned B2B business](/about-us/) keeps production and export under our direct control, and you agree every order with our team, not through an online shop or third-party marketplace."
+              },
+              {
+                "heading": "Design and fit",
+                "text": "[OEM and ODM development](/product-development/) starts from your design, picture or idea. We handle pattern design, grading and fit development in-house, which cuts down the design back-and-forth."
+              },
+              {
+                "heading": "Sampling and courier",
+                "text": "[Sampling](/sampling/) confirms construction, fabric hand, print scale, labels, shrinkage risk and fit before bulk. Sample courier delivery costs you USD 50 on top of the sample fee."
+              },
+              {
+                "heading": "Quote before sampling",
+                "text": "In [our order process](/our-process/), we quote first, then make your sample once you agree the price."
+              },
+              {
+                "heading": "Your brand alone",
+                "text": "With our [Private Label service](/private-label/), we supply your approved labels, logos, trims, buttons, tags and coordinated packaging under your brand alone, and keep our name off the garments."
+              },
+              {
+                "heading": "Project review and pricing",
+                "text": "[Request a quote](/request-a-quote/) with your fabric, artwork, colours, quantities and schedule. We review the production requirements, map out sampling options and send back an itemised, no-obligation bulk quote within 24 hours.",
+                "placeholder": true
+              }
+            ],
+            "mediaKind": "material"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/about-us/",
+          "pageType": "about",
+          "blockId": "m3",
+          "splitIndex": 0,
+          "words": 66,
+          "slots": 0,
+          "block": {
+            "id": "m3",
+            "type": "iconList",
+            "sourceSectionIds": [
+              "m3"
+            ],
+            "heading": "Production Certifications and Social Compliance",
+            "items": [
+              {
+                "heading": "Certified materials",
+                "text": "Our production is GRS certified for recycled polyester and OCS certified for organic content."
+              },
+              {
+                "heading": "Transaction Certificates",
+                "text": "When you sell recycled polyester or organic styles with a certified claim, we apply to our certification body, which issues the Transaction Certificate for those goods."
+              },
+              {
+                "heading": "Social compliance",
+                "text": "Our production is BSCI approved for social compliance and has passed a SMETA ethical audit."
+              }
+            ],
+            "mediaKind": "material"
+          }
+        }
+      ]
+    },
+    {
+      "key": "process:list",
+      "type": "process",
+      "variant": "list",
+      "uses": 55,
+      "names": [
+        "process:list"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/private-label/",
+          "pageType": "solution",
+          "blockId": "m4",
+          "splitIndex": 0,
+          "words": 238,
+          "slots": 0,
+          "block": {
+            "id": "m4",
+            "type": "process",
+            "sourceSectionIds": [
+              "m4"
+            ],
+            "heading": "Label Production, Finishing, and Packing",
+            "paragraphs": [
+              "Before production starts, we need your final artwork, the content for your care and size labels, and your folding and bagging instructions."
+            ],
+            "steps": [
+              {
+                "heading": "Confirm production funding",
+                "text": "You pay a 50% deposit when you confirm the order. Bulk production starts once you've approved the sample and we've received that deposit."
+              },
+              {
+                "heading": "Produce and attach labels",
+                "text": "Bulk production takes 35 to 40 days, and order size and season decide where in that range your order falls. We make the labels alongside your shirts and sew the neck and care labels into the seams during assembly."
+              },
+              {
+                "heading": "Avoid late label changes",
+                "text": "Adding labels after assembly means opening finished seams or adding an extra, visible attachment step, which lowers quality and delays shipment. We deliver your shirts tagged, labelled, folded and bagged the way you specify."
+              },
+              {
+                "heading": "Check production quality",
+                "text": "Our [quality control](/quality-control/) covers fabric, cutting, sewing, random checks and final inspection. OEKO-TEX Standard 100 covers the tested fabrics and trims, along with GOTS organic cotton, BCI cotton sourcing, ISO 9001 management and WRAP social compliance. You're welcome to bring in SGS or BV inspections."
+              },
+              {
+                "heading": "Settle and dispatch",
+                "text": "You pay the remaining 50% before shipment, on FOB, CIF or DDP terms. [DDP delivery is available worldwide](/shipping/), with duties, customs and freight in one price."
+              },
+              {
+                "heading": "Clear branded goods together",
+                "text": "With our DDP [Shipping service](/shipping/), the cartons carry none of our branding, and your shirts and packaging clear customs together on one invoice."
+              }
+            ],
+            "mediaKind": "process"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/accessories-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "faq-steps",
+          "splitIndex": 0,
+          "words": 28,
+          "slots": 0,
+          "block": {
+            "id": "faq-steps",
+            "type": "process",
+            "heading": "Simplify construction first and preserve branding until last.",
+            "steps": [
+              {
+                "heading": "Construction",
+                "text": "Simplify construction first."
+              },
+              {
+                "heading": "Fabric",
+                "text": "Then simplify fabric choices."
+              },
+              {
+                "heading": "Print coverage",
+                "text": "Then reduce print coverage."
+              },
+              {
+                "heading": "Branding",
+                "text": "Only cut branding last."
+              }
+            ],
+            "variant": "list",
+            "continues": "faq"
+          }
+        }
+      ]
+    },
+    {
+      "key": "splitMedia:single",
+      "type": "splitMedia",
+      "variant": "single",
+      "uses": 24,
+      "names": [
+        "splitMedia:single"
+      ],
+      "evidence": [
+        {
+          "pageType": "about",
+          "index": 3,
+          "module": "splitMedia:single",
+          "gap": "layout"
+        },
+        {
+          "pageType": "home",
+          "index": 3,
+          "module": "splitMedia:single",
+          "gap": "tabs"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/boys-hawaiian-shirt-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "splitMedia-1",
+          "splitIndex": 0,
+          "words": 646,
+          "slots": 0,
+          "block": {
+            "id": "splitMedia-1",
+            "type": "splitMedia",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "OEM Boys' Hawaiian Shirt Quotes, Sample Costs and Payment Terms",
+            "paragraphs": [
+              "Each sample costs USD 50, and the design fee is USD 50 per design, which covers its pattern or print and all of its colourways. Neither fee is refunded or credited against a bulk order. You pay a 50% deposit when you confirm the order and the remaining 50% before shipment.",
+              "We've run as a [factory-owned business](/about-us/) since 2011, so production and export stay under our direct control. You agree your order directly with our team, not through shops or marketplaces.",
+              "Our [Product Development service](/product-development/) develops OEM and ODM styles from your design, picture or idea. We make CAD patterns and digital grading in-house, so sizing stays consistent on repeat orders.",
+              "With our [Sampling service](/sampling/), we check fit against a measurement sheet and offer live fitting videos. If you want samples sent to you by courier, you pay an extra USD 50 for delivery.",
+              "Our [quality control](/quality-control/) checks every stage, and independent inspectors such as SGS or BV are welcome. Boys' shirts headed to US stores need mandatory CPSIA lab testing, which we book before shipment so you can issue a [Children's Product Certificate](/kids-hawaiian-clothing-manufacturer/). Tested fabrics and trims carry OEKO-TEX Standard 100, and organic cotton styles carry GOTS. Our cotton sourcing follows BCI, our quality management runs under ISO 9001, and WRAP covers social compliance. Garment tolerances are ±1 cm at chest, length and waist and ±0.5 cm at smaller points. Residual shrinkage stays within 3% in both directions after three home washes. Colourfastness reaches Grade 4 or above for washing and Grade 3–4 or above for rubbing and light.",
+              "Our [order process](/our-process/) starts with a quote, and sampling follows once we've agreed the price.",
+              "You can choose from [fabric options](/hawaiian-fabrics/) that include cotton, polyester, spandex, nylon, rayon, viscose, modal, Tencel, linen, silk and wool. Blends include 95% cotton 5% spandex, 80% nylon 20% spandex and 65% polyester 35% cotton.",
+              "Our English-speaking [contact team](/contact-us/) replies within one business day, and you can reach them by phone or video throughout your order.",
+              "With our [Bulk Production service](/bulk-production/), you can mix sizes within the minimum at no extra charge, and we help with size splits and pre-order planning.",
+              "Our [Customisation service](/customization/) offers camp, spread and notch collars, each adjusted to your design.",
+              "Our [Custom Print Design service](/custom-print-design/) creates tropical floral, foliage, beach-scene and novelty artwork that's unique to your group.",
+              "Our [Matching Family & Group Sets service](/matching-family-group-sets/) carries one aloha print from toddler sizes up to 5XL, with the artwork scaled to each garment size.",
+              "Our [Embroidery service](/embroidery/) supplies detailed embroidery, patches and labels.",
+              "In our [Garment Dyeing service](/garment-dyeing/), we use certified dyestuffs and silicone softeners that meet OEKO-TEX Standard 100 Class I requirements. We confirm certificate coverage before you order and send current copies whenever you ask.",
+              "With our [Private Label service](/private-label/), only your brand appears on the approved labels, trims and coordinated retail-ready packaging.",
+              "Our [Trims & Accessories service](/trims-accessories/) helps you choose buttons, plackets and colour-matched accessories, including custom hardware.",
+              "To [request a quote](/request-a-quote/), send us your specifications, sketches or photos, or the garment type, along with sizes and quantities. We price by style, fabric, quantity, size range and customisation, and we send your quote within 24 hours. Each quote stays valid for 30 days from issue.",
+              "Our [Custom Buttons service](/custom-buttons/) needs a separate lot of 1,000 custom-dyed or logo-engraved buttons per design in each colour, and we store the spares for reorders. Colour-matched stock buttons have no separate minimum and work at the 50-piece shirt minimum.",
+              "Our [Custom Labels & Hang Tags service](/custom-labels-hang-tags/) writes destination-specific fibre, origin and wash-tested care wording based on the actual materials. We add your RN or CA number where one is needed and send you the artwork to approve before production.",
+              "Our [Custom Printing service](/custom-printing/) uses roll printing for continuous all-over repeats and panel printing for motifs that need precise placement."
+            ],
+            "wordCount": 613,
+            "media": null,
+            "variant": "panel",
+            "mediaKind": "process",
+            "visuals": [
+              {
+                "id": "overview_2_sample_costs",
+                "type": "data",
+                "purpose": "Separate sample, design and courier charges so buyers can budget for sampling.",
+                "caption": "Sample and design fees are not refunded or credited against bulk orders. Sample courier delivery is paid separately by the buyer.",
+                "data": {
+                  "shape": "amounts",
+                  "items": [
+                    {
+                      "label": "Sample fee",
+                      "value": 50,
+                      "unit": "USD"
+                    },
+                    {
+                      "label": "Design fee",
+                      "value": 50,
+                      "unit": "USD"
+                    },
+                    {
+                      "label": "Sample courier delivery",
+                      "value": 50,
+                      "unit": "USD"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "overview_2_payment",
+                "type": "data",
+                "purpose": "Show how payment is divided between order confirmation and shipment.",
+                "data": {
+                  "shape": "shares",
+                  "items": [
+                    {
+                      "label": "Deposit",
+                      "percent": 50
+                    },
+                    {
+                      "label": "Balance",
+                      "percent": 50
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/about-us/",
+          "pageType": "about",
+          "blockId": "splitMedia-2",
+          "splitIndex": 2,
+          "words": 70,
+          "slots": 0,
+          "block": {
+            "id": "splitMedia-2",
+            "type": "splitMedia",
+            "sourceSectionIds": [
+              "m3_3"
+            ],
+            "heading": "Factory Visits and Independent Audits",
+            "paragraphs": [
+              "An on-site assessment lets you inspect the production floor and materials in person. You can visit the factory or run your own independent social or quality audit. Either one needs at least 5 business days' notice. For a faster first look, a remote assessment gives you a live video walkthrough or a 3D virtual tour. For formal supplier evaluations, we share our SMETA audit records."
+            ],
+            "wordCount": 65,
+            "media": null,
+            "variant": "single",
+            "mediaKind": "process",
+            "visuals": [
+              {
+                "id": "factory_access_options",
+                "type": "data",
+                "purpose": "Help buyers choose between an in-person assessment and a faster remote first look.",
+                "caption": "Choose how to assess our factory.",
+                "data": {
+                  "shape": "comparison",
+                  "items": {
+                    "options": [
+                      "On-site assessment",
+                      "Remote assessment"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Available formats",
+                        "values": [
+                          "Factory visit or independent on-site audit",
+                          "Live video walkthrough or 3D virtual tour"
+                        ]
+                      },
+                      {
+                        "label": "Recommended purpose",
+                        "values": [
+                          "Inspect the production floor and materials in person",
+                          "Get a faster first look"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "table:grid",
+      "type": "table",
+      "variant": "grid",
+      "uses": 42,
+      "names": [
+        "table:grid"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/kids-hawaiian-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "table-1",
+          "splitIndex": 0,
+          "words": 988,
+          "slots": 0,
+          "block": {
+            "id": "table-1",
+            "type": "table",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "OEM Kids' Hawaiian Dresses: Sampling and Shipping Terms",
+            "columns": [
+              "Order term or service",
+              "What it means for your order"
+            ],
+            "rows": [
+              [
+                "Minimum order",
+                "Orders start at 50 pieces per style in each colour, so small and growing labels have a quantity they can start with. We agree first trial runs case by case, and how flexible the quantity can be depends on what production allows."
+              ],
+              [
+                "Quote before sampling",
+                "Our [order process](/our-process/) begins with a quotation. Once you agree to the price, we make your sample."
+              ],
+              [
+                "Sample timing and fees",
+                "A standard sample takes 10 to 15 days. Each sample costs USD 50, and the design fee is USD 50 per design, which covers its pattern or print and all colourways. Neither fee is refunded or credited against your bulk order."
+              ],
+              [
+                "Sample delivery",
+                "On top of the sample fee, you pay USD 50 for [sample courier delivery](/sampling/)."
+              ],
+              [
+                "Bulk production and payment",
+                "You pay a 50% deposit when you confirm the order. Once your sample is approved and we've received the deposit, bulk production takes 35 to 40 days, depending on order size and season. You pay the remaining 50% before shipment."
+              ],
+              [
+                "Shipping terms",
+                "We ship on FOB, CIF or DDP terms. [DDP delivery is available worldwide](/shipping/), with duties, customs and freight in one price."
+              ],
+              [
+                "Factory and direct ordering",
+                "Our [factory and export business](/about-us/) is one company, so quality, cost and delivery stay under our direct control. The factory has been running since 2011, and every B2B order is agreed directly with our team, through this website or our own team, never through an online shop or any third-party marketplace or platform."
+              ],
+              [
+                "Product development",
+                "Our [OEM and ODM product development](/product-development/) starts from your design, a picture or an idea. Our in-house team handles pattern design, grading and fit development, which cuts down the design back-and-forth."
+              ],
+              [
+                "Quality Control",
+                "Our [Quality Control service](/quality-control/) checks incoming fabric, cutting and sewing, runs random checks and a full final inspection, and welcomes independent pre-shipment inspectors such as SGS or BV. Tested fabrics and trims carry OEKO-TEX Standard 100, organic cotton styles carry GOTS, cotton comes through Better Cotton (BCI), and our factory holds ISO 9001 and WRAP. For girls’ sizes 2T to 14, we design cords, ties and straps to EN 14682 for the EU and ASTM F1816 for the US, leave out neck drawstrings and keep tie ends within permitted lengths. On sizes under 3 years, we leave off detachable small trims such as sequins, beads and loose bows. Girls' dresses for the US go through CPSIA lab tests on every order, whose results back your [Children's Product Certificate](/kids-hawaiian-clothing-manufacturer/); 90 N button-pull checks run in our own QC. Before sampling, we wash-test fabric for colour bleed and for shrinkage within 3% in length and width after three home washes. You can check this yourself: measure the sample's chest and body length, wash it three times on its own with a white cloth following the care label (cold or 30°C gentle for rayon, 40°C for cotton), line-dry it, then remeasure and check the cloth for transferred colour."
+              ],
+              [
+                "Wider fabric selection",
+                "Our wider [Hawaiian fabrics range](/hawaiian-fabrics/) covers cotton, polyester, spandex, nylon, rayon, viscose, modal, Tencel, linen, silk and wool, including blends such as 80% nylon 20% spandex, alongside the cotton-spandex and polyester-cotton options for these dresses."
+              ],
+              [
+                "Enquiries and communication",
+                "When you [contact our team](/contact-us/), we reply within one business day and communicate in English, and we're available by phone or video call at every stage."
+              ],
+              [
+                "Matching Family & Group Sets",
+                "With [Matching Family & Group Sets](/matching-family-group-sets/), we carry the same aloha print across sets from toddler sizes up to 5XL, scaling the artwork to each garment size so the print lines up consistently from piece to piece."
+              ],
+              [
+                "Cut & Sew",
+                "For [Cut & Sew](/cut-sew/), we take your supplied DXF patterns through pre-production with two sample rounds, pattern and machine adjustments, and regrading of the full size range."
+              ],
+              [
+                "Garment Dyeing",
+                "Our [Garment Dyeing service](/garment-dyeing/) uses certified dyestuffs and silicone softeners that are free from heavy metals, formaldehyde and banned azo compounds and meet OEKO-TEX Standard 100 Class I requirements. We confirm the certificate covering each dye, softener and fabric before you order, and we supply current copies on request so you can check them against your market’s requirements."
+              ],
+              [
+                "Private Label",
+                "If you need a private label kids' Hawaiian dress manufacturer, our [Private Label service](/private-label/) is available on every order. It covers woven main and neck labels, printed labels, heat-transfer care and size labels, hang tags, branded metal tags, logo application and silicone branding, and we make the woven labels and heat-transfer artwork in-house."
+              ],
+              [
+                "Custom Buttons",
+                "For [Custom Buttons](/custom-buttons/), custom-dyed or logo-engraved buttons carry the button maker’s own separate minimum of 1,000 pieces per design in each colour, and we store spares for your reorders. Smaller runs use colour-matched stock buttons with no separate button minimum, including at the 50-piece dress minimum."
+              ],
+              [
+                "Custom Labels & Hang Tags",
+                "Through [Custom Labels & Hang Tags](/custom-labels-hang-tags/), we draft fibre content, care symbols and country of origin from your style’s actual fabrics and trims, and add your RN or CA number where it's needed. We send the artwork for your approval before production and base care instructions on fabric and print wash tests. We follow destination requirements, including US FTC care-labelling and textile rules, EU and UK fibre-name rules and Australian care-labelling standards, and we check labels on every private-label order."
+              ],
+              [
+                "Custom printing",
+                "Our [custom printing options](/custom-printing/) include roll screen or digital printing before cutting for rayon, cotton, linen and silk; sublimation, restricted to light-coloured polyester and blends containing at least 60% polyester; placement printing on cut panels; and reverse-print aloha shirts on cotton. Dark grounds: our partner mill dyes the ground for screen printing, or we print it digitally. Screen-print repeats go up to 64 cm, and digital and sublimation repeats go up to the full 150 cm printable width. Large repeats or pattern matching use 10–15% more fabric, and that's included in your unit price."
+              ]
+            ],
+            "mediaKind": "material"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/bikini-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "table-3",
+          "splitIndex": 0,
+          "words": 77,
+          "slots": 0,
+          "block": {
+            "id": "table-3",
+            "type": "table",
+            "sourceSectionIds": [
+              "m4_3"
+            ],
+            "heading": "Removable Swim Pads and Secure Tie Finishes",
+            "columns": [
+              "Detail",
+              "Construction"
+            ],
+            "rows": [
+              [
+                "Pad selection",
+                "Choose perforated open-cell foam for quick drainage or closed-cell swim foam for very low water uptake. Both are 3 to 5 mm thick, and we check the pad you choose wet during sampling."
+              ],
+              [
+                "Pad finish",
+                "Swim-fabric covers keep the pads in shape through repeated wetting and drying, and stitched pockets have cleanly finished openings."
+              ],
+              [
+                "Ties",
+                "Ties are made from self-fabric tubing, and we seal the ends."
+              ]
+            ],
+            "mediaKind": "material"
+          }
+        }
+      ]
+    },
+    {
+      "key": "orderCase:default",
+      "type": "orderCase",
+      "variant": null,
+      "uses": 3,
+      "names": [
+        "orderCase"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/",
+          "pageType": "home",
+          "blockId": "cases",
+          "splitIndex": 0,
+          "words": 90,
+          "slots": 0,
+          "block": {
+            "id": "cases",
+            "type": "orderCase",
+            "heading": "A recent order",
+            "items": [
+              {
+                "product": "Product Development",
+                "text": "An Australian resort wear label took its first capsule from moodboards to bulk with our in-house design and fit team. Sample rounds per style dropped from 4 to 2, and the time from brief to approved sample fell from 9 weeks to 4.",
+                "placeholder": true
+              },
+              {
+                "product": "Quality Control",
+                "text": "A 14-store West Coast boutique chain moved its aloha shirt programme to our staged QC with independent pre-shipment inspection. Defects found at its receiving check fell from 6.8% to 1.2%, and fit and shrinkage returns fell from 9% to 3%.",
+                "placeholder": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/quality-control/",
+          "pageType": "solution",
+          "blockId": "cases",
+          "splitIndex": 0,
+          "words": 45,
+          "slots": 0,
+          "block": {
+            "id": "cases",
+            "type": "orderCase",
+            "heading": "A recent order",
+            "items": [
+              {
+                "product": "Quality Control",
+                "text": "A 14-store West Coast boutique chain moved its aloha shirt programme to our staged QC with independent pre-shipment inspection. Defects found at its receiving check fell from 6.8% to 1.2%, and fit and shrinkage returns fell from 9% to 3%.",
+                "placeholder": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "testimonials:carousel",
+      "type": "testimonials",
+      "variant": "carousel",
+      "uses": 19,
+      "names": [
+        "owner:testimonials",
+        "testimonials:carousel"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 6,
+          "module": "owner:testimonials"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/swimwear-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "owner-testimonials",
+          "splitIndex": 0,
+          "words": 144,
+          "slots": 3,
+          "block": {
+            "id": "owner-testimonials",
+            "type": "testimonials",
+            "heading": "What buyers say",
+            "items": [
+              {
+                "quote": "The swimwear filled a gap in our resort shop range, and because orders start at 50 pieces per style in each colour, we could try several prints without tying up too much stock. The fabric and stitching held up well through a busy season.",
+                "author": "Retail Buying Manager, Hospitality & Resort Retail, Fiji",
+                "placeholder": true
+              },
+              {
+                "quote": "We have just completed our first swimwear run with the team, and bulk production landed within the 35 to 40 days they quoted after our sample approval. We are very happy with how the finished suits turned out.",
+                "author": "Founder, Swimwear Label, Australia",
+                "placeholder": true
+              },
+              {
+                "quote": "We have been consistently impressed by how they check quality at every step, from fabric on arrival through cutting and sewing to a full final inspection, and by how openly they share the process with us. Every shipment has felt carefully made.",
+                "author": "Sourcing Director, Apparel Wholesale, United Kingdom",
+                "placeholder": true
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/resort-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "owner-testimonials",
+          "splitIndex": 0,
+          "words": 33,
+          "slots": 1,
+          "block": {
+            "id": "owner-testimonials",
+            "type": "testimonials",
+            "heading": "What buyers say",
+            "items": [
+              {
+                "headline": "Room to start small",
+                "quote": "We started with a small first order of resort dresses to test the market and reordered the same styles within a season.",
+                "author": "Buyer",
+                "company": "Tidewell Atelier",
+                "country": "Italy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "logos:default",
+      "type": "logos",
+      "variant": null,
+      "uses": 2,
+      "names": [
+        "owner:logos",
+        "logos"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/",
+          "pageType": "home",
+          "blockId": "owner-logos",
+          "splitIndex": 0,
+          "words": 35,
+          "slots": 0,
+          "block": {
+            "id": "owner-logos",
+            "type": "logos",
+            "heading": "Brands we make for",
+            "items": [
+              {
+                "name": "Gullwing & Co.",
+                "note": "Hawaiian shirt, USA"
+              },
+              {
+                "name": "Juno Shore",
+                "note": "Hawaiian shirt, Portugal"
+              },
+              {
+                "name": "Tidewell Atelier",
+                "note": "Hawaiian shirt, Italy"
+              },
+              {
+                "name": "Pebbleworks Basics",
+                "note": "Hawaiian shirt, Netherlands"
+              },
+              {
+                "name": "Estuary Collective",
+                "note": "Hawaiian shirt, Denmark"
+              },
+              {
+                "name": "Harbour Knit Supply",
+                "note": "Hawaiian shirt, Australia"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "relatedPages:links",
+      "type": "relatedPages",
+      "variant": "links",
+      "uses": 40,
+      "names": [
+        "relatedPages:links"
+      ],
+      "evidence": [
+        {
+          "pageType": "product_manufacturer",
+          "index": 7,
+          "module": "relatedPages:links",
+          "gap": "layout"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/",
+          "pageType": "home",
+          "blockId": "categories",
+          "splitIndex": 0,
+          "words": 51,
+          "slots": 0,
+          "block": {
+            "id": "categories",
+            "type": "relatedPages",
+            "heading": "Products and Solutions",
+            "links": [
+              {
+                "label": "Resort Dresses",
+                "href": "/resort-dress-manufacturer/"
+              },
+              {
+                "label": "Swimwear",
+                "href": "/swimwear-manufacturer/"
+              },
+              {
+                "label": "Kids' Hawaiian Clothing",
+                "href": "/kids-hawaiian-clothing-manufacturer/"
+              },
+              {
+                "label": "Hawaiian Uniform Shirts",
+                "href": "/hawaiian-uniform-shirt-manufacturer/"
+              },
+              {
+                "label": "Accessories",
+                "href": "/accessories-manufacturer/"
+              },
+              {
+                "label": "Product Development",
+                "href": "/product-development/"
+              },
+              {
+                "label": "Quality Control",
+                "href": "/quality-control/"
+              },
+              {
+                "label": "Hawaiian Fabrics",
+                "href": "/hawaiian-fabrics/"
+              },
+              {
+                "label": "Customization",
+                "href": "/customization/"
+              },
+              {
+                "label": "Bulk Production",
+                "href": "/bulk-production/"
+              },
+              {
+                "label": "Embroidery",
+                "href": "/embroidery/"
+              },
+              {
+                "label": "Packaging",
+                "href": "/packaging/"
+              },
+              {
+                "label": "Sampling",
+                "href": "/sampling/"
+              },
+              {
+                "label": "Private Label",
+                "href": "/private-label/"
+              },
+              {
+                "label": "Trims & Accessories",
+                "href": "/trims-accessories/"
+              },
+              {
+                "label": "Cut & Sew",
+                "href": "/cut-sew/"
+              },
+              {
+                "label": "Shipping",
+                "href": "/shipping/"
+              },
+              {
+                "label": "Matching Family & Group Sets",
+                "href": "/matching-family-group-sets/"
+              },
+              {
+                "label": "Custom Print Design",
+                "href": "/custom-print-design/"
+              },
+              {
+                "label": "Fabric Sourcing",
+                "href": "/fabric-sourcing/"
+              },
+              {
+                "label": "Custom Labels & Hang Tags",
+                "href": "/custom-labels-hang-tags/"
+              },
+              {
+                "label": "Custom Buttons",
+                "href": "/custom-buttons/"
+              },
+              {
+                "label": "Garment Dyeing",
+                "href": "/garment-dyeing/"
+              },
+              {
+                "label": "Custom Printing",
+                "href": "/custom-printing/"
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/request-a-quote/",
+          "pageType": "general",
+          "blockId": "related",
+          "splitIndex": 0,
+          "words": 4,
+          "slots": 0,
+          "block": {
+            "id": "related",
+            "type": "relatedPages",
+            "heading": "Related pages",
+            "links": [
+              {
+                "label": "Our Process",
+                "href": "/our-process/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "faq:accordion",
+      "type": "faq",
+      "variant": "accordion",
+      "uses": 44,
+      "names": [
+        "faq:accordion"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 10,
+          "module": "faq:accordion",
+          "gap": "layout"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/resort-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "faq",
+          "splitIndex": 0,
+          "words": 652,
+          "slots": 0,
+          "block": {
+            "id": "faq",
+            "type": "faq",
+            "sourceSectionIds": [
+              "faq"
+            ],
+            "heading": "Frequently Asked Questions",
+            "items": [
+              {
+                "question": "What bust, waist, hip and finished-length measurements define your adult and girls' dress sizes, and how much wearing ease does each silhouette allow?",
+                "answer": "Dresses keep their own chart, XS to 4XL, covering bust 82–126 cm, waist 64–108 cm and hip 88–132 cm. Girls' sizes go from 2T with a 53 cm chest up to 14 with an 80 cm chest. Finished lengths are about 90 cm for minis, 110–115 cm for midis and 135–145 cm for maxis. Slip and fitted cuts get about 2–4 cm of bust ease, wrap and shirt dresses 6–10 cm, and tiered and kaftan styles 12 cm or more. We can also work to your own size chart."
+              },
+              {
+                "question": "Can I take one of your dress silhouettes and change its length, neckline or sleeves, or add pockets or tiers?",
+                "answer": "Yes. We can change the length, neckline, sleeves, fabric or colour, and add pockets, tiers or ruffles. Our in-house team revises the existing pattern, we quote you before sampling, and your new sample is ready in 10 to 15 days."
+              },
+              {
+                "question": "Which design choices on a resort dress raise the price most, for example a maxi length, tiers, a full lining or a placement print?",
+                "answer": "Fabric use has the biggest effect on price. Maxis, multiple tiers, ruffles and matched placement or border prints cost more than minis or midis with all-over repeats. Full lining, embroidery and built-in cups add materials and sewing time, and we itemise each option you choose."
+              },
+              {
+                "question": "Which of your fabrics suit close-fitting slip dresses, gathered tiered dresses and structured shirt dresses without compromising their intended shape?",
+                "answer": "For close-fitting slips we use fluid silk blends, rayon, chiffon and satin. Light cotton voile and lawn hold the volume of gathered tiers without adding bulk. Cotton poplin, stretch poplin, linen and viscose shirting keep the collars, plackets and bodies of shirt dresses crisp."
+              },
+              {
+                "question": "Can you make bias-cut satin or silk-blend slip dresses, and what fabric or design restrictions apply?",
+                "answer": "Yes. We cut polyester, viscose and silk-blend satin at 70–120 GSM on the true bias, one layer at a time, then hang each dress for 24 hours before we level the hem. Bias cutting uses about 20–30% more fabric than straight-grain cutting, and it suits all-over or small-repeat prints, not borders or placements. Fabrics under 60 GSM or with more than 5% spandex don't work for bias cutting."
+              },
+              {
+                "question": "Do you offer both adjustable true-wrap dresses and fixed faux-wrap dresses, and which fastening options are available for each?",
+                "answer": "Yes. True wraps fit a wide size range, with an adjustable self-tie that passes through a side-seam opening and an internal snap or hook-and-eye at the inner crossover. Faux wraps have a fixed neckline and are sewn closed at the waist. They pull on or use a side zip, and you can add a hidden press stud at the bust overlap."
+              },
+              {
+                "question": "Can you incorporate sewn-in cups or an internal support layer into backless and low-neckline resort dresses, and what support constructions fall outside your capability?",
+                "answer": "Yes. We offer fixed or removable moulded cups, hidden power-mesh support, clear stabilising tape at the neckline, bodice lining and light spiral boning, and we pick what suits your design. We don't make fully corseted bodices, underwired cups or structured bra frames, so a dress that needs that level of support has to be worn with a separate strapless bra."
+              },
+              {
+                "question": "Can you combine a knitted bodice with a woven skirt or add mesh and lace panels, and what material combinations are outside your production capabilities?",
+                "answer": "Yes. We join knitted bodices to woven skirts with stretch stay tape at the waist. We also add mesh overlays, sleeves, cut-out fills, ruching or illusion panels, as well as lace trims and inserts. We don't combine fabrics with conflicting care needs, such as dry-clean-only silk or wool with washable knits, and we don't work with leather, sequinned panels or bonded seams."
+              }
+            ],
+            "variant": "two-column",
+            "visuals": [
+              {
+                "id": "dress_measurement_ranges",
+                "type": "data",
+                "purpose": "Show the stated size-chart endpoints and finished-length guidance without implying a complete graded size chart.",
+                "data": {
+                  "shape": "ranges",
+                  "items": [
+                    {
+                      "label": "Adult bust",
+                      "min": 82,
+                      "max": 126,
+                      "unit": "cm"
+                    },
+                    {
+                      "label": "Adult waist",
+                      "min": 64,
+                      "max": 108,
+                      "unit": "cm"
+                    },
+                    {
+                      "label": "Adult hip",
+                      "min": 88,
+                      "max": 132,
+                      "unit": "cm"
+                    },
+                    {
+                      "label": "Girls' chest",
+                      "min": 53,
+                      "max": 80,
+                      "unit": "cm"
+                    },
+                    {
+                      "label": "Mini finished length",
+                      "min": 90,
+                      "max": 90,
+                      "unit": "cm"
+                    },
+                    {
+                      "label": "Midi finished length",
+                      "min": 110,
+                      "max": 115,
+                      "unit": "cm"
+                    },
+                    {
+                      "label": "Maxi finished length",
+                      "min": 135,
+                      "max": 145,
+                      "unit": "cm"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "wrap_construction_comparison",
+                "type": "data",
+                "purpose": "Help buyers choose between adjustable true-wrap and fixed faux-wrap construction.",
+                "caption": "Wrap construction and fastening options.",
+                "data": {
+                  "shape": "comparison",
+                  "items": {
+                    "options": [
+                      "True wrap",
+                      "Faux wrap"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Recommended for",
+                        "values": [
+                          "Buyers selling across a wide size range",
+                          "Buyers wanting a neckline that never shifts"
+                        ]
+                      },
+                      {
+                        "label": "Main closure",
+                        "values": [
+                          "Adjustable self-tie through a side-seam opening",
+                          "Sewn closed at the waist; pull-on or side zip"
+                        ]
+                      },
+                      {
+                        "label": "Neckline fastening",
+                        "values": [
+                          "Internal snap or hook-and-eye at the inner crossover",
+                          "Optional hidden press stud at the bust overlap"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/bulk-production/",
+          "pageType": "solution",
+          "blockId": "faq",
+          "splitIndex": 0,
+          "words": 88,
+          "slots": 0,
+          "block": {
+            "id": "faq",
+            "type": "faq",
+            "sourceSectionIds": [
+              "faq"
+            ],
+            "heading": "Frequently Asked Questions",
+            "items": [
+              {
+                "question": "What GSM ranges can you supply in rayon, cotton and polyester for the fabric used in my approved aloha shirt sample?",
+                "answer": "We supply rayon and polyester at 100–130 gsm, cotton poplin at 110–140 gsm, cotton lawn at 80–110 gsm, and linen and linen blends at 140–180 gsm. Your bulk order uses the same fabric weight as your approved sample. Rayon gives you a soft, fluid drape and bright prints, cotton gives a crisper look, and linen gives more texture and structure."
+              }
+            ],
+            "visuals": [
+              {
+                "id": "faq_fabric_weights",
+                "type": "data",
+                "purpose": "Compare available fabric weights and explain that bulk production follows the approved sample's weight.",
+                "caption": "Bulk production uses the same fabric weight as your approved sample.",
+                "data": {
+                  "shape": "ranges",
+                  "items": [
+                    {
+                      "label": "Rayon",
+                      "min": 100,
+                      "max": 130,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Polyester",
+                      "min": 100,
+                      "max": 130,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Cotton poplin",
+                      "min": 110,
+                      "max": 140,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Cotton lawn",
+                      "min": 80,
+                      "max": 110,
+                      "unit": "gsm"
+                    },
+                    {
+                      "label": "Linen and linen blends",
+                      "min": 140,
+                      "max": 180,
+                      "unit": "gsm"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "cta:image-band",
+      "type": "cta",
+      "variant": "image-band",
+      "uses": 1,
+      "names": [
+        "cta:image-band"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 9,
+          "module": "cta:image-band"
+        }
+      ],
+      "samples": [
+        {
+          "role": "only",
+          "route": "/",
+          "pageType": "home",
+          "blockId": "cta",
+          "splitIndex": 0,
+          "words": 40,
+          "slots": 1,
+          "block": {
+            "id": "cta",
+            "type": "cta",
+            "sourceSectionIds": [
+              "cta"
+            ],
+            "heading": "Tell Us About Your Next Shirt Order",
+            "paragraphs": [
+              "Send us your shirt requirements, references or tech pack to start your enquiry. We reply within one business day and quote before sampling, which begins once you agree the price."
+            ],
+            "visuals": [
+              {
+                "id": "cta_enquiry_sequence",
+                "type": "data",
+                "purpose": "Show buyers how an enquiry leads to an agreed price and then a sample.",
+                "caption": "Start with an enquiry; agree the price before sampling.",
+                "data": {
+                  "shape": "sequence",
+                  "items": [
+                    {
+                      "label": "Send an enquiry",
+                      "detail": "Contact the factory about your next shirt order. We reply within one business day."
+                    },
+                    {
+                      "label": "Agree the price",
+                      "detail": "We quote before making the sample."
+                    },
+                    {
+                      "label": "Begin sampling",
+                      "detail": "Once the price is agreed, we move on to making the sample."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "brief-cta-1",
+                "type": "photo",
+                "content": "A visiting buyer and a Chinese account manager stand at a showroom table, the buyer holding up a sample aloha shirt in a tropical leaf print against the window light while folded fabric swatches and blank woven labels lie spread out in front of them.",
+                "setting": "Factory sample showroom, Guangzhou",
+                "caption": "Bring your references and we'll start your next shirt order together."
+              }
+            ],
+            "cta": {
+              "label": "Request a quote",
+              "href": "/request-a-quote/"
+            },
+            "links": [],
+            "variant": "image-band"
+          }
+        }
+      ]
+    },
+    {
+      "key": "proof:band",
+      "type": "proof",
+      "variant": "band",
+      "uses": 16,
+      "names": [
+        "intro/proof"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 11,
+          "module": "intro/proof"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/custom-print-design/",
+          "pageType": "solution",
+          "blockId": "proof-1",
+          "splitIndex": 0,
+          "words": 77,
+          "slots": 0,
+          "block": {
+            "id": "proof-1",
+            "type": "proof",
+            "sourceSectionIds": [
+              "m2_2"
+            ],
+            "heading": "Design Fees and Artwork Rights: What You Need to Know",
+            "paragraphs": [
+              "Each sample costs USD 50, and the design fee is USD 50 per design, covering all its colourways. Neither fee is refunded or credited against bulk orders. Before development, we need your written confirmation that you own or are licensed to use the designs, logos or pictures you supply. When you send someone else's reference, we use it only for its mood and draw an original print."
+            ],
+            "wordCount": 67,
+            "mediaKind": "material",
+            "visuals": [
+              {
+                "id": "m2_2_fees",
+                "type": "data",
+                "purpose": "Distinguish the sample fee from the design fee and clarify what each covers.",
+                "caption": "Sample and design fees are separate; neither is refunded or credited against the bulk order.",
+                "data": {
+                  "shape": "amounts",
+                  "items": [
+                    {
+                      "label": "Sample fee",
+                      "value": 50,
+                      "unit": "USD"
+                    },
+                    {
+                      "label": "Design fee",
+                      "value": 50,
+                      "unit": "USD"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/swim-trunks-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "proof-3",
+          "splitIndex": 0,
+          "words": 39,
+          "slots": 0,
+          "block": {
+            "id": "proof-3",
+            "type": "proof",
+            "sourceSectionIds": [
+              "overview_2_4"
+            ],
+            "paragraphs": [
+              "Once you've approved your sample and we've received your deposit, we start bulk production of your swim trunks. From that point it takes 35 to 40 days, with the exact time set by your order size and the season."
+            ],
+            "wordCount": 39,
+            "mediaKind": "material",
+            "continues": "proof-1"
+          }
+        }
+      ]
+    },
+    {
+      "key": "gallery:grid",
+      "type": "gallery",
+      "variant": "grid",
+      "uses": 19,
+      "names": [
+        "gallery:grid"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/big-and-tall-aloha-shirt-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "media-module-1",
+          "splitIndex": 0,
+          "words": 0,
+          "slots": 4,
+          "block": {
+            "id": "media-module-1",
+            "type": "gallery",
+            "variant": "grid",
+            "items": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "competitor": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "cta:band",
+      "type": "cta",
+      "variant": "band",
+      "uses": 20,
+      "names": [
+        "cta:band"
+      ],
+      "evidence": [
+        {
+          "pageType": "product_manufacturer",
+          "index": 9,
+          "module": "cta:band"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/swim-trunks-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "cta",
+          "splitIndex": 0,
+          "words": 58,
+          "slots": 0,
+          "block": {
+            "id": "cta",
+            "type": "cta",
+            "sourceSectionIds": [
+              "cta"
+            ],
+            "heading": "Tell Us About Your Swim Trunks Order",
+            "paragraphs": [
+              "Send us your design, a picture, an idea or your full tech pack, along with your quantity per style and colour. Our team replies within one business day, and once we have reviewed your design and fabric, you get an itemised quote within 24 hours."
+            ],
+            "cta": {
+              "label": "Request a quote for swim trunks",
+              "href": "/request-a-quote/"
+            },
+            "links": [],
+            "variant": "band"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/accessories-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "cta",
+          "splitIndex": 0,
+          "words": 38,
+          "slots": 0,
+          "block": {
+            "id": "cta",
+            "type": "cta",
+            "sourceSectionIds": [
+              "cta"
+            ],
+            "heading": "Send Your Accessories Brief",
+            "paragraphs": [
+              "Send us your accessory styles, quantities by colour, size range and artwork. We’ll confirm the requirements and quote before sampling; you’ll hear from our team within one business day."
+            ],
+            "cta": {
+              "label": "Request a quote for accessories",
+              "href": "/request-a-quote/"
+            },
+            "links": [],
+            "variant": "band"
+          }
+        }
+      ]
+    },
+    {
+      "key": "splitMedia:panel",
+      "type": "splitMedia",
+      "variant": "panel",
+      "uses": 11,
+      "names": [
+        "splitMedia:panel"
+      ],
+      "evidence": [
+        {
+          "pageType": "product_manufacturer",
+          "index": 3,
+          "module": "splitMedia:panel",
+          "gap": "layout"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/kids-hawaiian-clothing-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "splitMedia-2",
+          "splitIndex": 1,
+          "words": 524,
+          "slots": 1,
+          "block": {
+            "id": "splitMedia-2",
+            "type": "splitMedia",
+            "sourceSectionIds": [
+              "overview_2_2"
+            ],
+            "paragraphs": [
+              "We take your brief through sampling, approved production and inspection all the way to delivery.",
+              "Our [Quality Control](/quality-control/) covers checks from fabric to finished garment, plus independent inspection. Coverage includes OEKO-TEX Standard 100 for tested fabrics and trims, certified plain-colour dyes, GOTS organic cotton styles, BCI cotton sourcing, ISO 9001 and WRAP. We confirm what each certificate covers and send copies on request. Tests for markets outside the US are arranged after you approve them, and you pay for each test item. Girls' dresses in sizes 2T to 14 are designed to the EN 14682 and ASTM F1816 cord requirements, with no neck drawstrings or overlength ties. For under-3s we leave out detachable small trims, and each US order for those sizes gets an accredited small-parts test at a lab such as SGS or BV.",
+              "Our [fabric choices](/hawaiian-fabrics/) include natural, regenerated and synthetic fibres, with blends such as 95% cotton 5% spandex, 80% nylon 20% spandex and 65% polyester 35% cotton.",
+              "With [Customisation](/customization/), we match print, thread and fabric dye to your Pantone references.",
+              "Our [Custom Print Design](/custom-print-design/) service creates tropical florals, foliage, beach scenes and novelty prints that are unique to your group.",
+              "For [Matching Family & Group Sets](/matching-family-group-sets/), we carry your aloha print from toddler sizes up to 5XL and scale the artwork to each garment size so the whole set looks consistent.",
+              "Our [Cut & Sew](/cut-sew/) service works from your DXF patterns. It runs two rounds of pre-production samples with pattern and machine adjustments, followed by full-range regrading.",
+              "Our [Packaging](/packaging/) service uses FSC-certified paper packs and GRS-certified recycled content in plastic packaging and poly mailers. Any packaging that touches the shirts directly is certified to OEKO-TEX Standard 100.",
+              "Our [Embroidery](/embroidery/) service gives you designer-prepared detailed embroidery, patches and labels, with logos that stand up to repeated washing and hard wear without fraying.",
+              "For [Garment Dyeing](/garment-dyeing/), we use certified dyestuffs and silicone softeners that are free from heavy metals, formaldehyde and banned azo compounds and that meet OEKO-TEX Standard 100 Class I requirements. Before ordering, we confirm what the dye, softener and fabric certificates cover, and we supply current copies on request.",
+              "Our [Private Label](/private-label/) service is available on every order. Label, tag and logo options include woven labels and heat-transfer artwork made in-house.",
+              "With [Trims & Accessories](/trims-accessories/), we help you compare button materials, sizes, colours and attachments, choose plackets and brand details, and develop colour-matched accessories or custom hardware.",
+              "Under our [after-delivery terms](/terms-and-conditions/), you report any quality problem within 7 days with photos or videos. We come back with a solution within 24 hours: repair, remake, replacement, discount or credit.",
+              "For [Custom Buttons](/custom-buttons/), custom-dyed or logo-engraved designs need a separate lot of 1,000 pieces per design in each colour, and we store the spares for reorders. Colour-matched stock buttons have no separate minimum and work at the 50-piece garment minimum.",
+              "Through [Custom Labels & Hang Tags](/custom-labels-hang-tags/), we write fibre, origin and wash-tested care information from your actual materials so it complies with the rules where you sell, and we add RN or CA numbers where they're needed. We get your approval on the artwork before production and check the labels on every private-label order."
+            ],
+            "wordCount": 526,
+            "media": null,
+            "variant": "panel",
+            "mediaKind": "process",
+            "visuals": [
+              {
+                "id": "overview_2_2_order_sequence",
+                "type": "data",
+                "purpose": "Explain the order milestones, approval requirements and shipment choices.",
+                "caption": "From your brief to shipment, with approval before bulk production and inspection before dispatch.",
+                "data": {
+                  "shape": "sequence",
+                  "items": [
+                    {
+                      "label": "Brief or tech pack",
+                      "detail": "Provide your brief or tech pack."
+                    },
+                    {
+                      "label": "Sample",
+                      "detail": "A sample is ready in 10 to 15 days."
+                    },
+                    {
+                      "label": "Approval and deposit",
+                      "detail": "Approve the sample and pay the 50% deposit when the order is confirmed."
+                    },
+                    {
+                      "label": "Bulk production",
+                      "detail": "Production usually takes 35 to 40 days, depending on order size and season."
+                    },
+                    {
+                      "label": "Final inspection",
+                      "detail": "A full final inspection takes place before shipment. Independent inspectors such as SGS or BV are welcome."
+                    },
+                    {
+                      "label": "Shipment",
+                      "detail": "The remaining 50% is paid before shipment. Ship on FOB, CIF or DDP terms; worldwide DDP includes duties, customs and freight to your door."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "brief-splitMedia-2-1",
+                "type": "photo",
+                "content": "A Chinese female quality inspector clamps a coconut button on a small child's hibiscus-print aloha shirt into a handheld pull-test gauge and draws it steadily upward, while other inspected kids' shirts lie folded beside her.",
+                "setting": "Factory quality-control bench, Guangzhou",
+                "caption": "Pull-testing buttons on a kids' aloha shirt before shipment"
+              }
+            ],
+            "continues": "splitMedia-1",
+            "stepsKeepPhoto": true
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/baby-hawaiian-clothing-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "splitMedia-2",
+          "splitIndex": 1,
+          "words": 24,
+          "slots": 1,
+          "block": {
+            "id": "splitMedia-2",
+            "type": "splitMedia",
+            "sourceSectionIds": [
+              "overview_2_2"
+            ],
+            "paragraphs": [
+              "We take your order from a brief or tech pack through sampling, approval and bulk production, all the way to final inspection and shipment."
+            ],
+            "wordCount": 24,
+            "media": null,
+            "variant": "panel",
+            "mediaKind": "product",
+            "visuals": [
+              {
+                "id": "overview_2_2_order_sequence",
+                "type": "data",
+                "purpose": "Explain the order milestones, payment points and shipping choices in their operating order.",
+                "caption": "From your brief to shipment.",
+                "data": {
+                  "shape": "sequence",
+                  "items": [
+                    {
+                      "label": "Brief or tech pack",
+                      "detail": "Start with your brief or tech pack."
+                    },
+                    {
+                      "label": "Sample",
+                      "detail": "A sample is ready in 10 to 15 days."
+                    },
+                    {
+                      "label": "Approval and deposit",
+                      "detail": "Approve the sample and pay the 50% deposit when the order is confirmed."
+                    },
+                    {
+                      "label": "Bulk production",
+                      "detail": "Production takes 35 to 40 days, depending on order size and season."
+                    },
+                    {
+                      "label": "Final inspection",
+                      "detail": "The order undergoes a full final inspection."
+                    },
+                    {
+                      "label": "Shipment",
+                      "detail": "The remaining 50% is paid before shipment. Ship on FOB, CIF or DDP terms. DDP delivery is available worldwide, with duties, customs and freight in one price."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "brief-splitMedia-2-1",
+                "type": "photo",
+                "content": "A Chinese female inspector at a final-inspection table holds up a finished Hawaiian-print baby romper under bright lights and checks its snap placket against an approved sample romper laid flat beside her, with folded rompers stacked ready for packing.",
+                "setting": "Final inspection area, Guangzhou garment factory",
+                "caption": "A bulk baby romper checked against the approved sample before shipment"
+              }
+            ],
+            "continues": "splitMedia-1",
+            "stepsKeepPhoto": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "featureGrid:media",
+      "type": "featureGrid",
+      "variant": "media",
+      "uses": 30,
+      "names": [
+        "featureGrid:media"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 4,
+          "module": "featureGrid:media",
+          "gap": "layout"
+        },
+        {
+          "pageType": "product_manufacturer",
+          "index": 2,
+          "module": "featureGrid:media"
+        },
+        {
+          "pageType": "product_manufacturer",
+          "index": 5,
+          "module": "featureGrid:media",
+          "gap": "layout"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/hawaiian-uniform-shirt-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "featureGrid-1",
+          "splitIndex": 0,
+          "words": 169,
+          "slots": 4,
+          "block": {
+            "id": "featureGrid-1",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "Private Label Uniform Shirts With Your Prints and Logos",
+            "paragraphs": [
+              "Your logo stays readable only when it contrasts with what's directly around it, and dense, multicoloured prints take that contrast away faster than thread colour can bring it back."
+            ],
+            "items": [
+              {
+                "heading": "Logos against tropical prints",
+                "paragraphs": [
+                  "On dense prints, go for solid patches, sublimated 10 x 10 cm plain zones on the chest or back, or contrast-thread chest embroidery. Pantone-matched logos on calmer patterns lose readability at a distance."
+                ]
+              },
+              {
+                "heading": "Design and print development",
+                "paragraphs": [
+                  "[Product Development](/product-development/) starts your OEM/ODM styles from a design, a picture or an idea, and [Custom Print Design](/custom-print-design/) gives you 3 mock-ups within 48 hours."
+                ],
+                "placeholder": true
+              },
+              {
+                "heading": "Coordinated team sizing",
+                "paragraphs": [
+                  "With [Matching Family & Group Sets](/matching-family-group-sets/), we coordinate Pantone-matched shirts, size labels and multiple destinations. Our [aloha shirt sizing](/) runs from adult XXS to 5XL, plus youth, children and seniors."
+                ],
+                "placeholder": true
+              },
+              {
+                "heading": "Patterns and fine seams",
+                "paragraphs": [
+                  "Our [Cut & Sew](/cut-sew/) service keeps your patterns on file (releasing one costs USD 580) and tests 1 cm overlocked or French seams on lightweight rayon to ISO 13936-2."
+                ],
+                "placeholder": true
+              }
+            ],
+            "variant": "media",
+            "mediaKind": "product"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/boardshorts-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "m5-2",
+          "splitIndex": 0,
+          "words": 44,
+          "slots": 2,
+          "block": {
+            "id": "m5-2",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "m5"
+            ],
+            "continues": "m5",
+            "items": [
+              {
+                "heading": "Schools and youth",
+                "paragraphs": [
+                  "We carry your school logo and colours across boardshorts for both children and adults, and both go into one combined order."
+                ]
+              },
+              {
+                "heading": "Clubs and events",
+                "paragraphs": [
+                  "We make custom swim shorts for swimming clubs, water polo teams, beach volleyball teams and open-water events."
+                ]
+              }
+            ],
+            "variant": "media",
+            "mediaKind": "lifestyle"
+          }
+        }
+      ]
+    },
+    {
+      "key": "featureGrid:icons",
+      "type": "featureGrid",
+      "variant": "icons",
+      "uses": 7,
+      "names": [
+        "featureGrid:icons"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/hawaiian-uniform-shirt-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "featureGrid-2",
+          "splitIndex": 0,
+          "words": 120,
+          "slots": 0,
+          "block": {
+            "id": "featureGrid-2",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "continues": "featureGrid-1",
+            "items": [
+              {
+                "heading": "Printing limits and allowances",
+                "paragraphs": [
+                  "[Custom Printing](/custom-printing/) gives you up to 12 colours. Screen repeats go up to 64 cm, digital and sublimation repeats up to 150 cm, and extra fabric for large repeats is already in your price."
+                ],
+                "placeholder": true
+              },
+              {
+                "heading": "Your brand, direct ordering",
+                "paragraphs": [
+                  "Our [factory-owned business](/about-us/) has been running since 2011, and you agree orders directly with us. With [Private Label](/private-label/), only your brand appears on labels, trims and packaging."
+                ]
+              },
+              {
+                "heading": "Buttons and repeat production",
+                "paragraphs": [
+                  "[Custom Buttons](/custom-buttons/) tooling is quoted separately, and we keep the moulds for 3 years. [Bulk Production](/bulk-production/) remakes approved styles from archived specifications."
+                ],
+                "placeholder": true
+              },
+              {
+                "heading": "Distribution to your destinations",
+                "paragraphs": [
+                  "For one order split across staff or branch addresses, our [aloha work uniform programmes](/aloha-work-uniform-manufacturer/) set out how we ship to each."
+                ]
+              }
+            ],
+            "variant": "media",
+            "mediaKind": "product"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/hawaiian-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "featureGrid-2",
+          "splitIndex": 0,
+          "words": 61,
+          "slots": 0,
+          "block": {
+            "id": "featureGrid-2",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "overview_2_3"
+            ],
+            "continues": "featureGrid-1",
+            "items": [
+              {
+                "heading": "Shipping routes",
+                "paragraphs": [
+                  "Our [Shipping service](/shipping/) delivers to the United States, Hawaii, Canada, Australia, the Caribbean, the UK and Europe by express, air, sea or door-to-door, depending on your order size and timeline."
+                ]
+              },
+              {
+                "heading": "English-speaking support",
+                "paragraphs": [
+                  "You can [contact our English-speaking team](/contact-us/) by phone or video call at any point in your order, and we reply to every enquiry within one business day."
+                ]
+              }
+            ],
+            "variant": "media",
+            "mediaKind": "product"
+          }
+        }
+      ]
+    },
+    {
+      "key": "featureGrid:bullets",
+      "type": "featureGrid",
+      "variant": "bullets",
+      "uses": 26,
+      "names": [
+        "featureGrid:bullets"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/embroidery/",
+          "pageType": "solution",
+          "blockId": "featureGrid-1",
+          "splitIndex": 0,
+          "words": 373,
+          "slots": 0,
+          "block": {
+            "id": "featureGrid-1",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "Embroidery Techniques, Fabrics and Placement Options",
+            "paragraphs": [
+              "Dense fills stiffen a lightweight shirt. Appliqué keeps the drape because the fabric is secured only at its edges. We cut and adhere your pattern and add cotton padding to give it a raised effect."
+            ],
+            "items": [
+              {
+                "heading": "Fabric and technique",
+                "paragraphs": [
+                  "We embroider directly onto cotton, rayon from about 100 gsm, linen and blends with up to 5% spandex, using cut-away backing. Silk and fabrics under 100 gsm need embroidered patches so they don't pucker."
+                ]
+              },
+              {
+                "heading": "Placement and alignment",
+                "paragraphs": [
+                  "We embroider the flat panels before the shirt is assembled, so your design can go on the chest, pocket, back, sleeve, collar points or front hem. A design that crosses the pocket lines up within 3 mm, and collar stitching stays clear of the roll line. A design that crosses the opening splits at the placket edge, clear of the buttonholes."
+                ]
+              },
+              {
+                "heading": "Your manufacturing partner",
+                "paragraphs": [
+                  "Our [company](/about-us/) has run its own factory since 2011 and handles production and export directly for business buyers worldwide. You agree your order with our team, not through an online shop or marketplace."
+                ]
+              },
+              {
+                "heading": "Developing your shirt",
+                "paragraphs": [
+                  "Our [Product Development service](/product-development/) supports OEM and ODM work. You can bring your own custom designs, choose ready designs graded to international sizes, or combine the two. We do pattern, grading and fit work in-house, and you don't need a tech pack to start."
+                ]
+              },
+              {
+                "heading": "Wider fabric choices",
+                "paragraphs": [
+                  "Our [fabric range](/hawaiian-fabrics/) covers cotton, polyester, spandex, nylon, rayon, viscose, modal, Tencel, linen, silk and wool. It also includes blends such as 95% cotton 5% spandex, 80% nylon 20% spandex and 65% polyester 35% cotton."
+                ]
+              },
+              {
+                "heading": "One coordinated process",
+                "paragraphs": [
+                  "Our [production process](/our-process/) keeps fabric, embroidery, printing, sewing and finishing on one timeline with one contact. We agree your quote before sampling, and you approve the sample before bulk production starts."
+                ]
+              },
+              {
+                "heading": "Direct English-speaking contact",
+                "paragraphs": [
+                  "You can [contact our English-speaking team](/contact-us/) by phone or video call at any point in your order. We reply to every enquiry within one business day."
+                ]
+              },
+              {
+                "heading": "Individual uniform details",
+                "paragraphs": [
+                  "Our [Hawaiian uniform shirts](/hawaiian-uniform-shirt-manufacturer/) pair shared prints and branding with individual names, titles, initials or numbers. We add these in embroidery or heat-transfer vinyl from your spreadsheet. This adds 3 to 5 production days, and then we pack by department, branch or name list."
+                ],
+                "placeholder": true
+              }
+            ],
+            "variant": "bullets",
+            "mediaKind": "process",
+            "planned": true
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/shipping/",
+          "pageType": "solution",
+          "blockId": "featureGrid-1",
+          "splitIndex": 0,
+          "words": 84,
+          "slots": 0,
+          "block": {
+            "id": "featureGrid-1",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "m4_4"
+            ],
+            "heading": "Blind Shipping and Split Deliveries for Aloha Shirts",
+            "items": [
+              {
+                "heading": "Blind shipping",
+                "paragraphs": [
+                  "We ship shirts for your business to your warehouses, boutiques, resort shops or your own customers' addresses in neutral parcel packaging with no factory branding."
+                ]
+              },
+              {
+                "heading": "Split deliveries",
+                "paragraphs": [
+                  "With multi-destination DDP, we split a single bulk order across several destinations, including sending 500 shirts to 500 staff or store addresses for one business order."
+                ]
+              },
+              {
+                "heading": "Address preparation",
+                "paragraphs": [
+                  "For blind-shipped and split orders, you send us the complete address list in one consistent spreadsheet before packing starts."
+                ]
+              }
+            ],
+            "variant": "bullets",
+            "mediaKind": "process",
+            "planned": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "process:circles",
+      "type": "process",
+      "variant": "circles",
+      "uses": 7,
+      "names": [
+        "process:circles"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/hawaiian-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "process-1",
+          "splitIndex": 0,
+          "words": 196,
+          "slots": 0,
+          "block": {
+            "id": "process-1",
+            "type": "process",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "OEM Dress Quotes, Development and Sample Approval",
+            "paragraphs": [
+              "Each sample costs USD 50, and design costs USD 50 per pattern or print, covering all colourways. Neither fee is refunded or credited against bulk."
+            ],
+            "steps": [
+              {
+                "heading": "Request your quote",
+                "text": "Send references, specifications or garment types with sizes and quantities, and we send your [quote](/request-a-quote/) within 24 hours. It is valid for 30 days.",
+                "placeholder": true
+              },
+              {
+                "heading": "Work directly with us",
+                "text": "Our [factory-owning company](/about-us/) has operated since 2011, and every B2B order is agreed with our team, not through an online shop or marketplace."
+              },
+              {
+                "heading": "Develop your dress",
+                "text": "Our [Product Development service](/product-development/) works from your OEM specifications or ODM ideas and does pattern design, grading and fit development in-house."
+              },
+              {
+                "heading": "Approve your sample",
+                "text": "Through our [Sampling service](/sampling/), we refine the fit until you approve, which fixes fit, construction and branding for bulk. Sample courier delivery costs USD 50."
+              },
+              {
+                "heading": "Schedule your launch",
+                "text": "[Launch planning](/our-process/) needs your approval and deposit at least 90 days before the goods reach your warehouse, so stock for May means approving in mid-January."
+              },
+              {
+                "heading": "Build your collection",
+                "text": "Our [Bulk Production service](/bulk-production/) supports print tests and boutique drops, including a 5-print collection totalling 250 units instead of a single SKU of 1,500 or more."
+              }
+            ],
+            "mediaKind": "process"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/muumuu-dress-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "process-1",
+          "splitIndex": 0,
+          "words": 83,
+          "slots": 0,
+          "block": {
+            "id": "process-1",
+            "type": "process",
+            "sourceSectionIds": [
+              "overview_2_4"
+            ],
+            "heading": "From Sample Approval to Production and Delivery",
+            "steps": [
+              {
+                "heading": "Production release",
+                "text": "Once you've approved the sample and we've received your deposit, your order goes into bulk production."
+              },
+              {
+                "heading": "Bulk manufacturing",
+                "text": "Cutting, stitching and finishing your dresses takes 35 to 40 days. Order size and season set the production schedule."
+              },
+              {
+                "heading": "Final inspection",
+                "text": "We give your finished order a full final inspection before it ships."
+              },
+              {
+                "heading": "Shipping terms",
+                "text": "We ship on FOB, CIF or DDP terms. [DDP delivery is available worldwide](/shipping/), with duties, customs and freight in one price."
+              }
+            ],
+            "mediaKind": "process"
+          }
+        }
+      ]
+    },
+    {
+      "key": "process:photo-cards",
+      "type": "process",
+      "variant": "photo-cards",
+      "uses": 4,
+      "names": [
+        "process:photo-cards"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/boardshorts-manufacturer/",
+          "pageType": "product_manufacturer",
+          "blockId": "m6-steps",
+          "splitIndex": 0,
+          "words": 66,
+          "slots": 1,
+          "block": {
+            "id": "m6-steps",
+            "type": "process",
+            "heading": "After-delivery quality support.",
+            "steps": [
+              {
+                "heading": "Report the problem",
+                "text": "Let us know about a quality problem within 7 days and send photos or videos showing it."
+              },
+              {
+                "heading": "Receive a solution",
+                "text": "We review the case and come back to you with a solution within 24 hours."
+              },
+              {
+                "heading": "Resolve the issue",
+                "text": "Solutions can include a repair, remake, replacement, discount or credit. Any item confirmed as defective is remade at no cost to you."
+              }
+            ],
+            "variant": "photo-cards",
+            "continues": "m6"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/contact-us/",
+          "pageType": "contact",
+          "blockId": "cta-steps",
+          "splitIndex": 0,
+          "words": 39,
+          "slots": 1,
+          "block": {
+            "id": "cta-steps",
+            "type": "process",
+            "heading": "Send your enquiry to start with a quote.",
+            "steps": [
+              {
+                "heading": "Receive a quote",
+                "text": "We quote first."
+              },
+              {
+                "heading": "Agree the price",
+                "text": "The price is agreed before sample making."
+              },
+              {
+                "heading": "Make the sample",
+                "text": "Once the price is agreed, we move on to making the sample."
+              }
+            ],
+            "variant": "photo-cards"
+          }
+        }
+      ]
+    },
+    {
+      "key": "splitMedia:tinted",
+      "type": "splitMedia",
+      "variant": "tinted",
+      "uses": 23,
+      "names": [
+        "splitMedia:tinted"
+      ],
+      "evidence": [
+        {
+          "pageType": "home",
+          "index": 5,
+          "module": "splitMedia:tinted"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/private-label/",
+          "pageType": "solution",
+          "blockId": "splitMedia-1",
+          "splitIndex": 0,
+          "words": 308,
+          "slots": 1,
+          "block": {
+            "id": "splitMedia-1",
+            "type": "splitMedia",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "Order Minimums and Production Schedules",
+            "paragraphs": [
+              "You can order from 50 pieces per style in each colour, which gives small and growing labels a way in. We agree first-trial quantities with you case by case, and production requirements set how far we can flex. Your order then goes through the development, approval and delivery steps below.",
+              "With our [Product Development service](/product-development/), our in-house design team works with you on fit, pattern, grading, print, fabric and trim development. That applies whether you bring an OEM design or need us to develop an ODM collection from your requirements and brand positioning.",
+              "Our [factory and export business](/about-us/) has been running since 2011. We work directly with business buyers worldwide, not through online shops or marketplaces, and we produce for more than 350 independent labels. Before you order, we can show you case examples where we have permission, but we never disclose unreleased designs covered by an NDA.",
+              "For [fabric options](/hawaiian-fabrics/), you can choose cotton, polyester, spandex, nylon, rayon, viscose, modal, Tencel, linen, silk or wool. Blends include 95% cotton 5% spandex, 80% nylon 20% spandex and 65% polyester 35% cotton.",
+              "Our [Customisation service](/customization/) puts your company logo on the shirts and matches your brand colours to Pantone references.",
+              "Our [Embroidery service](/embroidery/) covers intricate embroidery prepared by a designer, plus patches and labels. Embroidered logos stand up to repeated washing and hard wear without fraying.",
+              "Our [Garment Dyeing service](/garment-dyeing/) includes Pantone matching at no extra charge, plus one round of lab dips for you to approve before bulk production.",
+              "Under our [Custom Print Design service](/custom-print-design/), unchanged base shirts and library prints stay non-exclusive. A new or adapted print, meaning one recoloured, rescaled or reworked from a library design or developed from your artwork, becomes exclusive to your label under NDA once you pay its design fee. The unchanged original stays in our library."
+            ],
+            "wordCount": 303,
+            "media": null,
+            "mediaKind": "process",
+            "visuals": [
+              {
+                "id": "order_sequence",
+                "type": "data",
+                "purpose": "Explain the order stages and when sampling and bulk-production lead times apply.",
+                "caption": "From your brief to shipment.",
+                "data": {
+                  "shape": "sequence",
+                  "items": [
+                    {
+                      "label": "Brief or tech pack",
+                      "detail": "Start with your brief or tech pack."
+                    },
+                    {
+                      "label": "Sample development",
+                      "detail": "A sample is ready in 10 to 15 days; private label development covers fit, print, fabric and trims."
+                    },
+                    {
+                      "label": "Approval and deposit",
+                      "detail": "Approve the sample and pay the deposit before bulk production."
+                    },
+                    {
+                      "label": "Bulk production",
+                      "detail": "Usually 35 to 40 days after sample approval and deposit, depending on order size and season."
+                    },
+                    {
+                      "label": "Final inspection",
+                      "detail": "A full final inspection takes place before shipment."
+                    },
+                    {
+                      "label": "Shipment",
+                      "detail": "Shipment on FOB, CIF or DDP terms."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "brief-splitMedia-1-1",
+                "type": "photo",
+                "content": "A Chinese female pattern maker in the factory's development room pins a sample aloha shirt in a hibiscus print onto a dress form and checks the collar and shoulder fit, with unmarked paper pattern pieces and small rayon and linen fabric swatches laid out on the worktable beside her.",
+                "setting": "In-house product development room, Guangzhou factory",
+                "caption": "Our design team fits a base aloha style before sampling"
+              }
+            ],
+            "stepsKeepPhoto": true
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/embroidery/",
+          "pageType": "solution",
+          "blockId": "splitMedia-2",
+          "splitIndex": 2,
+          "words": 37,
+          "slots": 1,
+          "block": {
+            "id": "splitMedia-2",
+            "type": "splitMedia",
+            "sourceSectionIds": [
+              "m4_3"
+            ],
+            "paragraphs": [
+              "We coordinate your development, production and delivery in the order shown below. Bulk scheduling depends on your order size and the season. Once you give your approval and pay the deposit, your order moves into bulk production."
+            ],
+            "wordCount": 37,
+            "media": null,
+            "mediaKind": "process",
+            "visuals": [
+              {
+                "id": "m4_3_order_sequence",
+                "type": "data",
+                "purpose": "Explain the order milestones, production prerequisites and shipping choices.",
+                "caption": "Standard order flow. Embroidery-specific additional bulk time is detailed in the FAQ.",
+                "data": {
+                  "shape": "sequence",
+                  "items": [
+                    {
+                      "label": "Brief or tech pack",
+                      "detail": "Start with your brief or tech pack."
+                    },
+                    {
+                      "label": "Sample",
+                      "detail": "A standard sample is ready in 10 to 15 days."
+                    },
+                    {
+                      "label": "Approval and deposit",
+                      "detail": "Approve the sample and pay the deposit before bulk production."
+                    },
+                    {
+                      "label": "Standard bulk production",
+                      "detail": "Usually 35 to 40 days, depending on order size and season."
+                    },
+                    {
+                      "label": "Final inspection",
+                      "detail": "A full final inspection precedes shipment."
+                    },
+                    {
+                      "label": "Shipment",
+                      "detail": "FOB, CIF or DDP terms. Worldwide DDP includes door delivery, duties, customs and freight in one all-in price."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "brief-splitMedia-2-1",
+                "type": "photo",
+                "content": "A Chinese packer places folded embroidered Hawaiian shirts, each in its own clear poly bag, into a plain brown export carton on a packing table stacked with sealed cartons.",
+                "setting": "Factory packing and dispatch area",
+                "caption": "Bulk order packed for delivery"
+              }
+            ],
+            "continues": "m4",
+            "stepsKeepPhoto": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "featureGrid:columns",
+      "type": "featureGrid",
+      "variant": "columns",
+      "uses": 47,
+      "names": [
+        "featureGrid:columns"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/trims-accessories/",
+          "pageType": "solution",
+          "blockId": "featureGrid-1",
+          "splitIndex": 0,
+          "words": 153,
+          "slots": 0,
+          "block": {
+            "id": "featureGrid-1",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "overview_2_2"
+            ],
+            "heading": "Ways to Source Trims & Start Your Order",
+            "paragraphs": [
+              "Here's how you can work with us on trims and get your order under way."
+            ],
+            "items": [
+              {
+                "heading": "Start from 50 pieces",
+                "paragraphs": [
+                  "Orders start at 50 pieces per style in each colour, so small and growing labels can order with us. We agree your first trial run case by case, as flexibly as production allows."
+                ]
+              },
+              {
+                "heading": "One owned factory since 2011",
+                "paragraphs": [
+                  "Production and export sit within [one company that owns its factory](/about-us/), running since 2011, so we keep quality, cost and delivery under our direct control."
+                ]
+              },
+              {
+                "heading": "OEM or ODM development",
+                "paragraphs": [
+                  "Through our [Product Development](/product-development/) service, a new style can start from your own design, a picture or just an idea. We start work and quote without a tech pack."
+                ]
+              },
+              {
+                "heading": "Quote before sample",
+                "paragraphs": [
+                  "We [quote first and agree the timeline with you](/our-process/) before production. Timing also depends on fabric availability, how ready your artwork is, the trims and the shipping method."
+                ]
+              }
+            ],
+            "variant": "columns",
+            "mediaKind": "product"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/embroidery/",
+          "pageType": "solution",
+          "blockId": "m5-2",
+          "splitIndex": 0,
+          "words": 47,
+          "slots": 0,
+          "block": {
+            "id": "m5-2",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "m5"
+            ],
+            "continues": "m5",
+            "items": [
+              {
+                "heading": "Combined decoration",
+                "paragraphs": [
+                  "We combine embroidery on the same shirt with a screen-printed back graphic, an all-over sublimation print or heat-transfer elements."
+                ]
+              },
+              {
+                "heading": "Stitching over prints",
+                "paragraphs": [
+                  "We embroider straight over screen, digital or sublimation prints. For example, we outline a printed hibiscus or add texture to your printed logo."
+                ]
+              }
+            ],
+            "variant": "columns",
+            "mediaKind": "product"
+          }
+        }
+      ]
+    },
+    {
+      "key": "table:cards",
+      "type": "table",
+      "variant": "cards",
+      "uses": 28,
+      "names": [
+        "table:cards"
+      ],
+      "evidence": [
+        {
+          "pageType": "solution",
+          "index": 2,
+          "module": "table:cards",
+          "gap": "tabs"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/custom-print-design/",
+          "pageType": "solution",
+          "blockId": "m3",
+          "splitIndex": 0,
+          "words": 408,
+          "slots": 0,
+          "block": {
+            "id": "m3",
+            "type": "table",
+            "sourceSectionIds": [
+              "m3"
+            ],
+            "heading": "Which Fabric and Print Method Fit Your Design and Budget?",
+            "paragraphs": [
+              "Your fabric, ground colour and repeat size decide which print method works."
+            ],
+            "columns": [
+              "Design or material requirement",
+              "What we supply and how we produce it"
+            ],
+            "rows": [
+              [
+                "Fabric selection and fabric-only orders",
+                "Our [Hawaiian Fabrics service](/hawaiian-fabrics/) offers cotton, polyester, spandex, nylon, rayon, viscose, modal, Tencel, linen, silk and wool, including 95% cotton 5% spandex, 80% nylon 20% spandex and 65% polyester 35% cotton blends, as finished shirts or as fabric by the metre or roll. Library and custom fabric prints start at 300 metres per colourway, in rolls of about 50 to 100 metres. We inspect each roll for shade, defects and width, then pack it on a core in sealed film for export."
+              ],
+              [
+                "Very large sublimated repeats",
+                "Sublimation handles repeats across the full 150 cm printable width and up to 150 cm long. We plan matching at the marker stage and cut each panel from its matching point on the printed roll instead of nesting panels freely. That extra fabric gets you unbroken matching across the collar, front placket, pocket and hem."
+              ],
+              [
+                "Print production and artwork requirements",
+                "Our [Custom Printing service](/custom-printing/) prints rayon, cotton, linen and silk on the roll by screen or digital printing before cutting for all-over patterns. Sublimation is limited to light-coloured polyester and blends with at least 60% polyester. Engineered or placement designs are printed on cut panels before sewing, so the motifs land in the same position on every shirt. We make reverse prints on cotton. For dark grounds, we either dye the fabric before screen printing or print the full ground digitally. Screen repeats go up to 64 cm and digital repeats up to 150 cm wide. Large repeats or pattern matching need 10–15% extra fabric, which is built into your unit price. We don't change the approved sample's method, fabric base or colour reference unless you approve it in writing. Colour stays within ΔE ≤ 2.0 and placement within 0.5 cm. Send 300 DPI PNG, JPG, JPEG, PSD, PDF, AI or EPS artwork or a reference sample. Vector EPS or AI with outlined text and expanded strokes is best, or else high-quality JPG or PDF. We check files for clarity, durability and compliance, and you confirm the layout before production."
+              ],
+              [
+                "Embroidered details",
+                "Alongside screen printing, our [Embroidery service](/embroidery/) offers intricate custom work, patches and labels made by skilled fashion designers. Our embroidered logos hold up to repeated washing and hard wear without fraying."
+              ]
+            ],
+            "variant": "cards",
+            "mediaKind": "material"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/packaging/",
+          "pageType": "solution",
+          "blockId": "table-1",
+          "splitIndex": 0,
+          "words": 66,
+          "slots": 0,
+          "block": {
+            "id": "table-1",
+            "type": "table",
+            "sourceSectionIds": [
+              "m6_3"
+            ],
+            "heading": "Text and Line Sizes for Print, Foil and Debossing",
+            "paragraphs": [
+              "If any detail is too small, we flag it on your proof and suggest thicker artwork before production."
+            ],
+            "columns": [
+              "Method",
+              "Minimum text",
+              "Minimum line",
+              "Detail spacing",
+              "Application"
+            ],
+            "rows": [
+              [
+                "Ink printing",
+                "6 pt",
+                "0.1 mm",
+                "—",
+                "Small taglines, care text and fine outlines"
+              ],
+              [
+                "Foil stamping",
+                "8 pt",
+                "0.3 mm",
+                "—",
+                "Main logo"
+              ],
+              [
+                "Debossing",
+                "10 pt",
+                "0.5 mm",
+                "0.5 mm gaps",
+                "Main logo"
+              ]
+            ],
+            "variant": "cards",
+            "mediaKind": "process"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cta:inline",
+      "type": "cta",
+      "variant": "inline",
+      "uses": 26,
+      "names": [
+        "cta:inline"
+      ],
+      "evidence": [
+        {
+          "pageType": "about",
+          "index": 4,
+          "module": "cta:inline"
+        },
+        {
+          "pageType": "solution",
+          "index": 4,
+          "module": "cta:inline"
+        }
+      ],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/custom-labels-hang-tags/",
+          "pageType": "solution",
+          "blockId": "cta",
+          "splitIndex": 0,
+          "words": 54,
+          "slots": 0,
+          "block": {
+            "id": "cta",
+            "type": "cta",
+            "sourceSectionIds": [
+              "cta"
+            ],
+            "heading": "Let’s Talk About Labels and Hang Tags for Your Brand",
+            "paragraphs": [
+              "Send us your label and hang tag enquiry, separating confirmed artwork and requirements from open decisions. We reply within one business day and quote first; once you agree to the price, we move on to sampling."
+            ],
+            "cta": {
+              "label": "Talk to us about custom labels & hang tags",
+              "href": "/request-a-quote/"
+            },
+            "links": [],
+            "variant": "inline"
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/privacy-policy/",
+          "pageType": "privacy",
+          "blockId": "cta",
+          "splitIndex": 0,
+          "words": 26,
+          "slots": 0,
+          "block": {
+            "id": "cta",
+            "type": "cta",
+            "sourceSectionIds": [
+              "cta"
+            ],
+            "heading": "Send an Enquiry to Our Factory",
+            "paragraphs": [
+              "Send an enquiry to our factory about your aloha shirt order, whether you need sampling or bulk production."
+            ],
+            "cta": {
+              "label": "Contact us",
+              "href": "/contact-us/"
+            },
+            "links": []
+          }
+        }
+      ]
+    },
+    {
+      "key": "featureGrid:cards",
+      "type": "featureGrid",
+      "variant": "cards",
+      "uses": 1,
+      "names": [
+        "featureGrid:cards"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "only",
+          "route": "/about-us/",
+          "pageType": "about",
+          "blockId": "featureGrid-1",
+          "splitIndex": 0,
+          "words": 116,
+          "slots": 0,
+          "block": {
+            "id": "featureGrid-1",
+            "type": "featureGrid",
+            "sourceSectionIds": [
+              "overview_2"
+            ],
+            "heading": "Shirt Programmes for Brands and Teams",
+            "paragraphs": [
+              "Before we quote, we ask what your shirts are for: resale, staff uniforms, promotion or an event. Then we match the labels, sizes and packaging to that use."
+            ],
+            "items": [
+              {
+                "heading": "Collections for resale",
+                "paragraphs": [
+                  "For fashion brands, resort brands, boutiques, wholesalers, distributors, retailers and e-commerce sellers, we develop collections built around the fabrics, prints, sizes, labels and packaging you choose."
+                ]
+              },
+              {
+                "heading": "Staff and branded apparel",
+                "paragraphs": [
+                  "For hotels, resorts, companies and schools, we make corporate shirts, uniforms and branded apparel, with specifications set around your programme."
+                ]
+              },
+              {
+                "heading": "Events and groups",
+                "paragraphs": [
+                  "We've made tens of thousands of custom shirts worldwide for military units, clubs, corporate teams, events, communities and other groups, as well as for family programmes."
+                ]
+              }
+            ],
+            "mediaKind": "lifestyle"
+          }
+        }
+      ]
+    },
+    {
+      "key": "gallery:mosaic",
+      "type": "gallery",
+      "variant": "mosaic",
+      "uses": 1,
+      "names": [
+        "gallery:mosaic"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "only",
+          "route": "/about-us/",
+          "pageType": "about",
+          "blockId": "media-module-1",
+          "splitIndex": 0,
+          "words": 0,
+          "slots": 3,
+          "block": {
+            "id": "media-module-1",
+            "type": "gallery",
+            "variant": "mosaic",
+            "items": [
+              {},
+              {},
+              {}
+            ],
+            "competitor": true
+          }
+        }
+      ]
+    },
+    {
+      "key": "team:default",
+      "type": "team",
+      "variant": null,
+      "uses": 1,
+      "names": [
+        "team"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "only",
+          "route": "/about-us/",
+          "pageType": "about",
+          "blockId": "owner-team",
+          "splitIndex": 0,
+          "words": 72,
+          "slots": 0,
+          "block": {
+            "id": "owner-team",
+            "type": "team",
+            "heading": "Meet the team",
+            "items": [
+              {
+                "anchor": "team-wenjie-peng",
+                "name": "Wenjie Peng",
+                "role": "Founder",
+                "years": 20,
+                "bio": "Runs the factory and agrees prices, capacity and delivery dates with each brand.",
+                "reviews": [
+                  "solution",
+                  "service",
+                  "place",
+                  "location"
+                ]
+              },
+              {
+                "anchor": "team-huimin-tang",
+                "name": "Huimin Tang",
+                "role": "Head of development",
+                "years": 14,
+                "bio": "Leads pattern making and sampling, from your tech pack to the approved hawaiian shirt sample.",
+                "blogAuthor": true,
+                "reviews": [
+                  "product_manufacturer",
+                  "product_wholesale"
+                ]
+              },
+              {
+                "anchor": "team-siyu-chen",
+                "name": "Siyu Chen",
+                "role": "Quality control lead",
+                "years": 11,
+                "bio": "Runs the fabric checks, the in-line inspection and the final check before each hawaiian shirt order ships."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "form:default",
+      "type": "form",
+      "variant": null,
+      "uses": 2,
+      "names": [
+        "form"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/contact-us/",
+          "pageType": "contact",
+          "blockId": "form",
+          "splitIndex": 0,
+          "words": 119,
+          "slots": 0,
+          "block": {
+            "id": "form",
+            "type": "form",
+            "heading": "Send an enquiry",
+            "fields": [
+              {
+                "name": "name",
+                "label": "Name",
+                "kind": "text",
+                "required": true,
+                "autocomplete": "name",
+                "purpose": "So we know whom we are answering."
+              },
+              {
+                "name": "email",
+                "label": "Email",
+                "kind": "email",
+                "required": true,
+                "autocomplete": "email",
+                "purpose": "Where we send our reply."
+              },
+              {
+                "name": "company",
+                "label": "Company",
+                "kind": "text",
+                "required": false,
+                "autocomplete": "organization",
+                "purpose": "Optional: helps us answer for your business."
+              },
+              {
+                "name": "phone",
+                "label": "Phone",
+                "kind": "tel",
+                "required": false,
+                "autocomplete": "tel",
+                "purpose": "Optional: only if you would like a call back."
+              },
+              {
+                "name": "message",
+                "label": "Message",
+                "kind": "textarea",
+                "required": true,
+                "purpose": "What you would like to know or order."
+              }
+            ],
+            "consent": {
+              "label": "I agree that my details are used to answer this enquiry, as described in the privacy policy.",
+              "privacyRoute": "/privacy/"
+            },
+            "honeypot": "website",
+            "endpoint": "/api/leads",
+            "status": "ready",
+            "submitLabel": "Send enquiry",
+            "requiredNote": "Fields marked * are required.",
+            "messages": {
+              "invalid": "Please check the highlighted fields.",
+              "sending": "Sending…",
+              "sent": "Thank you: your message has been sent. We will reply by email.",
+              "failed": "Your message could not be sent. Please try again, or write to us by email."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "contactChannels:list",
+      "type": "contactChannels",
+      "variant": "list",
+      "uses": 1,
+      "names": [
+        "contactChannels:list"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "only",
+          "route": "/contact-us/",
+          "pageType": "contact",
+          "blockId": "channels",
+          "splitIndex": 0,
+          "words": 2,
+          "slots": 0,
+          "block": {
+            "id": "channels",
+            "type": "contactChannels",
+            "heading": "Contact details"
+          }
+        }
+      ]
+    },
+    {
+      "key": "dataPractices:default",
+      "type": "dataPractices",
+      "variant": null,
+      "uses": 1,
+      "names": [
+        "dataPractices"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "only",
+          "route": "/privacy-policy/",
+          "pageType": "privacy",
+          "blockId": "data-practices",
+          "splitIndex": 0,
+          "words": 4,
+          "slots": 0,
+          "block": {
+            "id": "data-practices",
+            "type": "dataPractices",
+            "heading": "What this site collects"
+          }
+        }
+      ]
+    },
+    {
+      "key": "sources:default",
+      "type": "sources",
+      "variant": null,
+      "uses": 2,
+      "names": [
+        "sources"
+      ],
+      "evidence": [],
+      "samples": [
+        {
+          "role": "longest",
+          "route": "/blog/garment-quality-control-guide/",
+          "pageType": "blog_post",
+          "blockId": "sources",
+          "splitIndex": 0,
+          "words": 42,
+          "slots": 0,
+          "block": {
+            "id": "sources",
+            "type": "sources",
+            "items": [
+              {
+                "title": "QIMA's inspection procedures",
+                "url": "https://www.qima.com/blog/inspection/garment-quality-inspection-procedures"
+              },
+              {
+                "title": "TradeAider's staged QC guidance",
+                "url": "https://www.tradeaiders.com/improving-garment-quality-control-a-step-by-step-guide.html"
+              },
+              {
+                "title": "Tetra's Quality Control in Clothing guide",
+                "url": "https://tetrainspection.com/quality-control-clothing/"
+              },
+              {
+                "title": "Scribd apparel-tool summary",
+                "url": "https://www.scribd.com/document/485441424/7-QC-Tools-in-Apparel-Industry"
+              },
+              {
+                "title": "Manufacturing Connected's control-chart and correlation discussion",
+                "url": "https://www.mfgconnected.com/columns/reviewing-seven-tools-for-quality-management"
+              }
+            ]
+          }
+        },
+        {
+          "role": "shortest",
+          "route": "/blog/care-label-requirements-us-apparel/",
+          "pageType": "blog_post",
+          "blockId": "sources",
+          "splitIndex": 0,
+          "words": 37,
+          "slots": 0,
+          "block": {
+            "id": "sources",
+            "type": "sources",
+            "items": [
+              {
+                "title": "FTC care labeling guide",
+                "url": "https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule"
+              },
+              {
+                "title": "Apparel Entrepreneurship garment label requirements",
+                "url": "https://www.apparelentrepreneurship.com/garment-label-requirements/"
+              },
+              {
+                "title": "Cotecna US care labeling guide",
+                "url": "https://www.cotecna.com/en/media/news/guide-to-meeting-the-us-care-labelling-16-cfr-423-requirements"
+              },
+              {
+                "title": "BIORESTORE care label guide",
+                "url": "https://www.bio-restore.com/blogs/news/the-care-label-guide-how-to-decode-and-care-for-your-fabrics"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "unbacked": [
+    "iconList:checks",
+    "process:list",
+    "table:grid",
+    "orderCase:default",
+    "logos:default",
+    "gallery:grid",
+    "featureGrid:icons",
+    "featureGrid:bullets",
+    "process:circles",
+    "process:photo-cards",
+    "featureGrid:columns",
+    "featureGrid:cards",
+    "gallery:mosaic",
+    "team:default",
+    "form:default",
+    "contactChannels:list",
+    "dataPractices:default",
+    "sources:default"
+  ]
+}

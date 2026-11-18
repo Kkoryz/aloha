@@ -1,0 +1,1282 @@
+{
+  "/media/photos/general-hero-1-960.webp": {
+    "x": 0.45,
+    "y": 0.22
+  },
+  "/media/photos/big-and-tall-aloha-shirt-hero-1-960.webp": {
+    "x": 0.745,
+    "y": 0.32
+  },
+  "/media/photos/women-s-hawaiian-shirt-hero-1-960.webp": {
+    "x": 0.51,
+    "y": 0.3
+  },
+  "/media/photos/resort-dress-hero-1-960.webp": {
+    "x": 0.7,
+    "y": 0.41
+  },
+  "/media/photos/hawaiian-dress-hero-1-960.webp": {
+    "x": 0.66,
+    "y": 0.27
+  },
+  "/media/photos/muumuu-dress-hero-1-960.webp": {
+    "x": 0.557,
+    "y": 0.227
+  },
+  "/media/photos/swimwear-hero-1-960.webp": {
+    "x": 0.51,
+    "y": 0.27
+  },
+  "/media/photos/boardshorts-hero-1-960.webp": {
+    "x": 0.515,
+    "y": 0.2
+  },
+  "/media/photos/swim-trunks-hero-1-960.webp": {
+    "x": 0.36,
+    "y": 0.52
+  },
+  "/media/photos/bikini-hero-1-960.webp": {
+    "x": 0.42,
+    "y": 0.52
+  },
+  "/media/photos/one-piece-swimsuit-hero-1-960.webp": {
+    "x": 0.5,
+    "y": 0.24
+  },
+  "/media/photos/kids-hawaiian-clothing-hero-1-960.webp": {
+    "x": 0.47,
+    "y": 0.5
+  },
+  "/media/photos/boys-hawaiian-shirt-hero-1-960.webp": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "/media/photos/baby-hawaiian-clothing-hero-1-960.webp": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "/media/photos/kids-hawaiian-top-hero-1-960.webp": {
+    "x": 0.42,
+    "y": 0.47
+  },
+  "/media/photos/kids-hawaiian-dress-hero-1-960.webp": {
+    "x": 0.4,
+    "y": 0.48
+  },
+  "/media/photos/hawaiian-uniform-shirt-hero-1-960.webp": {
+    "x": 0.52,
+    "y": 0.28
+  },
+  "/media/photos/aloha-work-uniform-hero-1-960.webp": {
+    "x": 0.53,
+    "y": 0.32
+  },
+  "/media/photos/accessories-hero-1-960.webp": {
+    "x": 0.592,
+    "y": 0.313
+  },
+  "/media/photos/beach-towel-hero-1-960.webp": {
+    "x": 0.4,
+    "y": 0.42
+  },
+  "/media/photos/sarong-hero-1-960.webp": {
+    "x": 0.56,
+    "y": 0.21
+  },
+  "/media/photos/product-development-hero-1-960.webp": {
+    "x": 0.45,
+    "y": 0.39
+  },
+  "/media/photos/quality-control-hero-1-960.webp": {
+    "x": 0.36,
+    "y": 0.5
+  },
+  "/media/photos/hawaiian-fabrics-hero-1-960.webp": {
+    "x": 0.35,
+    "y": 0.45
+  },
+  "/media/photos/customization-service-hero-960.webp": {
+    "x": 0.24,
+    "y": 0.37
+  },
+  "/media/photos/bulk-production-hero-1-960.webp": {
+    "x": 0.42,
+    "y": 0.42
+  },
+  "/media/photos/embroidery-service-hero-960.webp": {
+    "x": 0.39,
+    "y": 0.33
+  },
+  "/media/photos/packaging-hero-1-960.webp": {
+    "x": 0.36,
+    "y": 0.52
+  },
+  "/media/photos/sampling-service-hero-960.webp": {
+    "x": 0.27,
+    "y": 0.36
+  },
+  "/media/photos/private-label-hero-1-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/trims-accessories-hero-1-960.webp": {
+    "x": 0.43,
+    "y": 0.62
+  },
+  "/media/photos/cut-sew-service-hero-960.webp": {
+    "x": 0.29,
+    "y": 0.36
+  },
+  "/media/photos/shipping-service-hero-960.webp": {
+    "x": 0.38,
+    "y": 0.3
+  },
+  "/media/photos/matching-family-group-sets-hero-1-960.webp": {
+    "x": 0.65,
+    "y": 0.2
+  },
+  "/media/photos/print-design-hero-1-960.webp": {
+    "x": 0.4,
+    "y": 0.51
+  },
+  "/media/photos/fabric-sourcing-hero-1-960.webp": {
+    "x": 0.42,
+    "y": 0.48
+  },
+  "/media/photos/labels-hang-tags-hero-1-960.webp": {
+    "x": 0.4,
+    "y": 0.47
+  },
+  "/media/photos/buttons-hero-1-960.webp": {
+    "x": 0.3,
+    "y": 0.48
+  },
+  "/media/photos/garment-dyeing-service-hero-960.webp": {
+    "x": 0.48,
+    "y": 0.31
+  },
+  "/media/photos/custom-printing-service-hero-960.webp": {
+    "x": 0.52,
+    "y": 0.27
+  },
+  "/media/photos/general-hero-2-960.webp": {
+    "x": 0.34,
+    "y": 0.18
+  },
+  "/media/photos/general-hero-3-960.webp": {
+    "x": 0.74,
+    "y": 0.33
+  },
+  "/media/photos/general-hero-4-960.webp": {
+    "x": 0.61,
+    "y": 0.49
+  },
+  "/media/photos/request-a-quote-service-hero-960.webp": {
+    "x": 0.23,
+    "y": 0.69
+  },
+  "/media/photos/general-product-1-960.webp": {
+    "x": 0.57,
+    "y": 0.09
+  },
+  "/media/photos/general-product-2-960.webp": {
+    "x": 0.56,
+    "y": 0.14
+  },
+  "/media/photos/general-product-3-960.webp": {
+    "x": 0.56,
+    "y": 0.21
+  },
+  "/media/photos/general-process-1-960.webp": {
+    "x": 0.23,
+    "y": 0.28
+  },
+  "/media/photos/general-process-2-960.webp": {
+    "x": 0.55,
+    "y": 0.32
+  },
+  "/media/photos/general-process-3-960.webp": {
+    "x": 0.86,
+    "y": 0.23
+  },
+  "/media/photos/home-brief-m2-1-960.webp": {
+    "x": 0.47,
+    "y": 0.36
+  },
+  "/media/photos/customization-brief-m5-1-960.webp": {
+    "x": 0.51,
+    "y": 0.25
+  },
+  "/media/photos/embroidery-brief-m4-1-960.webp": {
+    "x": 0.25,
+    "y": 0.19
+  },
+  "/media/photos/embroidery-brief-splitmedia-1-1-960.webp": {
+    "x": 0.7,
+    "y": 0.27
+  },
+  "/media/photos/embroidery-brief-splitmedia-2-1-960.webp": {
+    "x": 0.36,
+    "y": 0.22
+  },
+  "/media/photos/sampling-brief-splitmedia-1-1-960.webp": {
+    "x": 0.21,
+    "y": 0.3
+  },
+  "/media/photos/cut-sew-brief-splitmedia-1-1-960.webp": {
+    "x": 0.47,
+    "y": 0.25
+  },
+  "/media/photos/cut-sew-brief-m2-1-960.webp": {
+    "x": 0.5,
+    "y": 0.33
+  },
+  "/media/photos/cut-sew-brief-m4-1-960.webp": {
+    "x": 0.51,
+    "y": 0.19
+  },
+  "/media/photos/custom-printing-brief-m3-1-960.webp": {
+    "x": 0.23,
+    "y": 0.29
+  },
+  "/media/photos/about-us-brief-splitmedia-1-1-960.webp": {
+    "x": 0.6,
+    "y": 0.33
+  },
+  "/media/photos/contact-us-brief-m3-1-960.webp": {
+    "x": 0.46,
+    "y": 0.33
+  },
+  "/media/photos/general-material-1-960.webp": {
+    "x": 0.47,
+    "y": 0.16
+  },
+  "/media/photos/general-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.27
+  },
+  "/media/photos/general-lifestyle-2-960.webp": {
+    "x": 0.58,
+    "y": 0.34
+  },
+  "/media/photos/general-lifestyle-3-960.webp": {
+    "x": 0.68,
+    "y": 0.21
+  },
+  "/media/photos/general-lifestyle-4-960.webp": {
+    "x": 0.55,
+    "y": 0.29
+  },
+  "/media/photos/general-lifestyle-5-960.webp": {
+    "x": 0.42,
+    "y": 0.28
+  },
+  "/media/photos/home-brief-cta-1-960.webp": {
+    "x": 0.53,
+    "y": 0.42
+  },
+  "/media/photos/request-a-quote-page-photo-media-module-budget-1-960.webp": {
+    "x": 0.36,
+    "y": 0.58
+  },
+  "/media/photos/request-a-quote-page-photo-media-module-budget-2-960.webp": {
+    "x": 0.45,
+    "y": 0.38
+  },
+  "/media/photos/big-and-tall-aloha-shirt-product-1-960.webp": {
+    "x": 0.47,
+    "y": 0.11
+  },
+  "/media/photos/big-and-tall-aloha-shirt-product-2-960.webp": {
+    "x": 0.56,
+    "y": 0.24
+  },
+  "/media/photos/big-and-tall-aloha-shirt-product-3-960.webp": {
+    "x": 0.48,
+    "y": 0.2
+  },
+  "/media/photos/big-and-tall-aloha-shirt-product-4-960.webp": {
+    "x": 0.52,
+    "y": 0.4
+  },
+  "/media/photos/women-s-hawaiian-shirt-product-1-960.webp": {
+    "x": 0.45,
+    "y": 0.2
+  },
+  "/media/photos/women-s-hawaiian-shirt-product-2-960.webp": {
+    "x": 0.36,
+    "y": 0.32
+  },
+  "/media/photos/women-s-hawaiian-shirt-product-3-960.webp": {
+    "x": 0.53,
+    "y": 0.2
+  },
+  "/media/photos/women-s-hawaiian-shirt-product-4-960.webp": {
+    "x": 0.6,
+    "y": 0.27
+  },
+  "/media/photos/women-s-hawaiian-shirt-material-1-960.webp": {
+    "x": 0.61,
+    "y": 0.14
+  },
+  "/media/photos/women-s-hawaiian-shirt-manufacturer-brief-splitmedia-1-1-960.webp": {
+    "x": 0.44,
+    "y": 0.27
+  },
+  "/media/photos/women-s-hawaiian-shirt-lifestyle-1-960.webp": {
+    "x": 0.51,
+    "y": 0.23
+  },
+  "/media/photos/women-s-hawaiian-shirt-lifestyle-2-960.webp": {
+    "x": 0.34,
+    "y": 0.18
+  },
+  "/media/photos/women-s-hawaiian-shirt-manufacturer-brief-m3-1-960.webp": {
+    "x": 0.4,
+    "y": 0.32
+  },
+  "/media/photos/resort-dress-product-1-960.webp": {
+    "x": 0.33,
+    "y": 0.39
+  },
+  "/media/photos/resort-dress-product-2-960.webp": {
+    "x": 0.38,
+    "y": 0.21
+  },
+  "/media/photos/resort-dress-product-3-960.webp": {
+    "x": 0.53,
+    "y": 0.03
+  },
+  "/media/photos/resort-dress-product-4-960.webp": {
+    "x": 0.55,
+    "y": 0.17
+  },
+  "/media/photos/resort-dress-lifestyle-1-960.webp": {
+    "x": 0.41,
+    "y": 0.24
+  },
+  "/media/photos/resort-dress-lifestyle-2-960.webp": {
+    "x": 0.58,
+    "y": 0.26
+  },
+  "/media/photos/resort-dress-manufacturer-brief-m4-1-960.webp": {
+    "x": 0.29,
+    "y": 0.35
+  },
+  "/media/photos/resort-dress-manufacturer-brief-splitmedia-1-1-960.webp": {
+    "x": 0.49,
+    "y": 0.25
+  },
+  "/media/photos/hawaiian-dress-product-1-960.webp": {
+    "x": 0.53,
+    "y": 0.12
+  },
+  "/media/photos/hawaiian-dress-product-2-960.webp": {
+    "x": 0.41,
+    "y": 0.18
+  },
+  "/media/photos/hawaiian-dress-product-3-960.webp": {
+    "x": 0.56,
+    "y": 0.2
+  },
+  "/media/photos/hawaiian-dress-product-4-960.webp": {
+    "x": 0.53,
+    "y": 0.2
+  },
+  "/media/photos/hawaiian-dress-product-export-terms-960.webp": {
+    "x": 0.55,
+    "y": 0.25
+  },
+  "/media/photos/hawaiian-dress-product-packing-for-distribution-960.webp": {
+    "x": 0.55,
+    "y": 0.2
+  },
+  "/media/photos/muumuu-dress-product-1-960.webp": {
+    "x": 0.41,
+    "y": 0.18
+  },
+  "/media/photos/muumuu-dress-product-2-960.webp": {
+    "x": 0.49,
+    "y": 0.19
+  },
+  "/media/photos/muumuu-dress-product-3-960.webp": {
+    "x": 0.52,
+    "y": 0.17
+  },
+  "/media/photos/muumuu-dress-product-4-960.webp": {
+    "x": 0.77,
+    "y": 0.41
+  },
+  "/media/photos/muumuu-dress-lifestyle-1-960.webp": {
+    "x": 0.526,
+    "y": 0.234
+  },
+  "/media/photos/swimwear-product-1-960.webp": {
+    "x": 0.46,
+    "y": 0.19
+  },
+  "/media/photos/swimwear-product-2-960.webp": {
+    "x": 0.5,
+    "y": 0.24
+  },
+  "/media/photos/swimwear-product-3-960.webp": {
+    "x": 0.43,
+    "y": 0.22
+  },
+  "/media/photos/swimwear-product-4-960.webp": {
+    "x": 0.34,
+    "y": 0.4
+  },
+  "/media/photos/swimwear-product-5-960.webp": {
+    "x": 0.82,
+    "y": 0.58
+  },
+  "/media/photos/swimwear-product-6-960.webp": {
+    "x": 0.38,
+    "y": 0.06
+  },
+  "/media/photos/swimwear-product-7-960.webp": {
+    "x": 0.49,
+    "y": 0.23
+  },
+  "/media/photos/swimwear-product-8-960.webp": {
+    "x": 0.53,
+    "y": 0.2
+  },
+  "/media/photos/swimwear-product-9-960.webp": {
+    "x": 0.595,
+    "y": 0.098
+  },
+  "/media/photos/swimwear-product-10-960.webp": {
+    "x": 0.51,
+    "y": 0.19
+  },
+  "/media/photos/swimwear-product-adult-and-children-s-sizes-960.webp": {
+    "x": 0.74,
+    "y": 0.25
+  },
+  "/media/photos/swimwear-product-cup-sized-options-960.webp": {
+    "x": 0.61,
+    "y": 0.13
+  },
+  "/media/photos/swimwear-product-fit-across-your-range-960.webp": {
+    "x": 0.54,
+    "y": 0.19
+  },
+  "/media/photos/swimwear-product-fully-custom-development-960.webp": {
+    "x": 0.57,
+    "y": 0.21
+  },
+  "/media/photos/swimwear-product-fit-decisions-first-960.webp": {
+    "x": 0.55,
+    "y": 0.2
+  },
+  "/media/photos/swimwear-product-full-package-production-960.webp": {
+    "x": 0.44,
+    "y": 0.24
+  },
+  "/media/photos/swimwear-product-exclusive-design-ownership-960.webp": {
+    "x": 0.57,
+    "y": 0.04
+  },
+  "/media/photos/swimwear-product-technical-development-support-960.webp": {
+    "x": 0.58,
+    "y": 0.19
+  },
+  "/media/photos/swimwear-product-sublimation-requirements-960.webp": {
+    "x": 0.58,
+    "y": 0.22
+  },
+  "/media/photos/swimwear-product-prints-under-stretch-960.webp": {
+    "x": 0.5,
+    "y": 0.48
+  },
+  "/media/photos/swimwear-product-existing-solid-colours-960.webp": {
+    "x": 0.5,
+    "y": 0.2
+  },
+  "/media/photos/swimwear-product-exclusive-print-development-960.webp": {
+    "x": 0.895,
+    "y": 0.335
+  },
+  "/media/photos/swimwear-lifestyle-1-960.webp": {
+    "x": 0.505,
+    "y": 0.2
+  },
+  "/media/photos/swimwear-lifestyle-2-960.webp": {
+    "x": 0.54,
+    "y": 0.22
+  },
+  "/media/photos/swimwear-manufacturer-brief-m6-1-960.webp": {
+    "x": 0.39,
+    "y": 0.31
+  },
+  "/media/photos/boardshorts-product-1-960.webp": {
+    "x": 0.48,
+    "y": 0.58
+  },
+  "/media/photos/boardshorts-product-2-960.webp": {
+    "x": 0.5,
+    "y": 0.11
+  },
+  "/media/photos/boardshorts-product-3-960.webp": {
+    "x": 0.43,
+    "y": 0.245
+  },
+  "/media/photos/boardshorts-product-4-960.webp": {
+    "x": 0.535,
+    "y": 0.19
+  },
+  "/media/photos/boardshorts-product-full-sublimation-960.webp": {
+    "x": 0.49,
+    "y": 0.42
+  },
+  "/media/photos/boardshorts-product-print-durability-960.webp": {
+    "x": 0.415,
+    "y": 0.106
+  },
+  "/media/photos/boardshorts-product-screen-printing-960.webp": {
+    "x": 0.555,
+    "y": 0.175
+  },
+  "/media/photos/boardshorts-product-small-run-dtf-960.webp": {
+    "x": 0.37,
+    "y": 0.17
+  },
+  "/media/photos/boardshorts-product-patterns-and-styles-960.webp": {
+    "x": 0.625,
+    "y": 0.195
+  },
+  "/media/photos/boardshorts-product-exclusive-print-development-960.webp": {
+    "x": 0.44,
+    "y": 0.06
+  },
+  "/media/photos/boardshorts-lifestyle-1-960.webp": {
+    "x": 0.39,
+    "y": 0.25
+  },
+  "/media/photos/boardshorts-lifestyle-2-960.webp": {
+    "x": 0.52,
+    "y": 0.18
+  },
+  "/media/photos/boardshorts-lifestyle-coordinated-group-sets-960.webp": {
+    "x": 0.17,
+    "y": 0.42
+  },
+  "/media/photos/boardshorts-lifestyle-business-and-staff-960.webp": {
+    "x": 0.39,
+    "y": 0.23
+  },
+  "/media/photos/boardshorts-lifestyle-schools-and-youth-960.webp": {
+    "x": 0.54,
+    "y": 0.18
+  },
+  "/media/photos/swim-trunks-product-1-960.webp": {
+    "x": 0.53,
+    "y": 0.11
+  },
+  "/media/photos/swim-trunks-product-2-960.webp": {
+    "x": 0.53,
+    "y": 0.15
+  },
+  "/media/photos/swim-trunks-product-3-960.webp": {
+    "x": 0.51,
+    "y": 0.19
+  },
+  "/media/photos/swim-trunks-product-4-960.webp": {
+    "x": 0.47,
+    "y": 0.47
+  },
+  "/media/photos/swim-trunks-lifestyle-1-960.webp": {
+    "x": 0.31,
+    "y": 0.29
+  },
+  "/media/photos/swim-trunks-lifestyle-2-960.webp": {
+    "x": 0.64,
+    "y": 0.23
+  },
+  "/media/photos/swim-trunks-lifestyle-3-960.webp": {
+    "x": 0.53,
+    "y": 0.15
+  },
+  "/media/photos/bikini-product-1-960.webp": {
+    "x": 0.47,
+    "y": 0.255
+  },
+  "/media/photos/bikini-product-2-960.webp": {
+    "x": 0.48,
+    "y": 0.52
+  },
+  "/media/photos/bikini-product-3-960.webp": {
+    "x": 0.5,
+    "y": 0.47
+  },
+  "/media/photos/bikini-product-4-960.webp": {
+    "x": 0.57,
+    "y": 0.26
+  },
+  "/media/photos/bikini-product-coordinated-silhouettes-960.webp": {
+    "x": 0.41,
+    "y": 0.43
+  },
+  "/media/photos/bikini-product-seam-alignment-960.webp": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "/media/photos/bikini-product-matched-cutting-960.webp": {
+    "x": 0.49,
+    "y": 0.34
+  },
+  "/media/photos/bikini-product-colour-references-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/bikini-product-family-coordination-960.webp": {
+    "x": 0.33,
+    "y": 0.32
+  },
+  "/media/photos/bikini-product-printing-limits-960.webp": {
+    "x": 0.48,
+    "y": 0.49
+  },
+  "/media/photos/bikini-material-1-960.webp": {
+    "x": 0.44,
+    "y": 0.52
+  },
+  "/media/photos/bikini-material-2-960.webp": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "/media/photos/bikini-material-3-960.webp": {
+    "x": 0.5,
+    "y": 0.55
+  },
+  "/media/photos/bikini-material-4-960.webp": {
+    "x": 0.45,
+    "y": 0.64
+  },
+  "/media/photos/bikini-material-5-960.webp": {
+    "x": 0.68,
+    "y": 0.06
+  },
+  "/media/photos/one-piece-swimsuit-product-1-960.webp": {
+    "x": 0.26,
+    "y": 0.39
+  },
+  "/media/photos/one-piece-swimsuit-product-2-960.webp": {
+    "x": 0.47,
+    "y": 0.22
+  },
+  "/media/photos/one-piece-swimsuit-product-3-960.webp": {
+    "x": 0.51,
+    "y": 0.18
+  },
+  "/media/photos/one-piece-swimsuit-product-4-960.webp": {
+    "x": 0.72,
+    "y": 0.21
+  },
+  "/media/photos/one-piece-swimsuit-product-edges-and-seams-960.webp": {
+    "x": 0.47,
+    "y": 0.05
+  },
+  "/media/photos/one-piece-swimsuit-product-cut-outs-and-legs-960.webp": {
+    "x": 0.62,
+    "y": 0.49
+  },
+  "/media/photos/one-piece-swimsuit-product-metal-hardware-960.webp": {
+    "x": 0.6,
+    "y": 0.18
+  },
+  "/media/photos/one-piece-swimsuit-product-heavy-use-hardware-960.webp": {
+    "x": 0.54,
+    "y": 0.21
+  },
+  "/media/photos/one-piece-swimsuit-product-crotch-gusset-960.webp": {
+    "x": 0.4,
+    "y": 0.07
+  },
+  "/media/photos/one-piece-swimsuit-product-pattern-cutting-960.webp": {
+    "x": 0.55,
+    "y": 0.25
+  },
+  "/media/photos/one-piece-swimsuit-product-colour-coordination-960.webp": {
+    "x": 0.57,
+    "y": 0.21
+  },
+  "/media/photos/one-piece-swimsuit-lifestyle-1-960.webp": {
+    "x": 0.55,
+    "y": 0.26
+  },
+  "/media/photos/one-piece-swimsuit-lifestyle-2-960.webp": {
+    "x": 0.56,
+    "y": 0.34
+  },
+  "/media/photos/kids-hawaiian-clothing-product-1-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/kids-hawaiian-clothing-product-2-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/kids-hawaiian-clothing-product-3-960.webp": {
+    "x": 0.5,
+    "y": 0.52
+  },
+  "/media/photos/kids-hawaiian-clothing-product-4-960.webp": {
+    "x": 0.47,
+    "y": 0.47
+  },
+  "/media/photos/kids-hawaiian-clothing-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/kids-hawaiian-clothing-manufacturer-brief-splitmedia-2-1-960.webp": {
+    "x": 0.39,
+    "y": 0.32
+  },
+  "/media/photos/boys-hawaiian-shirt-product-1-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/boys-hawaiian-shirt-product-2-960.webp": {
+    "x": 0.49,
+    "y": 0.52
+  },
+  "/media/photos/boys-hawaiian-shirt-product-3-960.webp": {
+    "x": 0.51,
+    "y": 0.47
+  },
+  "/media/photos/boys-hawaiian-shirt-product-4-960.webp": {
+    "x": 0.58,
+    "y": 0.42
+  },
+  "/media/photos/boys-hawaiian-shirt-lifestyle-1-960.webp": {
+    "x": 0.37,
+    "y": 0.47
+  },
+  "/media/photos/boys-hawaiian-shirt-manufacturer-brief-splitmedia-2-1-960.webp": {
+    "x": 0.4,
+    "y": 0.28
+  },
+  "/media/photos/baby-hawaiian-clothing-product-1-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/baby-hawaiian-clothing-product-2-960.webp": {
+    "x": 0.5,
+    "y": 0.53
+  },
+  "/media/photos/baby-hawaiian-clothing-product-3-960.webp": {
+    "x": 0.5,
+    "y": 0.47
+  },
+  "/media/photos/baby-hawaiian-clothing-product-4-960.webp": {
+    "x": 0.47,
+    "y": 0.47
+  },
+  "/media/photos/baby-hawaiian-clothing-product-5-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/baby-hawaiian-clothing-manufacturer-brief-splitmedia-2-1-960.webp": {
+    "x": 0.3,
+    "y": 0.3
+  },
+  "/media/photos/kids-hawaiian-top-product-toddler-height-bands-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/kids-hawaiian-top-product-youth-height-bands-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/kids-hawaiian-top-product-kids-pricing-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/kids-hawaiian-top-product-size-allocation-960.webp": {
+    "x": 0.49,
+    "y": 0.48
+  },
+  "/media/photos/kids-hawaiian-top-product-collar-options-960.webp": {
+    "x": 0.48,
+    "y": 0.45
+  },
+  "/media/photos/kids-hawaiian-top-product-sleeve-lengths-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/kids-hawaiian-top-product-gentle-neckline-finishes-960.webp": {
+    "x": 0.49,
+    "y": 0.5
+  },
+  "/media/photos/kids-hawaiian-top-product-collar-structure-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/kids-hawaiian-dress-product-1-960.webp": {
+    "x": 0.49,
+    "y": 0.47
+  },
+  "/media/photos/kids-hawaiian-dress-product-2-960.webp": {
+    "x": 0.49,
+    "y": 0.52
+  },
+  "/media/photos/kids-hawaiian-dress-product-3-960.webp": {
+    "x": 0.5,
+    "y": 0.47
+  },
+  "/media/photos/kids-hawaiian-dress-product-4-960.webp": {
+    "x": 0.45,
+    "y": 0.45
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-1-960.webp": {
+    "x": 0.57,
+    "y": 0.17
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-2-960.webp": {
+    "x": 0.51,
+    "y": 0.21
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-3-960.webp": {
+    "x": 0.43,
+    "y": 0.26
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-4-960.webp": {
+    "x": 0.51,
+    "y": 0.1
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-logos-against-tropical-prints-960.webp": {
+    "x": 0.58,
+    "y": 0.19
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-coordinated-team-sizing-960.webp": {
+    "x": 0.75,
+    "y": 0.15
+  },
+  "/media/photos/hawaiian-uniform-shirt-product-patterns-and-fine-seams-960.webp": {
+    "x": 0.55,
+    "y": 0.26
+  },
+  "/media/photos/hawaiian-uniform-shirt-lifestyle-1-960.webp": {
+    "x": 0.48,
+    "y": 0.25
+  },
+  "/media/photos/hawaiian-uniform-shirt-manufacturer-brief-m4-1-960.webp": {
+    "x": 0.67,
+    "y": 0.28
+  },
+  "/media/photos/aloha-work-uniform-product-1-960.webp": {
+    "x": 0.47,
+    "y": 0.2
+  },
+  "/media/photos/aloha-work-uniform-product-2-960.webp": {
+    "x": 0.57,
+    "y": 0.21
+  },
+  "/media/photos/aloha-work-uniform-product-3-960.webp": {
+    "x": 0.635,
+    "y": 0.245
+  },
+  "/media/photos/aloha-work-uniform-product-4-960.webp": {
+    "x": 0.56,
+    "y": 0.28
+  },
+  "/media/photos/aloha-work-uniform-lifestyle-1-960.webp": {
+    "x": 0.497,
+    "y": 0.286
+  },
+  "/media/photos/aloha-work-uniform-lifestyle-2-960.webp": {
+    "x": 0.72,
+    "y": 0.63
+  },
+  "/media/photos/accessories-product-1-960.webp": {
+    "x": 0.46,
+    "y": 0.13
+  },
+  "/media/photos/accessories-product-2-960.webp": {
+    "x": 0.48,
+    "y": 0.16
+  },
+  "/media/photos/accessories-product-3-960.webp": {
+    "x": 0.54,
+    "y": 0.23
+  },
+  "/media/photos/accessories-product-4-960.webp": {
+    "x": 0.61,
+    "y": 0.29
+  },
+  "/media/photos/accessories-product-branding-by-price-960.webp": {
+    "x": 0.53,
+    "y": 0.17
+  },
+  "/media/photos/accessories-product-printing-choices-960.webp": {
+    "x": 0.37,
+    "y": 0.25
+  },
+  "/media/photos/accessories-product-embroidery-and-patches-960.webp": {
+    "x": 0.71,
+    "y": 0.22
+  },
+  "/media/photos/accessories-product-care-label-wording-960.webp": {
+    "x": 0.57,
+    "y": 0.05
+  },
+  "/media/photos/accessories-lifestyle-1-960.webp": {
+    "x": 0.39,
+    "y": 0.27
+  },
+  "/media/photos/beach-towel-product-1-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/beach-towel-product-2-960.webp": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "/media/photos/beach-towel-product-3-960.webp": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "/media/photos/beach-towel-product-4-960.webp": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "/media/photos/beach-towel-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.48
+  },
+  "/media/photos/beach-towel-manufacturer-brief-related-1-960.webp": {
+    "x": 0.49,
+    "y": 0.25
+  },
+  "/media/photos/sarong-product-1-960.webp": {
+    "x": 0.53,
+    "y": 0.15
+  },
+  "/media/photos/sarong-product-2-960.webp": {
+    "x": 0.56,
+    "y": 0.04
+  },
+  "/media/photos/sarong-product-3-960.webp": {
+    "x": 0.54,
+    "y": 0.19
+  },
+  "/media/photos/sarong-product-4-960.webp": {
+    "x": 0.56,
+    "y": 0.19
+  },
+  "/media/photos/sarong-product-flat-wraps-and-pareos-960.webp": {
+    "x": 0.43,
+    "y": 0.15
+  },
+  "/media/photos/sarong-product-tubular-sarongs-960.webp": {
+    "x": 0.54,
+    "y": 0.17
+  },
+  "/media/photos/sarong-product-pre-tied-styles-960.webp": {
+    "x": 0.28,
+    "y": 0.34
+  },
+  "/media/photos/sarong-product-screen-printing-960.webp": {
+    "x": 0.36,
+    "y": 0.5
+  },
+  "/media/photos/sarong-product-digital-printing-960.webp": {
+    "x": 0.55,
+    "y": 0.2
+  },
+  "/media/photos/sarong-product-hand-painted-batik-960.webp": {
+    "x": 0.52,
+    "y": 0.13
+  },
+  "/media/photos/sarong-product-batik-cost-drivers-960.webp": {
+    "x": 0.375,
+    "y": 0.11
+  },
+  "/media/photos/sarong-product-dye-and-wash-effects-960.webp": {
+    "x": 0.49,
+    "y": 0.15
+  },
+  "/media/photos/sarong-product-custom-printing-service-960.webp": {
+    "x": 0.58,
+    "y": 0.2
+  },
+  "/media/photos/sarong-product-garment-dyeing-service-960.webp": {
+    "x": 0.51,
+    "y": 0.19
+  },
+  "/media/photos/sarong-lifestyle-1-960.webp": {
+    "x": 0.57,
+    "y": 0.18
+  },
+  "/media/photos/sarong-lifestyle-2-960.webp": {
+    "x": 0.5,
+    "y": 0.24
+  },
+  "/media/photos/product-development-lifestyle-1-960.webp": {
+    "x": 0.44,
+    "y": 0.47
+  },
+  "/media/photos/product-development-lifestyle-2-960.webp": {
+    "x": 0.5,
+    "y": 0.39
+  },
+  "/media/photos/product-development-brief-splitmedia-1-1-960.webp": {
+    "x": 0.44,
+    "y": 0.38
+  },
+  "/media/photos/product-development-brief-m7-1-960.webp": {
+    "x": 0.44,
+    "y": 0.32
+  },
+  "/media/photos/product-development-brief-m3-1-960.webp": {
+    "x": 0.35,
+    "y": 0.37
+  },
+  "/media/photos/product-development-brief-splitmedia-2-1-960.webp": {
+    "x": 0.65,
+    "y": 0.33
+  },
+  "/media/photos/quality-control-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.48
+  },
+  "/media/photos/quality-control-lifestyle-2-960.webp": {
+    "x": 0.43,
+    "y": 0.48
+  },
+  "/media/photos/quality-control-brief-m8-1-960.webp": {
+    "x": 0.65,
+    "y": 0.62
+  },
+  "/media/photos/quality-control-brief-splitmedia-1-1-960.webp": {
+    "x": 0.61,
+    "y": 0.7
+  },
+  "/media/photos/quality-control-brief-splitmedia-2-1-960.webp": {
+    "x": 0.55,
+    "y": 0.72
+  },
+  "/media/photos/quality-control-brief-m4-1-960.webp": {
+    "x": 0.47,
+    "y": 0.68
+  },
+  "/media/photos/quality-control-brief-m6-1-960.webp": {
+    "x": 0.27,
+    "y": 0.32
+  },
+  "/media/photos/hawaiian-fabrics-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.45
+  },
+  "/media/photos/hawaiian-fabrics-lifestyle-2-960.webp": {
+    "x": 0.45,
+    "y": 0.45
+  },
+  "/media/photos/hawaiian-fabrics-lifestyle-3-960.webp": {
+    "x": 0.4,
+    "y": 0.45
+  },
+  "/media/photos/bulk-production-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.47
+  },
+  "/media/photos/bulk-production-lifestyle-2-960.webp": {
+    "x": 0.47,
+    "y": 0.48
+  },
+  "/media/photos/bulk-production-lifestyle-3-960.webp": {
+    "x": 0.46,
+    "y": 0.55
+  },
+  "/media/photos/bulk-production-lifestyle-4-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/bulk-production-brief-splitmedia-1-1-960.webp": {
+    "x": 0.42,
+    "y": 0.42
+  },
+  "/media/photos/packaging-product-retail-packaging-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/packaging-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.47
+  },
+  "/media/photos/packaging-lifestyle-2-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/packaging-lifestyle-3-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/packaging-lifestyle-4-960.webp": {
+    "x": 0.45,
+    "y": 0.45
+  },
+  "/media/photos/packaging-lifestyle-5-960.webp": {
+    "x": 0.5,
+    "y": 0.35
+  },
+  "/media/photos/packaging-lifestyle-6-960.webp": {
+    "x": 0.54,
+    "y": 0.3
+  },
+  "/media/photos/packaging-brief-splitmedia-1-1-960.webp": {
+    "x": 0.45,
+    "y": 0.28
+  },
+  "/media/photos/packaging-brief-splitmedia-2-1-960.webp": {
+    "x": 0.4,
+    "y": 0.28
+  },
+  "/media/photos/packaging-brief-m3-1-960.webp": {
+    "x": 0.26,
+    "y": 0.22
+  },
+  "/media/photos/private-label-product-private-label-finishing-960.webp": {
+    "x": 0.5,
+    "y": 0.45
+  },
+  "/media/photos/private-label-product-private-label-collections-960.webp": {
+    "x": 0.49,
+    "y": 0.45
+  },
+  "/media/photos/private-label-lifestyle-1-960.webp": {
+    "x": 0.55,
+    "y": 0.5
+  },
+  "/media/photos/private-label-lifestyle-2-960.webp": {
+    "x": 0.62,
+    "y": 0.45
+  },
+  "/media/photos/private-label-lifestyle-3-960.webp": {
+    "x": 0.5,
+    "y": 0.55
+  },
+  "/media/photos/private-label-brief-splitmedia-1-1-960.webp": {
+    "x": 0.57,
+    "y": 0.2
+  },
+  "/media/photos/trims-accessories-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.48
+  },
+  "/media/photos/trims-accessories-lifestyle-2-960.webp": {
+    "x": 0.55,
+    "y": 0.52
+  },
+  "/media/photos/trims-accessories-lifestyle-3-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/trims-accessories-lifestyle-4-960.webp": {
+    "x": 0.58,
+    "y": 0.42
+  },
+  "/media/photos/matching-family-group-sets-product-matching-family-group-sets-960.webp": {
+    "x": 0.55,
+    "y": 0.2
+  },
+  "/media/photos/matching-family-group-sets-lifestyle-1-960.webp": {
+    "x": 0.48,
+    "y": 0.29
+  },
+  "/media/photos/matching-family-group-sets-lifestyle-2-960.webp": {
+    "x": 0.28,
+    "y": 0.44
+  },
+  "/media/photos/matching-family-group-sets-lifestyle-3-960.webp": {
+    "x": 0.49,
+    "y": 0.3
+  },
+  "/media/photos/matching-family-group-sets-lifestyle-4-960.webp": {
+    "x": 0.497,
+    "y": 0.27
+  },
+  "/media/photos/matching-family-group-sets-lifestyle-5-960.webp": {
+    "x": 0.495,
+    "y": 0.234
+  },
+  "/media/photos/print-design-product-design-and-print-development-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/print-design-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/print-design-lifestyle-2-960.webp": {
+    "x": 0.51,
+    "y": 0.5
+  },
+  "/media/photos/custom-print-design-brief-m2-1-960.webp": {
+    "x": 0.38,
+    "y": 0.3
+  },
+  "/media/photos/fabric-sourcing-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.45
+  },
+  "/media/photos/fabric-sourcing-lifestyle-2-960.webp": {
+    "x": 0.5,
+    "y": 0.45
+  },
+  "/media/photos/fabric-sourcing-lifestyle-3-960.webp": {
+    "x": 0.52,
+    "y": 0.55
+  },
+  "/media/photos/fabric-sourcing-lifestyle-4-960.webp": {
+    "x": 0.5,
+    "y": 0.45
+  },
+  "/media/photos/fabric-sourcing-lifestyle-5-960.webp": {
+    "x": 0.5,
+    "y": 0.45
+  },
+  "/media/photos/fabric-sourcing-lifestyle-6-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/fabric-sourcing-lifestyle-7-960.webp": {
+    "x": 0.52,
+    "y": 0.45
+  },
+  "/media/photos/labels-hang-tags-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.48
+  },
+  "/media/photos/custom-labels-hang-tags-brief-splitmedia-2-1-960.webp": {
+    "x": 0.6,
+    "y": 0.3
+  },
+  "/media/photos/custom-labels-hang-tags-brief-splitmedia-3-1-960.webp": {
+    "x": 0.465,
+    "y": 0.29
+  },
+  "/media/photos/custom-labels-hang-tags-brief-splitmedia-4-1-960.webp": {
+    "x": 0.32,
+    "y": 0.26
+  },
+  "/media/photos/buttons-product-buttons-and-hardware-960.webp": {
+    "x": 0.5,
+    "y": 0.49
+  },
+  "/media/photos/buttons-lifestyle-1-960.webp": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "/media/photos/buttons-lifestyle-2-960.webp": {
+    "x": 0.5,
+    "y": 0.47
+  },
+  "/media/photos/buttons-lifestyle-3-960.webp": {
+    "x": 0.52,
+    "y": 0.47
+  }
+}

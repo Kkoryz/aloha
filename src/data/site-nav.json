@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "seo-site-nav-v1",
+  "source": "site-factory pages.json",
+  "brand": null,
+  "header": [
+    {
+      "label": "Products",
+      "route": null,
+      "children": [
+        {
+          "label": "Aloha Shirts",
+          "route": null,
+          "children": [
+            {
+              "label": "Big & Tall Aloha Shirts",
+              "route": "/big-and-tall-aloha-shirt-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Women's Hawaiian Shirts",
+              "route": "/women-s-hawaiian-shirt-manufacturer/",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Resort Dresses",
+          "route": "/resort-dress-manufacturer/",
+          "children": [
+            {
+              "label": "Hawaiian Dresses",
+              "route": "/hawaiian-dress-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Muumuu Dresses",
+              "route": "/muumuu-dress-manufacturer/",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Swimwear",
+          "route": "/swimwear-manufacturer/",
+          "children": [
+            {
+              "label": "Boardshorts",
+              "route": "/boardshorts-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Swim Trunks",
+              "route": "/swim-trunks-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Bikinis",
+              "route": "/bikini-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "One-Piece Swimsuits",
+              "route": "/one-piece-swimsuit-manufacturer/",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Kids' Hawaiian Clothing",
+          "route": "/kids-hawaiian-clothing-manufacturer/",
+          "children": [
+            {
+              "label": "Boys' Hawaiian Shirts",
+              "route": "/boys-hawaiian-shirt-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Baby Hawaiian Clothing",
+              "route": "/baby-hawaiian-clothing-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Kids' Hawaiian Tops",
+              "route": "/kids-hawaiian-top-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Kids' Hawaiian Dresses",
+              "route": "/kids-hawaiian-dress-manufacturer/",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Hawaiian Uniform Shirts",
+          "route": "/hawaiian-uniform-shirt-manufacturer/",
+          "children": [
+            {
+              "label": "Aloha Work Uniforms",
+              "route": "/aloha-work-uniform-manufacturer/",
+              "children": []
+            }
+          ]
+        },
+        {
+          "label": "Accessories",
+          "route": "/accessories-manufacturer/",
+          "children": [
+            {
+              "label": "Beach Towels",
+              "route": "/beach-towel-manufacturer/",
+              "children": []
+            },
+            {
+              "label": "Sarongs",
+              "route": "/sarong-manufacturer/",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Solutions",
+      "route": null,
+      "children": [
+        {
+          "label": "Product Development",
+          "route": "/product-development/",
+          "children": []
+        },
+        {
+          "label": "Quality Control",
+          "route": "/quality-control/",
+          "children": []
+        },
+        {
+          "label": "Hawaiian Fabrics",
+          "route": "/hawaiian-fabrics/",
+          "children": []
+        },
+        {
+          "label": "Customization",
+          "route": "/customization/",
+          "children": []
+        },
+        {
+          "label": "Bulk Production",
+          "route": "/bulk-production/",
+          "children": []
+        },
+        {
+          "label": "Embroidery",
+          "route": "/embroidery/",
+          "children": []
+        },
+        {
+          "label": "Packaging",
+          "route": "/packaging/",
+          "children": []
+        },
+        {
+          "label": "Sampling",
+          "route": "/sampling/",
+          "children": []
+        },
+        {
+          "label": "Private Label",
+          "route": "/private-label/",
+          "children": []
+        },
+        {
+          "label": "Trims & Accessories",
+          "route": "/trims-accessories/",
+          "children": []
+        },
+        {
+          "label": "Cut & Sew",
+          "route": "/cut-sew/",
+          "children": []
+        },
+        {
+          "label": "Shipping",
+          "route": "/shipping/",
+          "children": []
+        },
+        {
+          "label": "Matching Family & Group Sets",
+          "route": "/matching-family-group-sets/",
+          "children": []
+        },
+        {
+          "label": "Custom Print Design",
+          "route": "/custom-print-design/",
+          "children": []
+        },
+        {
+          "label": "Fabric Sourcing",
+          "route": "/fabric-sourcing/",
+          "children": []
+        },
+        {
+          "label": "Custom Labels & Hang Tags",
+          "route": "/custom-labels-hang-tags/",
+          "children": []
+        },
+        {
+          "label": "Custom Buttons",
+          "route": "/custom-buttons/",
+          "children": []
+        },
+        {
+          "label": "Garment Dyeing",
+          "route": "/garment-dyeing/",
+          "children": []
+        },
+        {
+          "label": "Custom Printing",
+          "route": "/custom-printing/",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "About Us",
+      "route": "/about-us/",
+      "children": []
+    },
+    {
+      "label": "Blog",
+      "route": "/blog/",
+      "children": []
+    },
+    {
+      "label": "Contact Us",
+      "route": "/contact-us/",
+      "children": []
+    }
+  ],
+  "footer": [
+    {
+      "label": "Our Process",
+      "route": "/our-process/",
+      "children": []
+    },
+    {
+      "label": "Privacy Policy",
+      "route": "/privacy-policy/",
+      "children": []
+    },
+    {
+      "label": "Terms and Conditions",
+      "route": "/terms-and-conditions/",
+      "children": []
+    },
+    {
+      "label": "Request a Quote",
+      "route": "/request-a-quote/",
+      "children": []
+    }
+  ]
+}

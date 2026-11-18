@@ -1,0 +1,333 @@
+{
+  "frames": {
+    "hero": {
+      "byPageType": {
+        "home": 0.8,
+        "about": 0.8,
+        "product_manufacturer": 0.8,
+        "solution": 0.8,
+        "general": 0.8
+      }
+    },
+    "cta": {
+      "byPageType": {
+        "home": 0.46
+      }
+    }
+  },
+  "crops": {
+    "/media/photos/general-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/general-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/home-brief-cta-1-960.webp": {
+      "0.46": {
+        "src": "/media/photos/home-brief-cta-1-960-phone-46.webp",
+        "width": 412,
+        "height": 896
+      }
+    },
+    "/media/photos/big-and-tall-aloha-shirt-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/big-and-tall-aloha-shirt-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/women-s-hawaiian-shirt-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/women-s-hawaiian-shirt-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/resort-dress-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/resort-dress-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/hawaiian-dress-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/hawaiian-dress-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/muumuu-dress-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/muumuu-dress-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/swimwear-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/swimwear-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/boardshorts-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/boardshorts-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/swim-trunks-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/swim-trunks-hero-1-960-phone-80.webp",
+        "width": 627,
+        "height": 784
+      }
+    },
+    "/media/photos/bikini-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/bikini-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/one-piece-swimsuit-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/one-piece-swimsuit-hero-1-960-phone-80.webp",
+        "width": 640,
+        "height": 800
+      }
+    },
+    "/media/photos/kids-hawaiian-clothing-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/kids-hawaiian-clothing-hero-1-960-phone-80.webp",
+        "width": 627,
+        "height": 784
+      }
+    },
+    "/media/photos/boys-hawaiian-shirt-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/boys-hawaiian-shirt-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/baby-hawaiian-clothing-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/baby-hawaiian-clothing-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/kids-hawaiian-top-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/kids-hawaiian-top-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/kids-hawaiian-dress-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/kids-hawaiian-dress-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/hawaiian-uniform-shirt-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/hawaiian-uniform-shirt-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/aloha-work-uniform-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/aloha-work-uniform-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/accessories-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/accessories-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/beach-towel-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/beach-towel-hero-1-960-phone-80.webp",
+        "width": 627,
+        "height": 784
+      }
+    },
+    "/media/photos/sarong-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/sarong-hero-1-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/product-development-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/product-development-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/quality-control-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/quality-control-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/hawaiian-fabrics-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/hawaiian-fabrics-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/customization-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/customization-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/bulk-production-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/bulk-production-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/embroidery-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/embroidery-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/packaging-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/packaging-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/sampling-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/sampling-service-hero-960-phone-80.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    "/media/photos/private-label-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/private-label-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/trims-accessories-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/trims-accessories-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/cut-sew-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/cut-sew-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/shipping-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/shipping-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/matching-family-group-sets-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/matching-family-group-sets-hero-1-960-phone-80.webp",
+        "width": 627,
+        "height": 784
+      }
+    },
+    "/media/photos/print-design-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/print-design-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/fabric-sourcing-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/fabric-sourcing-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/labels-hang-tags-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/labels-hang-tags-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/buttons-hero-1-960.webp": {
+      "0.80": {
+        "src": "/media/photos/buttons-hero-1-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/garment-dyeing-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/garment-dyeing-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/custom-printing-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/custom-printing-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/general-hero-2-960.webp": {
+      "0.80": {
+        "src": "/media/photos/general-hero-2-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/general-hero-4-960.webp": {
+      "0.80": {
+        "src": "/media/photos/general-hero-4-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    },
+    "/media/photos/request-a-quote-service-hero-960.webp": {
+      "0.80": {
+        "src": "/media/photos/request-a-quote-service-hero-960-phone-80.webp",
+        "width": 717,
+        "height": 896
+      }
+    }
+  },
+  "soft": [
+    "/media/photos/home-brief-cta-1-960-phone-46.webp (412px wide, from 1344x896)"
+  ],
+  "unfocused": [],
+  "overBudget": []
+}

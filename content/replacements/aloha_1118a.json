@@ -1,0 +1,93 @@
+[
+ {
+  "n": 1,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "title",
+  "old": "Blog: Making Aloha Shirts | Tapa Works",
+  "new": "Tapa Works Blog: Aloha Shirt Manufacturing Guides",
+  "reason": "a blog hub that grows daily: whom it is for and its buyer topics (coordinator 11-18)",
+  "hits_in_last_package": 1,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ },
+ {
+  "n": 2,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "h1",
+  "old": "Making Aloha Shirts at Tapa Works",
+  "new": "Tapa Works Blog",
+  "reason": "a hub H1 is \"<brand> Blog\"; the old one did not read as a blog",
+  "hits_in_last_package": 0,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ },
+ {
+  "n": 3,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "hero_lead",
+  "old": "Our guides walk you through how clothing is developed, made, checked and shipped.",
+  "new": "Guides for clothing brands on developing, sampling, making and shipping aloha shirts.",
+  "reason": "a blog hub that grows daily: whom it is for and its buyer topics (coordinator 11-18)",
+  "hits_in_last_package": 1,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ },
+ {
+  "n": 4,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "meta",
+  "old": "The Tapa Works blog: notes on making aloha shirts, from fabric and printing to sampling and production in our factory.",
+  "new": "The Tapa Works blog: guides for clothing brands on aloha shirt fabrics, printing, sampling, production and shipping.",
+  "reason": "a blog hub that grows daily: whom it is for and its buyer topics (coordinator 11-18)",
+  "hits_in_last_package": 1,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ },
+ {
+  "n": 5,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "overview",
+  "old": "We make your aloha shirts ourselves in our one company-owned factory in Guangzhou, Guangdong, China. [Bulk production](/bulk-production/) starts at 50 pieces per style in each colour, which suits small and growing labels. We agree first-trial quantities with you case by case, within our production limits. Production takes 35 to 40 days from when you approve the sample and we receive your deposit. Your order size and the season decide where your order falls in that range.",
+  "new": "These guides are written by the team that makes your aloha shirts. They follow a shirt the way an order runs: how it is [developed](/product-development/), [sampled](/sampling/), made in [bulk production](/bulk-production/), [checked](/quality-control/) and [shipped](/shipping/), and what each step asks of you as the buyer.",
+  "reason": "a short intro to the guides, no order terms; five of the dropped list's links kept here",
+  "hits_in_last_package": 1,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ },
+ {
+  "n": 6,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "overview.visuals",
+  "old": "overview_production_time",
+  "new": "",
+  "reason": "the production-time chart goes with the order terms the intro no longer states",
+  "hits_in_last_package": 1,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ },
+ {
+  "n": 7,
+  "page_id": "site:blog",
+  "url": "/blog/",
+  "section": "related",
+  "old": "Explore Our Production and Services",
+  "new": "",
+  "reason": "a hub carries the article cards, an intro and one CTA, no icon list (competitors' hubs)",
+  "hits_in_last_package": 1,
+  "hits_in_structured_data": 0,
+  "script": "hand_07_bloghub_1118.py",
+  "delete_if_present": false
+ }
+]

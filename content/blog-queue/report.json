@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-17T22:58:03.298Z",
+  "published": 1,
+  "report": [
+    {
+      "file": "care-label-requirements-us-apparel.json",
+      "slug": "care-label-requirements-us-apparel",
+      "failures": [],
+      "warnings": [
+        "7 placeholder(s) still the writer's stand-in for our own claim: R2 (case), R3 (test_result), R4 (test_result), R5 (test_result), R6 (test_result), R7 (case), R8 (test_result)",
+        "the opening answer is 109 words (aim for at most 60)"
+      ]
+    }
+  ]
+}
