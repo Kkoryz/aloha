@@ -27,15 +27,26 @@
       "src/styles/template.css"
     ]
   },
-  "handFix": {
-    "at": "2026-11-18",
-    "what": "faqPlannedOpen (as site12-rm): the FAQs fold, the photo plan keeps measuring long FAQs open, so no photo wall moves",
-    "files": [
-      "scripts/lib/faq-layout.mjs",
-      "scripts/lib/media-slots.mjs",
-      "scripts/test/faq-open-list.test.mjs"
-    ]
-  },
+  "handFix": [
+    {
+      "at": "2026-11-18",
+      "what": "faqPlannedOpen (as site12-rm): the FAQs fold, the photo plan keeps measuring long FAQs open, so no photo wall moves",
+      "files": [
+        "scripts/lib/faq-layout.mjs",
+        "scripts/lib/media-slots.mjs",
+        "scripts/test/faq-open-list.test.mjs"
+      ]
+    },
+    {
+      "at": "2026-11-18",
+      "commit": "f060997c38f5bf4c7f511e50fdb80f5766acae1d",
+      "what": "template integ f060997 as is: an audited preview carries no banner, its open design findings go to the preview log",
+      "files": [
+        "scripts/publish-preview.mjs",
+        "scripts/test/verified-build.test.mjs"
+      ]
+    }
+  ],
   "files": {
     "package.json": "d5066ecce757c68c42a49f65a0a137aa45d9fd075d02a9d3b89f9ab230cae196",
     "pnpm-lock.yaml": "519c98e514ddd8509551369e1a060718cf88e5f944a80327e79553ef5c19c8f2",
@@ -272,7 +283,7 @@
     "scripts/preflight.mjs": "ad780fa1318645530c71dd7d29e91bc219f5fd320e5c6f3e5265c8781625c65f",
     "scripts/prelaunch.mjs": "303f2429ef17230dfb99af9e061e5bd99a9c413249414c53673248136ed50169",
     "scripts/proof-signoff.mjs": "4723204ddcf4466405af4d1aa9a3ae1f847b31f110d82ec2d0aa8eaa1ccd63ee",
-    "scripts/publish-preview.mjs": "7f278f0499ee91b2e5c6103de2207d068c8031871484e38fface64b27dfb1825",
+    "scripts/publish-preview.mjs": "11ef5661b3534bc310827e263f36e73ef09e34328472a57a04380f6d231d92d9",
     "scripts/render-web-images.mjs": "a6e08bb34df8c4eba03be34a8a04ca8c0b5c5ee56371bb3757ef7d51276aab3d",
     "scripts/review-image-library.mjs": "74ebb20f6fa02d1559242a79764d109f2291ed292b093211888e0b75befa616f",
     "scripts/rules-library.mjs": "8d4332fa42dab782b22900261c3bb43037e8559d705a38e480b501254fe1947c",
@@ -427,7 +438,7 @@
     "scripts/test/trial-build.test.mjs": "3d50c0ed34e3ad6e9a4365fdd62063a327aa754af189f068c95e2e304d29995c",
     "scripts/test/trust-value.test.mjs": "26413b1afc55adba67984075f2cfe61bf40390ba7b49216755864969f9cebea4",
     "scripts/test/validate-template.test.mjs": "6a2a0f23f517fd73329d70c392514da50dc0235e7ca795c8d3250e527901813a",
-    "scripts/test/verified-build.test.mjs": "d2073cfdeb367762ce1721b0487d2282e9ff716929146473a23eb76a24aebdf9",
+    "scripts/test/verified-build.test.mjs": "9f8a837f3b1e3de15b728af4591937a426b279808f843ef570774033fdb44947",
     "scripts/test/visual-budget.test.mjs": "72b4406afdb91f98c171d3ed1f3f06c62fbb382b54d6bac20e7818e4cb9b8651",
     "scripts/test/visual-checks.test.mjs": "a28b22faf78f461184ba1c82dd2f29190de5a256fd8e5575dd4573e63ddeb38f",
     "scripts/test/visual-data.test.mjs": "2d618eacfc8c2885ecdd57fbd1c97adc70d38656d2d94df8760e7f014b348178",
