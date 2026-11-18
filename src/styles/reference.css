@@ -548,9 +548,10 @@ body[data-heading-align="start"] .order-cases { margin-inline: 0; }
 .table-block__lead + .table-cards { margin-top: 1.5rem; }
 
 /* The contents box: its own 20px inset under the links counts in the gap below it (boundary_gap 180px on desktops).
-   The links as the competitor's in-page labels (small, bold, uppercase, tracked), flowing in rows; no heavy rule. */
+   The links as the competitor's in-page labels (small, bold, uppercase, tracked), flowing in rows; no heavy rule, and no
+   card of its own on the section's surface (2026-11-18 band_stack: the white card on a tinted section read as stripes). */
 .block--page-toc { padding-bottom: calc(var(--section-space) / 2 - 1.25rem); }
-.page-toc { border-left: 0; }
+.page-toc { border-left: 0; background: transparent; padding-inline: 0; }
 .page-toc ol { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; padding-left: 0; columns: auto; list-style: none; }
 .page-toc a {
   font-family: var(--font-ui);
