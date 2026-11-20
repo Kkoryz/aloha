@@ -5,7 +5,7 @@
     "pageType": "home",
     "status": "authored",
     "seo": {
-      "title": "Hawaiian Shirt Manufacturer & Aloha Shirt Factory | Tapa Works",
+      "title": "Hawaiian Shirt Manufacturer, From 50 Pieces | Tapa Works",
       "description": "Tapa Works is a Hawaiian shirt manufacturer and aloha shirt factory in Guangzhou, making custom, private label and OEM/ODM shirts from 50 pieces per style.",
       "canonical": "/"
     },
@@ -279,37 +279,6 @@
         ]
       },
       {
-        "id": "owner-logos",
-        "type": "logos",
-        "heading": "Brands we make for",
-        "items": [
-          {
-            "name": "Gullwing & Co.",
-            "note": "Hawaiian shirt, USA"
-          },
-          {
-            "name": "Juno Shore",
-            "note": "Hawaiian shirt, Portugal"
-          },
-          {
-            "name": "Tidewell Atelier",
-            "note": "Hawaiian shirt, Italy"
-          },
-          {
-            "name": "Pebbleworks Basics",
-            "note": "Hawaiian shirt, Netherlands"
-          },
-          {
-            "name": "Estuary Collective",
-            "note": "Hawaiian shirt, Denmark"
-          },
-          {
-            "name": "Harbour Knit Supply",
-            "note": "Hawaiian shirt, Australia"
-          }
-        ]
-      },
-      {
         "id": "categories",
         "type": "relatedPages",
         "heading": "Products and Solutions",
@@ -548,7 +517,7 @@
     "pageType": "product_manufacturer",
     "status": "authored",
     "seo": {
-      "title": "Big and Tall Aloha Shirt Manufacturer: Extended Sizes | Tapa Works",
+      "title": "Big and Tall Aloha Shirt Manufacturer: 2XL-5XL | Tapa Works",
       "description": "Extended sizes from a big and tall aloha shirt manufacturer: customisation, wholesale ordering from 50 pieces and clear sample fees.",
       "canonical": "/big-and-tall-aloha-shirt-manufacturer/"
     },
@@ -909,7 +878,7 @@
     "pageType": "product_manufacturer",
     "status": "authored",
     "seo": {
-      "title": "Women's Hawaiian Shirt Manufacturer: Custom Fits | Tapa Works",
+      "title": "Women's Hawaiian Shirt Manufacturer: Stretch | Tapa Works",
       "description": "Women's silhouettes, co-ord options and tested stretch fabrics from a women's Hawaiian shirt manufacturer that sews in its own factory.",
       "canonical": "/women-s-hawaiian-shirt-manufacturer/"
     },
@@ -6784,7 +6753,7 @@
     "pageType": "product_manufacturer",
     "status": "authored",
     "seo": {
-      "title": "Kids' Hawaiian Clothing Manufacturer: Shirts & Dresses | Tapa Works",
+      "title": "Kids' Hawaiian Clothing Manufacturer: Shirts | Tapa Works",
       "description": "A kids' Hawaiian clothing manufacturer for shirts, tops and dresses: what a quote needs, what samples cost and how to order direct.",
       "canonical": "/kids-hawaiian-clothing-manufacturer/"
     },
@@ -7115,7 +7084,7 @@
     "pageType": "product_manufacturer",
     "status": "authored",
     "seo": {
-      "title": "Boys' Hawaiian Shirt Manufacturer: Custom Prints | Tapa Works",
+      "title": "Boys' Hawaiian Shirt Manufacturer: Small Runs | Tapa Works",
       "description": "Quotes, sample costs and payment terms from a boys' Hawaiian shirt manufacturer, with prints and labels made for your brand.",
       "canonical": "/boys-hawaiian-shirt-manufacturer/"
     },
@@ -7559,7 +7528,7 @@
     "pageType": "product_manufacturer",
     "status": "authored",
     "seo": {
-      "title": "Baby Hawaiian Clothing Manufacturer: Custom Ranges | Tapa Works",
+      "title": "Baby Hawaiian Clothing Manufacturer: Trial Runs | Tapa Works",
       "description": "A baby Hawaiian clothing manufacturer: quotation requirements, sample costs and buying routes for your baby range, direct from the factory.",
       "canonical": "/baby-hawaiian-clothing-manufacturer/"
     },
@@ -14228,7 +14197,7 @@
     "pageType": "solution",
     "status": "authored",
     "seo": {
-      "title": "Embroidered Hawaiian Shirts: Thread and Techniques | Tapa Works",
+      "title": "Embroidered Hawaiian Shirts: Techniques | Tapa Works",
       "description": "Embroidered Hawaiian shirts with matched thread colours, artwork digitising and a digital preview to approve before production.",
       "canonical": "/embroidery/"
     },
@@ -23331,37 +23300,6 @@
           }
         ],
         "mediaKind": "material"
-      },
-      {
-        "id": "owner-logos",
-        "type": "logos",
-        "heading": "Brands we make for",
-        "items": [
-          {
-            "name": "Gullwing & Co.",
-            "note": "Hawaiian shirt, USA"
-          },
-          {
-            "name": "Juno Shore",
-            "note": "Hawaiian shirt, Portugal"
-          },
-          {
-            "name": "Tidewell Atelier",
-            "note": "Hawaiian shirt, Italy"
-          },
-          {
-            "name": "Pebbleworks Basics",
-            "note": "Hawaiian shirt, Netherlands"
-          },
-          {
-            "name": "Estuary Collective",
-            "note": "Hawaiian shirt, Denmark"
-          },
-          {
-            "name": "Harbour Knit Supply",
-            "note": "Hawaiian shirt, Australia"
-          }
-        ]
       },
       {
         "id": "owner-testimonials",

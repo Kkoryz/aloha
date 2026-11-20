@@ -5,6 +5,11 @@
 // loses its heading role); the answers stay in the page's HTML, closed or open, and Site Factory's FAQPage structured
 // data is unchanged. Only the open variants (open-list, cards) show every answer, their questions as h3 headings.
 
+// Questions from which the photo plan measured an FAQ block as an open list (the 2026-11-17 rule). The site's photos
+// were placed with that measure; the hand fix of 2026-11-18 folds the FAQs but keeps the measure (faqPlannedOpen), so
+// no photo wall or photo is dropped or moves (owner 2026-11-18: no fewer photos).
+export const FAQ_OPEN_LIST_ITEMS = 6;
+
 // The site's FAQ page: its page type, its id (site:faq) or its route.
 export const isFaqPage = (page) => Boolean(page) && (page.pageType === 'faq' || /(^|:)faq$/.test(String(page.id ?? '')) || /^\/faqs?\/$/.test(String(page.route ?? '')));
 
@@ -17,13 +22,8 @@ export function faqOpenList(_block, variant, _page = null) {
   return OPEN_VARIANTS.has(String(variant));
 }
 
-// Questions from which the photo plan measured an FAQ block as an open list (the 2026-11-17 rule). The site's photos
-// were placed with that measure; the hand fix of 2026-11-18 folds the FAQs but keeps the measure (faqPlannedOpen), so
-// no photo wall or photo moves (owner 2026-11-18: no fewer photos; Strandmill lost photo walls to the shorter measure).
-export const FAQ_OPEN_LIST_ITEMS = 6;
-
 // Whether the photo plan measures the block as an open list (lib/media-slots.mjs modelVariant): the measure the site's
-// photos were placed with, kept. (Hand port, as site12-rm's.)
+// photos were placed with, kept (the FAQ page and long FAQ blocks, FAQ_OPEN_LIST_ITEMS questions or more).
 /** @param {{ items?: unknown[] }} block @param {string | undefined} variant @param {any} [page] */
 export function faqPlannedOpen(block, variant, page = null) {
   if (OPEN_VARIANTS.has(String(variant))) return true;

@@ -1,0 +1,86 @@
+[
+ {
+  "n": 1,
+  "page_id": "home",
+  "url": "/",
+  "section": "title",
+  "old": "Hawaiian Shirt Manufacturer & Aloha Shirt Factory | Tapa Works",
+  "new": "Hawaiian Shirt Manufacturer, From 50 Pieces | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (③)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ },
+ {
+  "n": 2,
+  "page_id": "c-a415226a9030:product",
+  "url": "/big-and-tall-aloha-shirt-manufacturer/",
+  "section": "title",
+  "old": "Big and Tall Aloha Shirt Manufacturer: Extended Sizes | Tapa Works",
+  "new": "Big and Tall Aloha Shirt Manufacturer: 2XL-5XL | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (③)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ },
+ {
+  "n": 3,
+  "page_id": "c-b442fc2f5fab:product",
+  "url": "/women-s-hawaiian-shirt-manufacturer/",
+  "section": "title",
+  "old": "Women's Hawaiian Shirt Manufacturer: Custom Fits | Tapa Works",
+  "new": "Women's Hawaiian Shirt Manufacturer: Stretch | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (③)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ },
+ {
+  "n": 4,
+  "page_id": "c-42685f11da91:product",
+  "url": "/kids-hawaiian-clothing-manufacturer/",
+  "section": "title",
+  "old": "Kids' Hawaiian Clothing Manufacturer: Shirts & Dresses | Tapa Works",
+  "new": "Kids' Hawaiian Clothing Manufacturer: Shirts | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (②)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ },
+ {
+  "n": 5,
+  "page_id": "c-bc320db2051e:product",
+  "url": "/boys-hawaiian-shirt-manufacturer/",
+  "section": "title",
+  "old": "Boys' Hawaiian Shirt Manufacturer: Custom Prints | Tapa Works",
+  "new": "Boys' Hawaiian Shirt Manufacturer: Small Runs | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (③)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ },
+ {
+  "n": 6,
+  "page_id": "inferred:product:2",
+  "url": "/baby-hawaiian-clothing-manufacturer/",
+  "section": "title",
+  "old": "Baby Hawaiian Clothing Manufacturer: Custom Ranges | Tapa Works",
+  "new": "Baby Hawaiian Clothing Manufacturer: Trial Runs | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (③)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ },
+ {
+  "n": 7,
+  "page_id": "c-8404f8cb0b07:service",
+  "url": "/embroidery/",
+  "section": "title",
+  "old": "Embroidered Hawaiian Shirts: Thread and Techniques | Tapa Works",
+  "new": "Embroidered Hawaiian Shirts: Techniques | Tapa Works",
+  "reason": "owner 11-19 title rule: at most 60 characters with ' | Tapa Works', primary first (②)",
+  "hits_in_08_current": 1,
+  "hits_in_08_jsonld": 0,
+  "script": "hand_titles_1119.py"
+ }
+]

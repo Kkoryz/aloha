@@ -69,16 +69,17 @@ test('an open list renders each question as an h3 with its answer shown; the acc
   assert.match(await source('src/components/blocks/registry.ts'), /faq: \{ component: FaqBlock, props: \(\{ block, variant, page \}: BlockContext\) => \(\{ block, variant, page \}\) \}/);
 });
 
-test('a long FAQ shows folded but the photo plan keeps measuring it open (faqPlannedOpen: no photo wall moves; owner 2026-11-18)', () => {
-  const block = { id: 'faq', type: 'faq', heading: 'Questions', items: items(8) };
+test('the photo plan keeps the measure the photos were placed with: a long FAQ as an open list, though it folds (hand fix 2026-11-18)', () => {
+  const block = { id: 'faq', type: 'faq', heading: 'Questions', items: items(FAQ_OPEN_LIST_ITEMS) };
   const page = { id: 'site:bikini', route: '/bikini-manufacturer/', pageType: 'product_manufacturer', blocks: [block] };
-  assert.equal(faqOpenList(block, 'accordion', page), false);
+  assert.equal(faqOpenList(block, 'accordion', page), false, 'it renders folded');
   assert.equal(faqPlannedOpen(block, 'accordion', page), true);
-  assert.equal(modelVariant(block, page, page.blocks, { faq: 'accordion', faqFirst: 'closed' }, {}), 'open-list');
-  const short = { ...block, items: items(FAQ_OPEN_LIST_ITEMS - 1) };
-  assert.equal(modelVariant(short, { ...page, blocks: [short] }, [short], { faq: 'accordion', faqFirst: 'closed' }, {}), 'accordion');
+  const shape = modelVariant(block, page, page.blocks, { faq: 'accordion', faqFirst: 'closed' }, {});
+  assert.equal(shape, 'open-list');
   const closed = blockWords(block, 'accordion', { faqFirst: 'closed' });
-  assert.equal(blockWords(block, 'open-list', { faqFirst: 'closed' }), closed + 8 * 5);
+  assert.equal(blockWords(block, shape, { faqFirst: 'closed' }), closed + FAQ_OPEN_LIST_ITEMS * 5);
+  const short = { ...block, items: items(3) };
+  assert.equal(modelVariant(short, { ...page, blocks: [short] }, [short], { faq: 'accordion' }, {}), 'accordion');
   // Cards stay cards.
   assert.equal(modelVariant(block, page, page.blocks, { faq: 'cards' }, {}), 'cards');
 });
